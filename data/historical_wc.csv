@@ -1,0 +1,321 @@
+tournament_year,team,stage_reached,stage_points
+1990,Argentina,runner_up,0.87
+1990,Austria,group_stage,0.25
+1990,Belgium,round_of_16,0.38
+1990,Brazil,round_of_16,0.38
+1990,Cameroon,quarter_final,0.5
+1990,Colombia,round_of_16,0.38
+1990,Costa Rica,round_of_16,0.38
+1990,Czechoslovakia,quarter_final,0.5
+1990,Egypt,group_stage,0.25
+1990,England,fourth_place,0.62
+1990,Ireland,quarter_final,0.5
+1990,Italy,third_place,0.75
+1990,Netherlands,round_of_16,0.38
+1990,Romania,round_of_16,0.38
+1990,Scotland,group_stage,0.25
+1990,South Korea,group_stage,0.25
+1990,Spain,round_of_16,0.38
+1990,Sweden,group_stage,0.25
+1990,USA,group_stage,0.25
+1990,USSR,group_stage,0.25
+1990,United Arab Emirates,group_stage,0.25
+1990,Uruguay,round_of_16,0.38
+1990,West Germany,winner,1.0
+1990,Yugoslavia,quarter_final,0.5
+1994,Argentina,round_of_16,0.38
+1994,Belgium,round_of_16,0.38
+1994,Bolivia,group_stage,0.25
+1994,Brazil,winner,1.0
+1994,Bulgaria,fourth_place,0.62
+1994,Cameroon,group_stage,0.25
+1994,Colombia,group_stage,0.25
+1994,Germany,quarter_final,0.5
+1994,Greece,group_stage,0.25
+1994,Ireland,round_of_16,0.38
+1994,Italy,runner_up,0.87
+1994,Mexico,round_of_16,0.38
+1994,Morocco,group_stage,0.25
+1994,Netherlands,quarter_final,0.5
+1994,Nigeria,round_of_16,0.38
+1994,Norway,group_stage,0.25
+1994,Romania,quarter_final,0.5
+1994,Russia,group_stage,0.25
+1994,Saudi Arabia,round_of_16,0.38
+1994,South Korea,group_stage,0.25
+1994,Spain,quarter_final,0.5
+1994,Sweden,third_place,0.75
+1994,Switzerland,round_of_16,0.38
+1994,USA,round_of_16,0.38
+1998,Argentina,quarter_final,0.5
+1998,Austria,group_stage,0.25
+1998,Belgium,group_stage,0.25
+1998,Brazil,runner_up,0.87
+1998,Bulgaria,group_stage,0.25
+1998,Cameroon,group_stage,0.25
+1998,Chile,round_of_16,0.38
+1998,Colombia,group_stage,0.25
+1998,Croatia,third_place,0.75
+1998,Denmark,quarter_final,0.5
+1998,England,round_of_16,0.38
+1998,France,winner,1.0
+1998,Germany,quarter_final,0.5
+1998,Iran,group_stage,0.25
+1998,Italy,quarter_final,0.5
+1998,Jamaica,group_stage,0.25
+1998,Japan,group_stage,0.25
+1998,Mexico,round_of_16,0.38
+1998,Morocco,group_stage,0.25
+1998,Netherlands,fourth_place,0.62
+1998,Nigeria,round_of_16,0.38
+1998,Norway,round_of_16,0.38
+1998,Paraguay,round_of_16,0.38
+1998,Romania,round_of_16,0.38
+1998,Saudi Arabia,group_stage,0.25
+1998,Scotland,group_stage,0.25
+1998,South Africa,group_stage,0.25
+1998,South Korea,group_stage,0.25
+1998,Spain,group_stage,0.25
+1998,Tunisia,group_stage,0.25
+1998,USA,group_stage,0.25
+1998,Yugoslavia,round_of_16,0.38
+2002,Argentina,group_stage,0.25
+2002,Belgium,round_of_16,0.38
+2002,Brazil,winner,1.0
+2002,Cameroon,group_stage,0.25
+2002,China,group_stage,0.25
+2002,Costa Rica,group_stage,0.25
+2002,Croatia,group_stage,0.25
+2002,Denmark,round_of_16,0.38
+2002,Ecuador,group_stage,0.25
+2002,England,quarter_final,0.5
+2002,France,group_stage,0.25
+2002,Germany,runner_up,0.87
+2002,Ireland,round_of_16,0.38
+2002,Italy,round_of_16,0.38
+2002,Japan,round_of_16,0.38
+2002,Mexico,round_of_16,0.38
+2002,Nigeria,group_stage,0.25
+2002,Paraguay,round_of_16,0.38
+2002,Poland,group_stage,0.25
+2002,Portugal,group_stage,0.25
+2002,Russia,group_stage,0.25
+2002,Saudi Arabia,group_stage,0.25
+2002,Senegal,quarter_final,0.5
+2002,Slovenia,group_stage,0.25
+2002,South Africa,group_stage,0.25
+2002,South Korea,fourth_place,0.62
+2002,Spain,quarter_final,0.5
+2002,Sweden,round_of_16,0.38
+2002,Tunisia,group_stage,0.25
+2002,Turkey,third_place,0.75
+2002,USA,quarter_final,0.5
+2002,Uruguay,group_stage,0.25
+2006,Angola,group_stage,0.25
+2006,Argentina,quarter_final,0.5
+2006,Australia,round_of_16,0.38
+2006,Brazil,quarter_final,0.5
+2006,Costa Rica,group_stage,0.25
+2006,Croatia,group_stage,0.25
+2006,Czech Republic,group_stage,0.25
+2006,Ecuador,round_of_16,0.38
+2006,England,quarter_final,0.5
+2006,France,runner_up,0.87
+2006,Germany,third_place,0.75
+2006,Ghana,round_of_16,0.38
+2006,Iran,group_stage,0.25
+2006,Italy,winner,1.0
+2006,Ivory Coast,group_stage,0.25
+2006,Japan,group_stage,0.25
+2006,Mexico,round_of_16,0.38
+2006,Netherlands,round_of_16,0.38
+2006,Paraguay,group_stage,0.25
+2006,Poland,group_stage,0.25
+2006,Portugal,fourth_place,0.62
+2006,Saudi Arabia,group_stage,0.25
+2006,Serbia,group_stage,0.25
+2006,South Korea,group_stage,0.25
+2006,Spain,round_of_16,0.38
+2006,Sweden,round_of_16,0.38
+2006,Switzerland,round_of_16,0.38
+2006,Togo,group_stage,0.25
+2006,Trinidad and Tobago,group_stage,0.25
+2006,Tunisia,group_stage,0.25
+2006,USA,group_stage,0.25
+2006,Ukraine,quarter_final,0.5
+2010,Algeria,group_stage,0.25
+2010,Argentina,quarter_final,0.5
+2010,Australia,group_stage,0.25
+2010,Brazil,quarter_final,0.5
+2010,Cameroon,group_stage,0.25
+2010,Chile,round_of_16,0.38
+2010,Denmark,group_stage,0.25
+2010,England,round_of_16,0.38
+2010,France,group_stage,0.25
+2010,Germany,third_place,0.75
+2010,Ghana,quarter_final,0.5
+2010,Greece,group_stage,0.25
+2010,Honduras,group_stage,0.25
+2010,Italy,group_stage,0.25
+2010,Ivory Coast,group_stage,0.25
+2010,Japan,round_of_16,0.38
+2010,Mexico,round_of_16,0.38
+2010,Netherlands,runner_up,0.87
+2010,New Zealand,group_stage,0.25
+2010,Nigeria,group_stage,0.25
+2010,North Korea,group_stage,0.25
+2010,Paraguay,quarter_final,0.5
+2010,Portugal,round_of_16,0.38
+2010,Serbia,group_stage,0.25
+2010,Slovakia,round_of_16,0.38
+2010,Slovenia,group_stage,0.25
+2010,South Africa,group_stage,0.25
+2010,South Korea,round_of_16,0.38
+2010,Spain,winner,1.0
+2010,Switzerland,group_stage,0.25
+2010,USA,round_of_16,0.38
+2010,Uruguay,fourth_place,0.62
+2014,Algeria,round_of_16,0.38
+2014,Argentina,runner_up,0.87
+2014,Australia,group_stage,0.25
+2014,Belgium,quarter_final,0.5
+2014,Bosnia & Herzegovina,group_stage,0.25
+2014,Brazil,fourth_place,0.62
+2014,Cameroon,group_stage,0.25
+2014,Chile,round_of_16,0.38
+2014,Colombia,quarter_final,0.5
+2014,Costa Rica,quarter_final,0.5
+2014,Croatia,group_stage,0.25
+2014,Ecuador,group_stage,0.25
+2014,England,group_stage,0.25
+2014,France,quarter_final,0.5
+2014,Germany,winner,1.0
+2014,Ghana,group_stage,0.25
+2014,Greece,round_of_16,0.38
+2014,Honduras,group_stage,0.25
+2014,Iran,group_stage,0.25
+2014,Italy,group_stage,0.25
+2014,Ivory Coast,group_stage,0.25
+2014,Japan,group_stage,0.25
+2014,Mexico,round_of_16,0.38
+2014,Netherlands,third_place,0.75
+2014,Nigeria,round_of_16,0.38
+2014,Portugal,group_stage,0.25
+2014,Russia,group_stage,0.25
+2014,South Korea,group_stage,0.25
+2014,Spain,group_stage,0.25
+2014,Switzerland,round_of_16,0.38
+2014,USA,round_of_16,0.38
+2014,Uruguay,round_of_16,0.38
+2018,Argentina,round_of_16,0.38
+2018,Australia,group_stage,0.25
+2018,Belgium,third_place,0.75
+2018,Brazil,quarter_final,0.5
+2018,Colombia,round_of_16,0.38
+2018,Costa Rica,group_stage,0.25
+2018,Croatia,runner_up,0.87
+2018,Denmark,round_of_16,0.38
+2018,Egypt,group_stage,0.25
+2018,England,fourth_place,0.62
+2018,France,winner,1.0
+2018,Germany,group_stage,0.25
+2018,Iceland,group_stage,0.25
+2018,Iran,group_stage,0.25
+2018,Japan,round_of_16,0.38
+2018,Mexico,round_of_16,0.38
+2018,Morocco,group_stage,0.25
+2018,Nigeria,group_stage,0.25
+2018,Panama,group_stage,0.25
+2018,Peru,group_stage,0.25
+2018,Poland,group_stage,0.25
+2018,Portugal,round_of_16,0.38
+2018,Russia,quarter_final,0.5
+2018,Saudi Arabia,group_stage,0.25
+2018,Senegal,group_stage,0.25
+2018,Serbia,group_stage,0.25
+2018,South Korea,group_stage,0.25
+2018,Spain,round_of_16,0.38
+2018,Sweden,quarter_final,0.5
+2018,Switzerland,round_of_16,0.38
+2018,Tunisia,group_stage,0.25
+2018,Uruguay,quarter_final,0.5
+2022,Argentina,winner,1.0
+2022,Australia,round_of_16,0.38
+2022,Belgium,group_stage,0.25
+2022,Brazil,quarter_final,0.5
+2022,Cameroon,group_stage,0.25
+2022,Canada,group_stage,0.25
+2022,Costa Rica,group_stage,0.25
+2022,Croatia,third_place,0.75
+2022,Denmark,group_stage,0.25
+2022,Ecuador,group_stage,0.25
+2022,England,quarter_final,0.5
+2022,France,runner_up,0.87
+2022,Germany,group_stage,0.25
+2022,Ghana,group_stage,0.25
+2022,Iran,group_stage,0.25
+2022,Japan,round_of_16,0.38
+2022,Mexico,group_stage,0.25
+2022,Morocco,fourth_place,0.62
+2022,Netherlands,quarter_final,0.5
+2022,Poland,round_of_16,0.38
+2022,Portugal,quarter_final,0.5
+2022,Qatar,group_stage,0.25
+2022,Saudi Arabia,group_stage,0.25
+2022,Senegal,round_of_16,0.38
+2022,Serbia,group_stage,0.25
+2022,South Korea,round_of_16,0.38
+2022,Spain,round_of_16,0.38
+2022,Switzerland,round_of_16,0.38
+2022,Tunisia,group_stage,0.25
+2022,USA,round_of_16,0.38
+2022,Uruguay,group_stage,0.25
+2022,Wales,group_stage,0.25
+2026,Algeria,round_of_32,0.31
+2026,Argentina,round_of_16,0.38
+2026,Australia,round_of_32,0.31
+2026,Austria,round_of_32,0.31
+2026,Belgium,quarter_final,0.5
+2026,Bosnia and Herzegovina,round_of_32,0.31
+2026,Brazil,round_of_16,0.38
+2026,Canada,round_of_16,0.38
+2026,Cape Verde,round_of_32,0.31
+2026,Colombia,round_of_16,0.38
+2026,Croatia,round_of_32,0.31
+2026,Curacao,group_stage,0.25
+2026,Czech Republic,group_stage,0.25
+2026,DR Congo,round_of_32,0.31
+2026,Ecuador,round_of_32,0.31
+2026,Egypt,round_of_16,0.38
+2026,England,quarter_final,0.5
+2026,France,quarter_final,0.5
+2026,Germany,round_of_32,0.31
+2026,Ghana,round_of_32,0.31
+2026,Haiti,group_stage,0.25
+2026,Iran,group_stage,0.25
+2026,Iraq,group_stage,0.25
+2026,Ivory Coast,round_of_32,0.31
+2026,Japan,round_of_32,0.31
+2026,Jordan,group_stage,0.25
+2026,Mexico,round_of_16,0.38
+2026,Morocco,quarter_final,0.5
+2026,Netherlands,round_of_32,0.31
+2026,New Zealand,group_stage,0.25
+2026,Norway,quarter_final,0.5
+2026,Panama,group_stage,0.25
+2026,Paraguay,round_of_16,0.38
+2026,Portugal,round_of_16,0.38
+2026,Qatar,group_stage,0.25
+2026,Saudi Arabia,group_stage,0.25
+2026,Scotland,group_stage,0.25
+2026,Senegal,round_of_32,0.31
+2026,South Africa,round_of_32,0.31
+2026,South Korea,group_stage,0.25
+2026,Spain,quarter_final,0.5
+2026,Sweden,round_of_32,0.31
+2026,Switzerland,round_of_16,0.38
+2026,Tunisia,group_stage,0.25
+2026,Turkey,group_stage,0.25
+2026,USA,round_of_16,0.38
+2026,Uruguay,group_stage,0.25
+2026,Uzbekistan,group_stage,0.25

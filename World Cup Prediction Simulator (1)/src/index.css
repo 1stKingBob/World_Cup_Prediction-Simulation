@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap');
+/* Per-tournament title fonts — free Google Fonts chosen to evoke each
+   World Cup's actual official branding style (the real proprietary
+   tournament typefaces are custom-licensed, not freely embeddable):
+   2026 (USA/Canada/Mexico) -> Anton, bold condensed athletic display,
+     matching the modern North American sports-branding look.
+   2022 (Qatar) -> Changa, bold rounded Arabic-Latin display, echoing the
+     flowing calligraphic curves of Qatar 2022's real wordmark.
+   2018 (Russia) -> Russo One, bold geometric display with a
+     constructivist feel matching Russia 2018's real branding. */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Changa:wght@700;800&family=Russo+One&display=swap');
+@import 'tailwindcss';

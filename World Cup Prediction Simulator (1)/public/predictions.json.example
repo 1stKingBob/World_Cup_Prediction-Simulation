@@ -1,0 +1,31 @@
+{
+  "_comment": "Output file from wc_predictor.py. Rename to predictions.json and place in /public to override default probabilities.",
+  "year": 2026,
+  "groups": {
+    "A": {
+      "teams": [
+        { "advanceProb": 0.91 },
+        { "advanceProb": 0.76 },
+        { "advanceProb": 0.38 },
+        { "advanceProb": 0.12 }
+      ],
+      "matches": [
+        { "prob1": 0.41, "probDraw": 0.28, "prob2": 0.31 },
+        { "prob1": 0.52, "probDraw": 0.24, "prob2": 0.24 },
+        { "prob1": 0.48, "probDraw": 0.27, "prob2": 0.25 },
+        { "prob1": 0.55, "probDraw": 0.25, "prob2": 0.20 },
+        { "prob1": 0.62, "probDraw": 0.22, "prob2": 0.16 },
+        { "prob1": 0.44, "probDraw": 0.29, "prob2": 0.27 }
+      ]
+    }
+  },
+  "knockoutRounds": {
+    "R32": [
+      { "prob1": 0.48, "probDraw": 0.0, "prob2": 0.52 }
+    ],
+    "R16": [],
+    "QF": [],
+    "SF": [],
+    "Final": []
+  }
+}

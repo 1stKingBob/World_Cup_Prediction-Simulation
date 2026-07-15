@@ -1,0 +1,321 @@
+tournament_year,name,confederation,raw_rank,is_host,style,squad_size
+2010,South Africa,CAF,83,1,direct,26
+2010,Mexico,CONCACAF,17,0,counter,26
+2010,Uruguay,CONMEBOL,18,0,low_block,26
+2010,France,UEFA,9,0,counter,26
+2010,South Korea,AFC,47,0,high_press,26
+2010,Greece,UEFA,12,0,low_block,26
+2010,Argentina,CONMEBOL,6,0,possession,26
+2010,Nigeria,CAF,21,0,direct,26
+2010,England,UEFA,7,0,direct,26
+2010,USA,CONCACAF,14,0,high_press,26
+2010,Algeria,CAF,28,0,low_block,26
+2010,Slovenia,UEFA,25,0,low_block,26
+2010,Serbia,UEFA,15,0,direct,26
+2010,Ghana,CAF,33,0,direct,26
+2010,Germany,UEFA,5,0,high_press,26
+2010,Australia,AFC,20,0,direct,26
+2010,Netherlands,UEFA,3,0,counter,26
+2010,Denmark,UEFA,26,0,direct,26
+2010,Japan,AFC,45,0,possession,26
+2010,Cameroon,CAF,19,0,direct,26
+2010,Italy,UEFA,4,0,low_block,26
+2010,Paraguay,CONMEBOL,30,0,low_block,26
+2010,New Zealand,OFC,78,0,direct,26
+2010,Slovakia,UEFA,37,0,counter,26
+2010,Ivory Coast,CAF,25,0,direct,26
+2010,Portugal,UEFA,8,0,counter,26
+2010,Brazil,CONMEBOL,2,0,possession,26
+2010,North Korea,AFC,105,0,low_block,26
+2010,Honduras,CONCACAF,38,0,low_block,26
+2010,Chile,CONMEBOL,16,0,high_press,26
+2010,Spain,UEFA,1,0,possession,26
+2010,Switzerland,UEFA,22,0,low_block,26
+2014,Brazil,CONMEBOL,10,1,possession,26
+2014,Croatia,UEFA,19,0,counter,26
+2014,Mexico,CONCACAF,20,0,low_block,26
+2014,Cameroon,CAF,56,0,direct,26
+2014,Spain,UEFA,1,0,possession,26
+2014,Netherlands,UEFA,9,0,direct,26
+2014,Chile,CONMEBOL,11,0,high_press,26
+2014,Australia,AFC,59,0,direct,26
+2014,Colombia,CONMEBOL,4,0,counter,26
+2014,Greece,UEFA,12,0,low_block,26
+2014,Uruguay,CONMEBOL,6,0,low_block,26
+2014,Costa Rica,CONCACAF,28,0,low_block,26
+2014,England,UEFA,10,0,direct,26
+2014,Italy,UEFA,8,0,counter,26
+2014,Ivory Coast,CAF,18,0,direct,26
+2014,Japan,AFC,46,0,high_press,26
+2014,Switzerland,UEFA,7,0,low_block,26
+2014,Ecuador,CONMEBOL,22,0,counter,26
+2014,France,UEFA,17,0,counter,26
+2014,Honduras,CONCACAF,33,0,low_block,26
+2014,Argentina,CONMEBOL,3,0,possession,26
+2014,Bosnia & Herzegovina,UEFA,50,0,possession,26
+2014,Germany,UEFA,2,0,high_press,26
+2014,Portugal,UEFA,4,0,counter,26
+2014,Iran,AFC,43,0,low_block,26
+2014,Nigeria,CAF,44,0,direct,26
+2014,Ghana,CAF,37,0,direct,26
+2014,USA,CONCACAF,14,0,high_press,26
+2014,Belgium,UEFA,5,0,high_press,26
+2014,Algeria,CAF,25,0,counter,26
+2014,Russia,UEFA,19,0,low_block,26
+2014,South Korea,AFC,57,0,high_press,26
+2018,Russia,UEFA,66,1,low_block,26
+2018,Saudi Arabia,AFC,67,0,counter,26
+2018,Egypt,CAF,45,0,counter,26
+2018,Uruguay,CONMEBOL,17,0,low_block,26
+2018,Morocco,CAF,42,0,low_block,26
+2018,Iran,AFC,37,0,low_block,26
+2018,Portugal,UEFA,4,0,counter,26
+2018,Spain,UEFA,10,0,possession,26
+2018,France,UEFA,7,0,counter,26
+2018,Australia,AFC,40,0,direct,26
+2018,Argentina,CONMEBOL,5,0,possession,26
+2018,Iceland,UEFA,22,0,direct,26
+2018,Peru,CONMEBOL,11,0,possession,26
+2018,Denmark,UEFA,12,0,low_block,26
+2018,Croatia,UEFA,18,0,counter,26
+2018,Nigeria,CAF,48,0,direct,26
+2018,Costa Rica,CONCACAF,23,0,low_block,26
+2018,Serbia,UEFA,38,0,direct,26
+2018,Germany,UEFA,1,0,high_press,26
+2018,Mexico,CONCACAF,15,0,counter,26
+2018,Brazil,CONMEBOL,2,0,possession,26
+2018,Switzerland,UEFA,6,0,low_block,26
+2018,Sweden,UEFA,24,0,direct,26
+2018,South Korea,AFC,62,0,high_press,26
+2018,Belgium,UEFA,3,0,high_press,26
+2018,Panama,CONCACAF,55,0,low_block,26
+2018,Tunisia,CAF,50,0,low_block,26
+2018,England,UEFA,13,0,direct,26
+2018,Colombia,CONMEBOL,16,0,counter,26
+2018,Japan,AFC,61,0,low_block,26
+2018,Poland,UEFA,8,0,direct,26
+2018,Senegal,CAF,27,0,direct,26
+2022,Qatar,AFC,51,1,possession,26
+2022,Ecuador,CONMEBOL,44,0,counter,26
+2022,England,UEFA,5,0,high_press,26
+2022,Iran,AFC,20,0,low_block,26
+2022,Senegal,CAF,18,0,direct,26
+2022,Netherlands,UEFA,8,0,direct,26
+2022,USA,CONCACAF,14,0,high_press,26
+2022,Wales,UEFA,19,0,low_block,26
+2022,Argentina,CONMEBOL,3,0,possession,26
+2022,Saudi Arabia,AFC,51,0,counter,26
+2022,Denmark,UEFA,10,0,direct,26
+2022,Tunisia,CAF,30,0,low_block,26
+2022,Mexico,CONCACAF,13,0,low_block,26
+2022,Poland,UEFA,26,0,low_block,26
+2022,France,UEFA,4,0,counter,26
+2022,Australia,AFC,38,0,direct,26
+2022,Morocco,CAF,22,0,low_block,26
+2022,Croatia,UEFA,15,0,low_block,26
+2022,Germany,UEFA,11,0,high_press,26
+2022,Japan,AFC,24,0,high_press,26
+2022,Spain,UEFA,6,0,possession,26
+2022,Costa Rica,CONCACAF,31,0,low_block,26
+2022,Belgium,UEFA,2,0,counter,26
+2022,Canada,CONCACAF,41,0,high_press,26
+2022,Switzerland,UEFA,15,0,low_block,26
+2022,Cameroon,CAF,43,0,counter,26
+2022,Uruguay,CONMEBOL,14,0,low_block,26
+2022,South Korea,AFC,28,0,high_press,26
+2022,Portugal,UEFA,7,0,possession,26
+2022,Ghana,CAF,60,0,counter,26
+2022,Brazil,CONMEBOL,1,0,possession,26
+2022,Serbia,UEFA,21,0,direct,26
+2026,Mexico,CONCACAF,10,1,counter,26
+2026,South Africa,CAF,54,0,direct,26
+2026,South Korea,AFC,32,0,high_press,26
+2026,Czech Republic,UEFA,48,0,direct,26
+2026,Canada,CONCACAF,30,1,counter,26
+2026,Bosnia and Herzegovina,UEFA,61,0,direct,26
+2026,USA,CONCACAF,16,1,high_press,26
+2026,Paraguay,CONMEBOL,34,0,low_block,26
+2026,Qatar,AFC,59,0,possession,26
+2026,Switzerland,UEFA,14,0,low_block,26
+2026,Brazil,CONMEBOL,5,0,possession,26
+2026,Morocco,CAF,6,0,low_block,26
+2026,Haiti,CONCACAF,88,0,direct,26
+2026,Scotland,UEFA,42,0,direct,26
+2026,Australia,AFC,28,0,direct,26
+2026,Turkey,UEFA,27,0,counter,26
+2026,Germany,UEFA,12,0,high_press,26
+2026,Curacao,CONCACAF,82,0,low_block,26
+2026,Netherlands,UEFA,9,0,direct,26
+2026,Japan,AFC,17,0,high_press,26
+2026,Ivory Coast,CAF,31,0,direct,26
+2026,Ecuador,CONMEBOL,25,0,counter,26
+2026,Sweden,UEFA,37,0,direct,26
+2026,Tunisia,CAF,57,0,low_block,26
+2026,Spain,UEFA,2,0,possession,26
+2026,Cape Verde,CAF,64,0,low_block,26
+2026,Belgium,UEFA,8,0,counter,26
+2026,Egypt,CAF,24,0,low_block,26
+2026,Saudi Arabia,AFC,58,0,low_block,26
+2026,Uruguay,CONMEBOL,20,0,low_block,26
+2026,Iran,AFC,22,0,low_block,26
+2026,New Zealand,OFC,86,0,direct,26
+2026,France,UEFA,1,0,counter,26
+2026,Senegal,CAF,19,0,direct,26
+2026,Iraq,AFC,63,0,low_block,26
+2026,Norway,UEFA,18,0,direct,26
+2026,Argentina,CONMEBOL,3,0,possession,26
+2026,Algeria,CAF,29,0,low_block,26
+2026,Austria,UEFA,23,0,high_press,26
+2026,Jordan,AFC,73,0,low_block,26
+2026,Portugal,UEFA,7,0,possession,26
+2026,DR Congo,CAF,41,0,direct,26
+2026,England,UEFA,4,0,high_press,26
+2026,Croatia,UEFA,13,0,possession,26
+2026,Ghana,CAF,65,0,direct,26
+2026,Panama,CONCACAF,44,0,low_block,26
+2026,Uzbekistan,AFC,60,0,low_block,26
+2026,Colombia,CONMEBOL,11,0,counter,26
+2002,France,UEFA,1,0,possession,26
+2002,Senegal,CAF,65,0,direct,26
+2002,Ireland,UEFA,20,0,direct,26
+2002,Cameroon,CAF,38,0,direct,26
+2002,Uruguay,CONMEBOL,23,0,low_block,26
+2002,Denmark,UEFA,17,0,direct,26
+2002,Germany,UEFA,14,0,high_press,26
+2002,Saudi Arabia,AFC,30,0,low_block,26
+2002,Argentina,CONMEBOL,3,0,possession,26
+2002,Nigeria,CAF,42,0,direct,26
+2002,Paraguay,CONMEBOL,13,0,low_block,26
+2002,South Africa,CAF,32,0,direct,26
+2002,England,UEFA,9,0,direct,26
+2002,Sweden,UEFA,18,0,direct,26
+2002,Spain,UEFA,6,0,possession,26
+2002,Slovenia,UEFA,27,0,low_block,26
+2002,Croatia,UEFA,16,0,counter,26
+2002,Mexico,CONCACAF,11,0,counter,26
+2002,Brazil,CONMEBOL,2,0,possession,26
+2002,Turkey,UEFA,34,0,counter,26
+2002,Italy,UEFA,4,0,low_block,26
+2002,Ecuador,CONMEBOL,39,0,low_block,26
+2002,China,AFC,55,0,low_block,26
+2002,Costa Rica,CONCACAF,29,0,counter,26
+2002,Japan,AFC,26,1,possession,26
+2002,Belgium,UEFA,33,0,counter,26
+2002,South Korea,AFC,43,1,high_press,26
+2002,Poland,UEFA,28,0,direct,26
+2002,Russia,UEFA,21,0,direct,26
+2002,Tunisia,CAF,25,0,low_block,26
+2002,USA,CONCACAF,19,0,high_press,26
+2002,Portugal,UEFA,5,0,possession,26
+2006,Germany,UEFA,19,1,high_press,26
+2006,Costa Rica,CONCACAF,26,0,low_block,26
+2006,Poland,UEFA,29,0,direct,26
+2006,Ecuador,CONMEBOL,39,0,low_block,26
+2006,England,UEFA,10,0,direct,26
+2006,Paraguay,CONMEBOL,33,0,low_block,26
+2006,Trinidad and Tobago,CONCACAF,47,0,low_block,26
+2006,Sweden,UEFA,56,0,direct,26
+2006,Argentina,CONMEBOL,9,0,possession,26
+2006,Ivory Coast,CAF,32,0,direct,26
+2006,Serbia,UEFA,44,0,direct,26
+2006,Netherlands,UEFA,3,0,possession,26
+2006,Mexico,CONCACAF,4,0,counter,26
+2006,Iran,AFC,23,0,low_block,26
+2006,Angola,CAF,59,0,low_block,26
+2006,Portugal,UEFA,7,0,possession,26
+2006,Australia,AFC,69,0,direct,26
+2006,Japan,AFC,18,0,possession,26
+2006,USA,CONCACAF,5,0,high_press,26
+2006,Czech Republic,UEFA,2,0,direct,26
+2006,Italy,UEFA,13,0,low_block,26
+2006,Ghana,CAF,48,0,counter,26
+2006,South Korea,AFC,30,0,high_press,26
+2006,Togo,CAF,61,0,direct,26
+2006,France,UEFA,8,0,counter,26
+2006,Switzerland,UEFA,35,0,low_block,26
+2006,Brazil,CONMEBOL,1,0,possession,26
+2006,Croatia,UEFA,24,0,counter,26
+2006,Spain,UEFA,6,0,possession,26
+2006,Ukraine,UEFA,45,0,direct,26
+2006,Tunisia,CAF,62,0,low_block,26
+2006,Saudi Arabia,AFC,34,0,low_block,26
+1990,Argentina,CONMEBOL,50,0,possession,26
+1990,Cameroon,CAF,50,0,possession,26
+1990,USSR,UEFA,50,0,possession,26
+1990,Romania,UEFA,50,0,possession,26
+1990,Italy,UEFA,50,0,possession,26
+1990,Austria,UEFA,50,0,possession,26
+1990,United Arab Emirates,UEFA,50,0,possession,26
+1990,Colombia,CONMEBOL,50,0,possession,26
+1990,USA,CONCACAF,50,0,possession,26
+1990,Czechoslovakia,UEFA,50,0,possession,26
+1990,Brazil,CONMEBOL,50,0,possession,26
+1990,Sweden,UEFA,50,0,possession,26
+1990,West Germany,UEFA,50,0,possession,26
+1990,Yugoslavia,UEFA,50,0,possession,26
+1990,Costa Rica,CONCACAF,50,0,possession,26
+1990,Scotland,UEFA,50,0,possession,26
+1990,England,UEFA,50,0,possession,26
+1990,Ireland,UEFA,50,0,possession,26
+1990,Belgium,UEFA,50,0,possession,26
+1990,South Korea,AFC,50,0,possession,26
+1990,Netherlands,UEFA,50,0,possession,26
+1990,Egypt,CAF,50,0,possession,26
+1990,Uruguay,CONMEBOL,50,0,possession,26
+1990,Spain,UEFA,50,0,possession,26
+1994,Germany,UEFA,50,0,possession,26
+1994,Bolivia,UEFA,50,0,possession,26
+1994,Spain,UEFA,50,0,possession,26
+1994,South Korea,AFC,50,0,possession,26
+1994,USA,CONCACAF,50,0,possession,26
+1994,Switzerland,UEFA,50,0,possession,26
+1994,Italy,UEFA,50,0,possession,26
+1994,Ireland,UEFA,50,0,possession,26
+1994,Colombia,CONMEBOL,50,0,possession,26
+1994,Romania,UEFA,50,0,possession,26
+1994,Belgium,UEFA,50,0,possession,26
+1994,Morocco,CAF,50,0,possession,26
+1994,Norway,UEFA,50,0,possession,26
+1994,Mexico,CONCACAF,50,0,possession,26
+1994,Cameroon,CAF,50,0,possession,26
+1994,Sweden,UEFA,50,0,possession,26
+1994,Brazil,CONMEBOL,50,0,possession,26
+1994,Russia,UEFA,50,0,possession,26
+1994,Netherlands,UEFA,50,0,possession,26
+1994,Saudi Arabia,AFC,50,0,possession,26
+1994,Argentina,CONMEBOL,50,0,possession,26
+1994,Greece,UEFA,50,0,possession,26
+1994,Nigeria,CAF,50,0,possession,26
+1994,Bulgaria,UEFA,50,0,possession,26
+1998,Brazil,CONMEBOL,50,0,possession,26
+1998,Scotland,UEFA,50,0,possession,26
+1998,Morocco,CAF,50,0,possession,26
+1998,Norway,UEFA,50,0,possession,26
+1998,Italy,UEFA,50,0,possession,26
+1998,Chile,CONMEBOL,50,0,possession,26
+1998,Cameroon,CAF,50,0,possession,26
+1998,Austria,UEFA,50,0,possession,26
+1998,Paraguay,CONMEBOL,50,0,possession,26
+1998,Bulgaria,UEFA,50,0,possession,26
+1998,Saudi Arabia,AFC,50,0,possession,26
+1998,Denmark,UEFA,50,0,possession,26
+1998,France,UEFA,50,0,possession,26
+1998,South Africa,CAF,50,0,possession,26
+1998,Spain,UEFA,50,0,possession,26
+1998,Nigeria,CAF,50,0,possession,26
+1998,South Korea,AFC,50,0,possession,26
+1998,Mexico,CONCACAF,50,0,possession,26
+1998,Netherlands,UEFA,50,0,possession,26
+1998,Belgium,UEFA,50,0,possession,26
+1998,Argentina,CONMEBOL,50,0,possession,26
+1998,Japan,AFC,50,0,possession,26
+1998,Yugoslavia,UEFA,50,0,possession,26
+1998,Iran,AFC,50,0,possession,26
+1998,Jamaica,CONCACAF,50,0,possession,26
+1998,Croatia,UEFA,50,0,possession,26
+1998,England,UEFA,50,0,possession,26
+1998,Tunisia,CAF,50,0,possession,26
+1998,Romania,UEFA,50,0,possession,26
+1998,Colombia,CONMEBOL,50,0,possession,26
+1998,Germany,UEFA,50,0,possession,26
+1998,USA,CONCACAF,50,0,possession,26
