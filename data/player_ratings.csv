@@ -13579,3 +13579,103 @@ tournament_year,event_id,round_num,stage,team,player_name,sofascore_id,rating,mi
 2006,268533,20,third_place,Portugal,Petit,1422395,6.4,45
 2006,268533,20,third_place,Portugal,Nuno Gomes,1422399,7.3,21
 2006,268533,20,third_place,Portugal,Luís Figo,4736,6.9,13
+2026,15186783,1,group_stage,Cape Verde,Kevin Pina,906838,6.4,90
+2026,15186800,2,group_stage,Cape Verde,Kevin Pina,906838,7.6,71
+2026,15186803,3,group_stage,Cape Verde,Kevin Pina,906838,7.2,90
+2026,12812999,6,round_of_32,Cape Verde,Kevin Pina,906838,7.0,100
+2026,12813015,27,quarter_final,Argentina,Emiliano Martínez,158263,7.2,120
+2026,12813015,27,quarter_final,Argentina,Nahuel Molina,831799,6.2,85
+2026,12813015,27,quarter_final,Argentina,Cristian Romero,829932,7.0,105
+2026,12813015,27,quarter_final,Argentina,Lisandro Martínez,859999,7.4,120
+2026,12813015,27,quarter_final,Argentina,Nicolás Tagliafico,158243,6.7,78
+2026,12813015,27,quarter_final,Argentina,Leandro Paredes,255389,7.5,110
+2026,12813015,27,quarter_final,Argentina,Rodrigo De Paul,249399,6.6,85
+2026,12813015,27,quarter_final,Argentina,Enzo Fernández,974505,6.4,90
+2026,12813015,27,quarter_final,Argentina,Alexis Mac Allister,895324,7.5,120
+2026,12813015,27,quarter_final,Argentina,Lionel Messi,12994,9.1,120
+2026,12813015,27,quarter_final,Argentina,Julián Alvarez,944656,7.6,120
+2026,12813015,27,quarter_final,Argentina,Nicolás González,901325,7.5,42
+2026,12813015,27,quarter_final,Argentina,Gonzalo Montiel,822933,6.5,35
+2026,12813015,27,quarter_final,Argentina,Lautaro Martínez,823984,6.9,35
+2026,12813015,27,quarter_final,Argentina,Thiago Almada,944660,7.3,30
+2026,12813015,27,quarter_final,Argentina,Nicolás Otamendi,74915,7.0,15
+2026,12813015,27,quarter_final,Argentina,José Manuel López,1094179,6.5,10
+2026,12813015,27,quarter_final,Switzerland,Gregor Kobel,556866,6.6,120
+2026,12813015,27,quarter_final,Switzerland,Denis Zakaria,770677,6.1,96
+2026,12813015,27,quarter_final,Switzerland,Nico Elvedi,282229,6.6,120
+2026,12813015,27,quarter_final,Switzerland,Manuel Akanji,383560,5.9,120
+2026,12813015,27,quarter_final,Switzerland,Ricardo Rodríguez,67769,7.1,89
+2026,12813015,27,quarter_final,Switzerland,Remo Freuler,115516,6.7,115
+2026,12813015,27,quarter_final,Switzerland,Granit Xhaka,117777,7.2,120
+2026,12813015,27,quarter_final,Switzerland,Djibril Sow,799054,6.2,86
+2026,12813015,27,quarter_final,Switzerland,Fabian Rieder,929620,6.2,86
+2026,12813015,27,quarter_final,Switzerland,Dan Ndoye,944327,7.2,86
+2026,12813015,27,quarter_final,Switzerland,Breel Embolo,352296,5.9,72
+2026,12813015,27,quarter_final,Switzerland,Miro Muheim,798303,6.3,34
+2026,12813015,27,quarter_final,Switzerland,Silvan Widmer,157377,6.1,34
+2026,12813015,27,quarter_final,Switzerland,Zeki Amdouni,990550,6.1,34
+2026,12813015,27,quarter_final,Switzerland,Eray Cömert,814023,6.2,31
+2026,12813015,27,quarter_final,Switzerland,Ardon Jashari,1034082,6.3,24
+2026,12813015,27,quarter_final,Switzerland,Rubén Vargas,872919,6.4,9
+2026,12813008,28,semi_final,France,Mike Maignan,191210,5.9,90
+2026,12813008,28,semi_final,France,Jules Koundé,827212,6.3,90
+2026,12813008,28,semi_final,France,Dayot Upamecano,798583,6.5,90
+2026,12813008,28,semi_final,France,William Saliba,941168,6.1,30
+2026,12813008,28,semi_final,France,Lucas Digne,96538,5.6,72
+2026,12813008,28,semi_final,France,Aurélien Tchouaméni,859025,6.8,90
+2026,12813008,28,semi_final,France,Adrien Rabiot,250737,6.5,45
+2026,12813008,28,semi_final,France,Ousmane Dembélé,818244,6.8,90
+2026,12813008,28,semi_final,France,Michael Olise,978838,6.4,72
+2026,12813008,28,semi_final,France,Bradley Barcola,996952,6.4,57
+2026,12813008,28,semi_final,France,Kylian Mbappé,826643,6.3,90
+2026,12813008,28,semi_final,France,Maxence Lacroix,879674,6.5,60
+2026,12813008,28,semi_final,France,Manu Koné,974087,6.1,45
+2026,12813008,28,semi_final,France,Désiré Doué,1154605,7.0,33
+2026,12813008,28,semi_final,France,Theo Hernández,788027,6.5,18
+2026,12813008,28,semi_final,France,Rayan Cherki,979128,6.9,18
+2026,12813008,28,semi_final,Spain,Unai Simón,797291,7.0,90
+2026,12813008,28,semi_final,Spain,Pedro Porro,913654,8.1,84
+2026,12813008,28,semi_final,Spain,Pau Cubarsí,1402913,7.4,90
+2026,12813008,28,semi_final,Spain,Aymeric Laporte,149734,7.2,90
+2026,12813008,28,semi_final,Spain,Marc Cucurella,794939,7.1,90
+2026,12813008,28,semi_final,Spain,Rodri,827606,7.5,90
+2026,12813008,28,semi_final,Spain,Fabián Ruiz,784655,6.9,78
+2026,12813008,28,semi_final,Spain,Lamine Yamal,1402912,6.5,90
+2026,12813008,28,semi_final,Spain,Dani Olmo,789071,6.8,78
+2026,12813008,28,semi_final,Spain,Alex Baena,910031,6.7,84
+2026,12813008,28,semi_final,Spain,Mikel Oyarzabal,823622,7.0,74
+2026,12813008,28,semi_final,Spain,Ferran Torres,855833,6.5,16
+2026,12813008,28,semi_final,Spain,Mikel Merino,592010,6.9,12
+2026,12813008,28,semi_final,Spain,Pedri,992587,6.5,12
+2026,12813008,28,semi_final,Spain,Marcos Llorente,353138,6.7,13
+2026,12813008,28,semi_final,Spain,Nico Williams,1085400,6.6,13
+2026,12812996,28,semi_final,England,Jordan Pickford,138530,6.3,90
+2026,12812996,28,semi_final,England,Reece James,885908,6.8,82
+2026,12812996,28,semi_final,England,John Stones,152077,6.7,89
+2026,12812996,28,semi_final,England,Marc Guéhi,877994,6.4,90
+2026,12812996,28,semi_final,England,Djed Spence,945798,6.5,89
+2026,12812996,28,semi_final,England,Declan Rice,856714,7.1,82
+2026,12812996,28,semi_final,England,Elliot Anderson,994546,7.3,90
+2026,12812996,28,semi_final,England,Morgan Rogers,948261,7.1,90
+2026,12812996,28,semi_final,England,Jude Bellingham,991011,6.6,90
+2026,12812996,28,semi_final,England,Anthony Gordon,914902,7.0,72
+2026,12812996,28,semi_final,England,Harry Kane,108579,6.5,90
+2026,12812996,28,semi_final,England,Ezri Konsa,827679,6.0,18
+2026,12812996,28,semi_final,England,Nico O'Reilly,1142703,6.2,8
+2026,12812996,28,semi_final,England,Dan Burn,99090,5.9,8
+2026,12812996,28,semi_final,Argentina,Emiliano Martínez,158263,6.7,90
+2026,12812996,28,semi_final,Argentina,Nahuel Molina,831799,6.1,72
+2026,12812996,28,semi_final,Argentina,Cristian Romero,829932,7.0,90
+2026,12812996,28,semi_final,Argentina,Lisandro Martínez,859999,6.4,72
+2026,12812996,28,semi_final,Argentina,Nicolás Tagliafico,158243,6.3,81
+2026,12812996,28,semi_final,Argentina,Leandro Paredes,255389,7.3,64
+2026,12812996,28,semi_final,Argentina,Giuliano Simeone,1099352,6.1,72
+2026,12812996,28,semi_final,Argentina,Enzo Fernández,974505,7.5,90
+2026,12812996,28,semi_final,Argentina,Alexis Mac Allister,895324,6.1,90
+2026,12812996,28,semi_final,Argentina,Julián Alvarez,944656,6.6,90
+2026,12812996,28,semi_final,Argentina,Lionel Messi,12994,8.1,90
+2026,12812996,28,semi_final,Argentina,Nicolás González,901325,6.7,26
+2026,12812996,28,semi_final,Argentina,Nicolás Otamendi,74915,6.9,18
+2026,12812996,28,semi_final,Argentina,Gonzalo Montiel,822933,6.4,18
+2026,12812996,28,semi_final,Argentina,Rodrigo De Paul,249399,7.1,18
+2026,12812996,28,semi_final,Argentina,Lautaro Martínez,823984,7.3,9

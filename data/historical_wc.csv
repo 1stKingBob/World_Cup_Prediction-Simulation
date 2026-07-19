@@ -143,134 +143,6 @@ tournament_year,team,stage_reached,stage_points
 2006,Tunisia,group_stage,0.25
 2006,USA,group_stage,0.25
 2006,Ukraine,quarter_final,0.5
-2010,Algeria,group_stage,0.25
-2010,Argentina,quarter_final,0.5
-2010,Australia,group_stage,0.25
-2010,Brazil,quarter_final,0.5
-2010,Cameroon,group_stage,0.25
-2010,Chile,round_of_16,0.38
-2010,Denmark,group_stage,0.25
-2010,England,round_of_16,0.38
-2010,France,group_stage,0.25
-2010,Germany,third_place,0.75
-2010,Ghana,quarter_final,0.5
-2010,Greece,group_stage,0.25
-2010,Honduras,group_stage,0.25
-2010,Italy,group_stage,0.25
-2010,Ivory Coast,group_stage,0.25
-2010,Japan,round_of_16,0.38
-2010,Mexico,round_of_16,0.38
-2010,Netherlands,runner_up,0.87
-2010,New Zealand,group_stage,0.25
-2010,Nigeria,group_stage,0.25
-2010,North Korea,group_stage,0.25
-2010,Paraguay,quarter_final,0.5
-2010,Portugal,round_of_16,0.38
-2010,Serbia,group_stage,0.25
-2010,Slovakia,round_of_16,0.38
-2010,Slovenia,group_stage,0.25
-2010,South Africa,group_stage,0.25
-2010,South Korea,round_of_16,0.38
-2010,Spain,winner,1.0
-2010,Switzerland,group_stage,0.25
-2010,USA,round_of_16,0.38
-2010,Uruguay,fourth_place,0.62
-2014,Algeria,round_of_16,0.38
-2014,Argentina,runner_up,0.87
-2014,Australia,group_stage,0.25
-2014,Belgium,quarter_final,0.5
-2014,Bosnia & Herzegovina,group_stage,0.25
-2014,Brazil,fourth_place,0.62
-2014,Cameroon,group_stage,0.25
-2014,Chile,round_of_16,0.38
-2014,Colombia,quarter_final,0.5
-2014,Costa Rica,quarter_final,0.5
-2014,Croatia,group_stage,0.25
-2014,Ecuador,group_stage,0.25
-2014,England,group_stage,0.25
-2014,France,quarter_final,0.5
-2014,Germany,winner,1.0
-2014,Ghana,group_stage,0.25
-2014,Greece,round_of_16,0.38
-2014,Honduras,group_stage,0.25
-2014,Iran,group_stage,0.25
-2014,Italy,group_stage,0.25
-2014,Ivory Coast,group_stage,0.25
-2014,Japan,group_stage,0.25
-2014,Mexico,round_of_16,0.38
-2014,Netherlands,third_place,0.75
-2014,Nigeria,round_of_16,0.38
-2014,Portugal,group_stage,0.25
-2014,Russia,group_stage,0.25
-2014,South Korea,group_stage,0.25
-2014,Spain,group_stage,0.25
-2014,Switzerland,round_of_16,0.38
-2014,USA,round_of_16,0.38
-2014,Uruguay,round_of_16,0.38
-2018,Argentina,round_of_16,0.38
-2018,Australia,group_stage,0.25
-2018,Belgium,third_place,0.75
-2018,Brazil,quarter_final,0.5
-2018,Colombia,round_of_16,0.38
-2018,Costa Rica,group_stage,0.25
-2018,Croatia,runner_up,0.87
-2018,Denmark,round_of_16,0.38
-2018,Egypt,group_stage,0.25
-2018,England,fourth_place,0.62
-2018,France,winner,1.0
-2018,Germany,group_stage,0.25
-2018,Iceland,group_stage,0.25
-2018,Iran,group_stage,0.25
-2018,Japan,round_of_16,0.38
-2018,Mexico,round_of_16,0.38
-2018,Morocco,group_stage,0.25
-2018,Nigeria,group_stage,0.25
-2018,Panama,group_stage,0.25
-2018,Peru,group_stage,0.25
-2018,Poland,group_stage,0.25
-2018,Portugal,round_of_16,0.38
-2018,Russia,quarter_final,0.5
-2018,Saudi Arabia,group_stage,0.25
-2018,Senegal,group_stage,0.25
-2018,Serbia,group_stage,0.25
-2018,South Korea,group_stage,0.25
-2018,Spain,round_of_16,0.38
-2018,Sweden,quarter_final,0.5
-2018,Switzerland,round_of_16,0.38
-2018,Tunisia,group_stage,0.25
-2018,Uruguay,quarter_final,0.5
-2022,Argentina,winner,1.0
-2022,Australia,round_of_16,0.38
-2022,Belgium,group_stage,0.25
-2022,Brazil,quarter_final,0.5
-2022,Cameroon,group_stage,0.25
-2022,Canada,group_stage,0.25
-2022,Costa Rica,group_stage,0.25
-2022,Croatia,third_place,0.75
-2022,Denmark,group_stage,0.25
-2022,Ecuador,group_stage,0.25
-2022,England,quarter_final,0.5
-2022,France,runner_up,0.87
-2022,Germany,group_stage,0.25
-2022,Ghana,group_stage,0.25
-2022,Iran,group_stage,0.25
-2022,Japan,round_of_16,0.38
-2022,Mexico,group_stage,0.25
-2022,Morocco,fourth_place,0.62
-2022,Netherlands,quarter_final,0.5
-2022,Poland,round_of_16,0.38
-2022,Portugal,quarter_final,0.5
-2022,Qatar,group_stage,0.25
-2022,Saudi Arabia,group_stage,0.25
-2022,Senegal,round_of_16,0.38
-2022,Serbia,group_stage,0.25
-2022,South Korea,round_of_16,0.38
-2022,Spain,round_of_16,0.38
-2022,Switzerland,round_of_16,0.38
-2022,Tunisia,group_stage,0.25
-2022,USA,round_of_16,0.38
-2022,Uruguay,group_stage,0.25
-2022,Wales,group_stage,0.25
 2026,Algeria,round_of_32,0.31
 2026,Argentina,round_of_16,0.38
 2026,Australia,round_of_32,0.31
@@ -319,3 +191,131 @@ tournament_year,team,stage_reached,stage_points
 2026,USA,round_of_16,0.38
 2026,Uruguay,group_stage,0.25
 2026,Uzbekistan,group_stage,0.25
+2010,South Africa,group_stage,0.25
+2010,Mexico,round_of_16,0.38
+2010,Uruguay,fourth_place,0.62
+2010,France,group_stage,0.25
+2010,South Korea,round_of_16,0.38
+2010,Greece,group_stage,0.25
+2010,Argentina,quarter_final,0.5
+2010,Nigeria,group_stage,0.25
+2010,England,round_of_16,0.38
+2010,USA,round_of_16,0.38
+2010,Algeria,group_stage,0.25
+2010,Slovenia,group_stage,0.25
+2010,Serbia,group_stage,0.25
+2010,Ghana,quarter_final,0.5
+2010,Germany,third_place,0.75
+2010,Australia,group_stage,0.25
+2010,Netherlands,runner_up,0.87
+2010,Denmark,group_stage,0.25
+2010,Japan,round_of_16,0.38
+2010,Cameroon,group_stage,0.25
+2010,Italy,group_stage,0.25
+2010,Paraguay,quarter_final,0.5
+2010,New Zealand,group_stage,0.25
+2010,Slovakia,round_of_16,0.38
+2010,Ivory Coast,group_stage,0.25
+2010,Portugal,round_of_16,0.38
+2010,Brazil,quarter_final,0.5
+2010,North Korea,group_stage,0.25
+2010,Honduras,group_stage,0.25
+2010,Chile,round_of_16,0.38
+2010,Spain,winner,1.0
+2010,Switzerland,group_stage,0.25
+2014,Brazil,fourth_place,0.62
+2014,Croatia,group_stage,0.25
+2014,Mexico,round_of_16,0.38
+2014,Cameroon,group_stage,0.25
+2014,Spain,group_stage,0.25
+2014,Netherlands,third_place,0.75
+2014,Chile,round_of_16,0.38
+2014,Australia,group_stage,0.25
+2014,Colombia,quarter_final,0.5
+2014,Greece,round_of_16,0.38
+2014,Uruguay,round_of_16,0.38
+2014,Costa Rica,quarter_final,0.5
+2014,England,group_stage,0.25
+2014,Italy,group_stage,0.25
+2014,Ivory Coast,group_stage,0.25
+2014,Japan,group_stage,0.25
+2014,Switzerland,round_of_16,0.38
+2014,Ecuador,group_stage,0.25
+2014,France,quarter_final,0.5
+2014,Honduras,group_stage,0.25
+2014,Argentina,runner_up,0.87
+2014,Bosnia and Herzegovina,group_stage,0.25
+2014,Germany,winner,1.0
+2014,Portugal,group_stage,0.25
+2014,Iran,group_stage,0.25
+2014,Nigeria,round_of_16,0.38
+2014,Ghana,group_stage,0.25
+2014,USA,round_of_16,0.38
+2014,Belgium,quarter_final,0.5
+2014,Algeria,round_of_16,0.38
+2014,Russia,group_stage,0.25
+2014,South Korea,group_stage,0.25
+2018,Russia,quarter_final,0.5
+2018,Saudi Arabia,group_stage,0.25
+2018,Egypt,group_stage,0.25
+2018,Uruguay,quarter_final,0.5
+2018,Morocco,group_stage,0.25
+2018,Iran,group_stage,0.25
+2018,Portugal,round_of_16,0.38
+2018,Spain,round_of_16,0.38
+2018,France,winner,1.0
+2018,Australia,group_stage,0.25
+2018,Argentina,round_of_16,0.38
+2018,Iceland,group_stage,0.25
+2018,Peru,group_stage,0.25
+2018,Denmark,round_of_16,0.38
+2018,Croatia,runner_up,0.87
+2018,Nigeria,group_stage,0.25
+2018,Costa Rica,group_stage,0.25
+2018,Serbia,group_stage,0.25
+2018,Germany,group_stage,0.25
+2018,Mexico,round_of_16,0.38
+2018,Brazil,quarter_final,0.5
+2018,Switzerland,round_of_16,0.38
+2018,Sweden,quarter_final,0.5
+2018,South Korea,group_stage,0.25
+2018,Belgium,third_place,0.75
+2018,Panama,group_stage,0.25
+2018,Tunisia,group_stage,0.25
+2018,England,fourth_place,0.62
+2018,Colombia,round_of_16,0.38
+2018,Japan,round_of_16,0.38
+2018,Poland,group_stage,0.25
+2018,Senegal,group_stage,0.25
+2022,Qatar,group_stage,0.25
+2022,Ecuador,group_stage,0.25
+2022,England,quarter_final,0.5
+2022,Iran,group_stage,0.25
+2022,Senegal,round_of_16,0.38
+2022,Netherlands,quarter_final,0.5
+2022,USA,round_of_16,0.38
+2022,Wales,group_stage,0.25
+2022,Argentina,winner,1.0
+2022,Saudi Arabia,group_stage,0.25
+2022,Denmark,group_stage,0.25
+2022,Tunisia,group_stage,0.25
+2022,Mexico,group_stage,0.25
+2022,Poland,round_of_16,0.38
+2022,France,runner_up,0.87
+2022,Australia,round_of_16,0.38
+2022,Morocco,fourth_place,0.62
+2022,Croatia,third_place,0.75
+2022,Germany,group_stage,0.25
+2022,Japan,round_of_16,0.38
+2022,Spain,round_of_16,0.38
+2022,Costa Rica,group_stage,0.25
+2022,Belgium,group_stage,0.25
+2022,Canada,group_stage,0.25
+2022,Switzerland,round_of_16,0.38
+2022,Cameroon,group_stage,0.25
+2022,Uruguay,group_stage,0.25
+2022,South Korea,round_of_16,0.38
+2022,Portugal,quarter_final,0.5
+2022,Ghana,group_stage,0.25
+2022,Brazil,quarter_final,0.5
+2022,Serbia,group_stage,0.25

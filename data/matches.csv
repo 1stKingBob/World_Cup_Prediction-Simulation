@@ -1,1307 +1,1313 @@
-tournament_year,round_num,stage,group,event_id,team,opponent,gd,gf,opponent_raw_rank,opponent_conf
-2010,1,group_stage,A,1251321,South Africa,Mexico,0,,17,CONCACAF
-2010,1,group_stage,A,1251321,Mexico,South Africa,0,,83,CAF
-2010,1,group_stage,A,1251322,Uruguay,France,0,,9,UEFA
-2010,1,group_stage,A,1251322,France,Uruguay,0,,18,CONMEBOL
-2010,1,group_stage,B,1251338,South Korea,Greece,2,,12,UEFA
-2010,1,group_stage,B,1251338,Greece,South Korea,-2,,47,AFC
-2010,1,group_stage,B,1251334,Argentina,Nigeria,1,,21,CAF
-2010,1,group_stage,B,1251334,Nigeria,Argentina,-1,,6,CONMEBOL
-2010,1,group_stage,C,1251327,England,USA,0,,14,CONCACAF
-2010,1,group_stage,C,1251327,USA,England,0,,7,UEFA
-2010,1,group_stage,C,1251328,Algeria,Slovenia,-1,,25,UEFA
-2010,1,group_stage,C,1251328,Slovenia,Algeria,1,,28,CAF
-2010,1,group_stage,D,1251331,Serbia,Ghana,-1,,33,CAF
-2010,1,group_stage,D,1251331,Ghana,Serbia,1,,15,UEFA
-2010,1,group_stage,D,1251329,Germany,Australia,4,,20,AFC
-2010,1,group_stage,D,1251329,Australia,Germany,-4,,5,UEFA
-2010,1,group_stage,E,1251343,Netherlands,Denmark,2,,26,UEFA
-2010,1,group_stage,E,1251343,Denmark,Netherlands,-2,,3,UEFA
-2010,1,group_stage,E,1251345,Japan,Cameroon,1,,19,CAF
-2010,1,group_stage,E,1251345,Cameroon,Japan,-1,,45,AFC
-2010,1,group_stage,F,1251360,Italy,Paraguay,0,,30,CONMEBOL
-2010,1,group_stage,F,1251360,Paraguay,Italy,0,,4,UEFA
-2010,1,group_stage,F,1251362,New Zealand,Slovakia,0,,37,UEFA
-2010,1,group_stage,F,1251362,Slovakia,New Zealand,0,,78,OFC
-2010,1,group_stage,G,1251351,Ivory Coast,Portugal,0,,8,UEFA
-2010,1,group_stage,G,1251351,Portugal,Ivory Coast,0,,25,CAF
-2010,1,group_stage,G,1251352,Brazil,North Korea,1,,105,AFC
-2010,1,group_stage,G,1251352,North Korea,Brazil,-1,,2,CONMEBOL
-2010,1,group_stage,H,1251357,Honduras,Chile,-1,,16,CONMEBOL
-2010,1,group_stage,H,1251357,Chile,Honduras,1,,38,CONCACAF
-2010,1,group_stage,H,1251358,Spain,Switzerland,-1,,22,UEFA
-2010,1,group_stage,H,1251358,Switzerland,Spain,1,,1,UEFA
-2010,2,group_stage,A,1251323,South Africa,Uruguay,-3,,18,CONMEBOL
-2010,2,group_stage,A,1251323,Uruguay,South Africa,3,,83,CAF
-2010,2,group_stage,B,1251342,Argentina,South Korea,3,,47,AFC
-2010,2,group_stage,B,1251342,South Korea,Argentina,-3,,6,CONMEBOL
-2010,2,group_stage,B,1251341,Greece,Nigeria,1,,21,CAF
-2010,2,group_stage,B,1251341,Nigeria,Greece,-1,,12,UEFA
-2010,2,group_stage,A,1251324,France,Mexico,-2,,17,CONCACAF
-2010,2,group_stage,A,1251324,Mexico,France,2,,9,UEFA
-2010,2,group_stage,D,1251333,Germany,Serbia,-1,,15,UEFA
-2010,2,group_stage,D,1251333,Serbia,Germany,1,,5,UEFA
-2010,2,group_stage,C,1251330,Slovenia,USA,0,,14,CONCACAF
-2010,2,group_stage,C,1251330,USA,Slovenia,0,,25,UEFA
-2010,2,group_stage,C,1251332,England,Algeria,0,,28,CAF
-2010,2,group_stage,C,1251332,Algeria,England,0,,7,UEFA
-2010,2,group_stage,E,1251347,Netherlands,Japan,1,,45,AFC
-2010,2,group_stage,E,1251347,Japan,Netherlands,-1,,3,UEFA
-2010,2,group_stage,D,1251337,Ghana,Australia,0,,20,AFC
-2010,2,group_stage,D,1251337,Australia,Ghana,0,,33,CAF
-2010,2,group_stage,E,1251348,Cameroon,Denmark,-1,,26,UEFA
-2010,2,group_stage,E,1251348,Denmark,Cameroon,1,,19,CAF
-2010,2,group_stage,F,1251363,Slovakia,Paraguay,-2,,30,CONMEBOL
-2010,2,group_stage,F,1251363,Paraguay,Slovakia,2,,37,UEFA
-2010,2,group_stage,F,1251366,Italy,New Zealand,0,,78,OFC
-2010,2,group_stage,F,1251366,New Zealand,Italy,0,,4,UEFA
-2010,2,group_stage,G,1251353,Brazil,Ivory Coast,2,,25,CAF
-2010,2,group_stage,G,1251353,Ivory Coast,Brazil,-2,,2,CONMEBOL
-2010,2,group_stage,G,1251354,Portugal,North Korea,7,,105,AFC
-2010,2,group_stage,G,1251354,North Korea,Portugal,-7,,8,UEFA
-2010,2,group_stage,H,1251359,Chile,Switzerland,1,,22,UEFA
-2010,2,group_stage,H,1251359,Switzerland,Chile,-1,,16,CONMEBOL
-2010,2,group_stage,H,1251361,Spain,Honduras,2,,38,CONCACAF
-2010,2,group_stage,H,1251361,Honduras,Spain,-2,,1,UEFA
-2010,3,group_stage,A,1251326,France,South Africa,-1,,83,CAF
-2010,3,group_stage,A,1251326,South Africa,France,1,,9,UEFA
-2010,3,group_stage,A,1251325,Mexico,Uruguay,-1,,18,CONMEBOL
-2010,3,group_stage,A,1251325,Uruguay,Mexico,1,,17,CONCACAF
-2010,3,group_stage,B,1251346,Greece,Argentina,-2,,6,CONMEBOL
-2010,3,group_stage,B,1251346,Argentina,Greece,2,,12,UEFA
-2010,3,group_stage,B,1251344,Nigeria,South Korea,0,,47,AFC
-2010,3,group_stage,B,1251344,South Korea,Nigeria,0,,21,CAF
-2010,3,group_stage,C,1251335,Slovenia,England,-1,,7,UEFA
-2010,3,group_stage,C,1251335,England,Slovenia,1,,25,UEFA
-2010,3,group_stage,C,1251336,USA,Algeria,1,,28,CAF
-2010,3,group_stage,C,1251336,Algeria,USA,-1,,14,CONCACAF
-2010,3,group_stage,D,1251340,Australia,Serbia,1,,15,UEFA
-2010,3,group_stage,D,1251340,Serbia,Australia,-1,,20,AFC
-2010,3,group_stage,D,1251339,Ghana,Germany,-1,,5,UEFA
-2010,3,group_stage,D,1251339,Germany,Ghana,1,,33,CAF
-2010,3,group_stage,F,1251368,Paraguay,New Zealand,0,,78,OFC
-2010,3,group_stage,F,1251368,New Zealand,Paraguay,0,,30,CONMEBOL
-2010,3,group_stage,F,1251367,Slovakia,Italy,1,,4,UEFA
-2010,3,group_stage,F,1251367,Italy,Slovakia,-1,,37,UEFA
-2010,3,group_stage,E,1251350,Cameroon,Netherlands,-1,,3,UEFA
-2010,3,group_stage,E,1251350,Netherlands,Cameroon,1,,19,CAF
-2010,3,group_stage,E,1251349,Denmark,Japan,-2,,45,AFC
-2010,3,group_stage,E,1251349,Japan,Denmark,2,,26,UEFA
-2010,3,group_stage,G,1251356,North Korea,Ivory Coast,-3,,25,CAF
-2010,3,group_stage,G,1251356,Ivory Coast,North Korea,3,,105,AFC
-2010,3,group_stage,G,1251355,Portugal,Brazil,0,,2,CONMEBOL
-2010,3,group_stage,G,1251355,Brazil,Portugal,0,,8,UEFA
-2010,3,group_stage,H,1251364,Chile,Spain,-1,,1,UEFA
-2010,3,group_stage,H,1251364,Spain,Chile,1,,16,CONMEBOL
-2010,3,group_stage,H,1251365,Switzerland,Honduras,0,,38,CONCACAF
-2010,3,group_stage,H,1251365,Honduras,Switzerland,0,,22,UEFA
-2010,4,round_of_16,,1355384,Uruguay,South Korea,1,,47,AFC
-2010,4,round_of_16,,1355384,South Korea,Uruguay,-1,,18,CONMEBOL
-2010,4,round_of_16,,1355385,USA,Ghana,-1,,33,CAF
-2010,4,round_of_16,,1355385,Ghana,USA,1,,14,CONCACAF
-2010,4,round_of_16,,1355388,Netherlands,Slovakia,1,,37,UEFA
-2010,4,round_of_16,,1355388,Slovakia,Netherlands,-1,,3,UEFA
-2010,4,round_of_16,,1355389,Brazil,Chile,3,,16,CONMEBOL
-2010,4,round_of_16,,1355389,Chile,Brazil,-3,,2,CONMEBOL
-2010,4,round_of_16,,1355387,Argentina,Mexico,2,,17,CONCACAF
-2010,4,round_of_16,,1355387,Mexico,Argentina,-2,,6,CONMEBOL
-2010,4,round_of_16,,1355386,Germany,England,3,,7,UEFA
-2010,4,round_of_16,,1355386,England,Germany,-3,,5,UEFA
-2010,4,round_of_16,,1355390,Paraguay,Japan,1,,45,AFC
-2010,4,round_of_16,,1355390,Japan,Paraguay,-1,,30,CONMEBOL
-2010,4,round_of_16,,1355391,Spain,Portugal,1,,8,UEFA
-2010,4,round_of_16,,1355391,Portugal,Spain,-1,,1,UEFA
-2010,3,quarter_final,,1355393,Uruguay,Ghana,1,,33,CAF
-2010,3,quarter_final,,1355393,Ghana,Uruguay,-1,,18,CONMEBOL
-2010,3,quarter_final,,1355392,Netherlands,Brazil,1,,2,CONMEBOL
-2010,3,quarter_final,,1355392,Brazil,Netherlands,-1,,3,UEFA
-2010,3,quarter_final,,1355394,Argentina,Germany,-4,,5,UEFA
-2010,3,quarter_final,,1355394,Germany,Argentina,4,,6,CONMEBOL
-2010,3,quarter_final,,1355395,Paraguay,Spain,-1,,1,UEFA
-2010,3,quarter_final,,1355395,Spain,Paraguay,1,,30,CONMEBOL
-2010,2,semi_final,,1355396,Uruguay,Netherlands,-1,,3,UEFA
-2010,2,semi_final,,1355396,Netherlands,Uruguay,1,,18,CONMEBOL
-2010,2,semi_final,,1355397,Germany,Spain,-1,,1,UEFA
-2010,2,semi_final,,1355397,Spain,Germany,1,,5,UEFA
-2010,1,final,,1355398,Netherlands,Spain,-1,,1,UEFA
-2010,1,final,,1355398,Spain,Netherlands,1,,3,UEFA
-2010,20,third_place,,1355440,Uruguay,Germany,-1,,5,UEFA
-2010,20,third_place,,1355440,Germany,Uruguay,1,,18,CONMEBOL
-2014,1,group_stage,A,4768710,Brazil,Croatia,2,,19,UEFA
-2014,1,group_stage,A,4768710,Croatia,Brazil,-2,,10,CONMEBOL
-2014,1,group_stage,A,4768712,Mexico,Cameroon,1,,56,CAF
-2014,1,group_stage,A,4768712,Cameroon,Mexico,-1,,20,CONCACAF
-2014,1,group_stage,B,4768722,Spain,Netherlands,-4,,9,UEFA
-2014,1,group_stage,B,4768722,Netherlands,Spain,4,,1,UEFA
-2014,1,group_stage,B,4768724,Chile,Australia,2,,59,AFC
-2014,1,group_stage,B,4768724,Australia,Chile,-2,,11,CONMEBOL
-2014,1,group_stage,C,4768734,Colombia,Greece,3,,12,UEFA
-2014,1,group_stage,C,4768734,Greece,Colombia,-3,,4,CONMEBOL
-2014,1,group_stage,D,4768746,Uruguay,Costa Rica,-2,,28,CONCACAF
-2014,1,group_stage,D,4768746,Costa Rica,Uruguay,2,,6,CONMEBOL
-2014,1,group_stage,D,4768748,England,Italy,-1,,8,UEFA
-2014,1,group_stage,D,4768748,Italy,England,1,,10,UEFA
-2014,1,group_stage,C,4768736,Ivory Coast,Japan,1,,46,AFC
-2014,1,group_stage,C,4768736,Japan,Ivory Coast,-1,,18,CAF
-2014,1,group_stage,E,4768758,Switzerland,Ecuador,1,,22,CONMEBOL
-2014,1,group_stage,E,4768758,Ecuador,Switzerland,-1,,7,UEFA
-2014,1,group_stage,E,4768760,France,Honduras,3,,33,CONCACAF
-2014,1,group_stage,E,4768760,Honduras,France,-3,,17,UEFA
-2014,1,group_stage,F,4768770,Argentina,Bosnia & Herzegovina,1,,50,UEFA
-2014,1,group_stage,F,4768770,Bosnia & Herzegovina,Argentina,-1,,3,CONMEBOL
-2014,1,group_stage,G,4768782,Germany,Portugal,4,,4,UEFA
-2014,1,group_stage,G,4768782,Portugal,Germany,-4,,2,UEFA
-2014,1,group_stage,F,4768772,Iran,Nigeria,0,,44,CAF
-2014,1,group_stage,F,4768772,Nigeria,Iran,0,,43,AFC
-2014,1,group_stage,G,4768784,Ghana,USA,-1,,14,CONCACAF
-2014,1,group_stage,G,4768784,USA,Ghana,1,,37,CAF
-2014,1,group_stage,H,4768794,Belgium,Algeria,1,,25,CAF
-2014,1,group_stage,H,4768794,Algeria,Belgium,-1,,5,UEFA
-2014,1,group_stage,H,4768796,Russia,South Korea,0,,57,AFC
-2014,1,group_stage,H,4768796,South Korea,Russia,0,,19,UEFA
-2014,2,group_stage,A,4768714,Brazil,Mexico,0,,20,CONCACAF
-2014,2,group_stage,A,4768714,Mexico,Brazil,0,,10,CONMEBOL
-2014,2,group_stage,B,4768728,Australia,Netherlands,-1,,9,UEFA
-2014,2,group_stage,B,4768728,Netherlands,Australia,1,,59,AFC
-2014,2,group_stage,B,4768726,Spain,Chile,-2,,11,CONMEBOL
-2014,2,group_stage,B,4768726,Chile,Spain,2,,1,UEFA
-2014,2,group_stage,A,4768716,Cameroon,Croatia,-4,,19,UEFA
-2014,2,group_stage,A,4768716,Croatia,Cameroon,4,,56,CAF
-2014,2,group_stage,C,4768738,Colombia,Ivory Coast,1,,18,CAF
-2014,2,group_stage,C,4768738,Ivory Coast,Colombia,-1,,4,CONMEBOL
-2014,2,group_stage,D,4768750,Uruguay,England,1,,10,UEFA
-2014,2,group_stage,D,4768750,England,Uruguay,-1,,6,CONMEBOL
-2014,2,group_stage,C,4768740,Japan,Greece,0,,12,UEFA
-2014,2,group_stage,C,4768740,Greece,Japan,0,,46,AFC
-2014,2,group_stage,D,4768752,Italy,Costa Rica,-1,,28,CONCACAF
-2014,2,group_stage,D,4768752,Costa Rica,Italy,1,,8,UEFA
-2014,2,group_stage,E,4768762,Switzerland,France,-3,,17,UEFA
-2014,2,group_stage,E,4768762,France,Switzerland,3,,7,UEFA
-2014,2,group_stage,E,4768764,Honduras,Ecuador,-1,,22,CONMEBOL
-2014,2,group_stage,E,4768764,Ecuador,Honduras,1,,33,CONCACAF
-2014,2,group_stage,F,4768774,Argentina,Iran,1,,43,AFC
-2014,2,group_stage,F,4768774,Iran,Argentina,-1,,3,CONMEBOL
-2014,2,group_stage,G,4768786,Germany,Ghana,0,,37,CAF
-2014,2,group_stage,G,4768786,Ghana,Germany,0,,2,UEFA
-2014,2,group_stage,F,4768776,Nigeria,Bosnia & Herzegovina,1,,50,UEFA
-2014,2,group_stage,F,4768776,Bosnia & Herzegovina,Nigeria,-1,,44,CAF
-2014,2,group_stage,H,4768798,Belgium,Russia,1,,19,UEFA
-2014,2,group_stage,H,4768798,Russia,Belgium,-1,,5,UEFA
-2014,2,group_stage,H,4768800,South Korea,Algeria,-2,,25,CAF
-2014,2,group_stage,H,4768800,Algeria,South Korea,2,,57,AFC
-2014,2,group_stage,G,4768788,USA,Portugal,0,,4,UEFA
-2014,2,group_stage,G,4768788,Portugal,USA,0,,14,CONCACAF
-2014,3,group_stage,B,4768730,Australia,Spain,-3,,1,UEFA
-2014,3,group_stage,B,4768730,Spain,Australia,3,,59,AFC
-2014,3,group_stage,B,4768732,Netherlands,Chile,2,,11,CONMEBOL
-2014,3,group_stage,B,4768732,Chile,Netherlands,-2,,9,UEFA
-2014,3,group_stage,A,4768718,Cameroon,Brazil,-3,,10,CONMEBOL
-2014,3,group_stage,A,4768718,Brazil,Cameroon,3,,56,CAF
-2014,3,group_stage,A,4768720,Croatia,Mexico,-2,,20,CONCACAF
-2014,3,group_stage,A,4768720,Mexico,Croatia,2,,19,UEFA
-2014,3,group_stage,D,4768756,Costa Rica,England,0,,10,UEFA
-2014,3,group_stage,D,4768756,England,Costa Rica,0,,28,CONCACAF
-2014,3,group_stage,D,4768754,Italy,Uruguay,-1,,6,CONMEBOL
-2014,3,group_stage,D,4768754,Uruguay,Italy,1,,8,UEFA
-2014,3,group_stage,C,4768744,Greece,Ivory Coast,1,,18,CAF
-2014,3,group_stage,C,4768744,Ivory Coast,Greece,-1,,12,UEFA
-2014,3,group_stage,C,4768742,Japan,Colombia,-3,,4,CONMEBOL
-2014,3,group_stage,C,4768742,Colombia,Japan,3,,46,AFC
-2014,3,group_stage,F,4768780,Bosnia & Herzegovina,Iran,2,,43,AFC
-2014,3,group_stage,F,4768780,Iran,Bosnia & Herzegovina,-2,,50,UEFA
-2014,3,group_stage,F,4768778,Nigeria,Argentina,-1,,3,CONMEBOL
-2014,3,group_stage,F,4768778,Argentina,Nigeria,1,,44,CAF
-2014,3,group_stage,E,4768768,Ecuador,France,0,,17,UEFA
-2014,3,group_stage,E,4768768,France,Ecuador,0,,22,CONMEBOL
-2014,3,group_stage,E,4768766,Honduras,Switzerland,-3,,7,UEFA
-2014,3,group_stage,E,4768766,Switzerland,Honduras,3,,33,CONCACAF
-2014,3,group_stage,G,4768792,Portugal,Ghana,1,,37,CAF
-2014,3,group_stage,G,4768792,Ghana,Portugal,-1,,4,UEFA
-2014,3,group_stage,G,4768790,USA,Germany,-1,,2,UEFA
-2014,3,group_stage,G,4768790,Germany,USA,1,,14,CONCACAF
-2014,3,group_stage,H,4768804,Algeria,Russia,0,,19,UEFA
-2014,3,group_stage,H,4768804,Russia,Algeria,0,,25,CAF
-2014,3,group_stage,H,4768802,South Korea,Belgium,-1,,5,UEFA
-2014,3,group_stage,H,4768802,Belgium,South Korea,1,,57,AFC
-2014,4,round_of_16,,4768142,Brazil,Chile,1,,11,CONMEBOL
-2014,4,round_of_16,,4768142,Chile,Brazil,-1,,10,CONMEBOL
-2014,4,round_of_16,,4768146,Colombia,Uruguay,2,,6,CONMEBOL
-2014,4,round_of_16,,4768146,Uruguay,Colombia,-2,,4,CONMEBOL
-2014,4,round_of_16,,4768152,France,Nigeria,2,,44,CAF
-2014,4,round_of_16,,4768152,Nigeria,France,-2,,17,UEFA
-2014,4,round_of_16,,4768154,Germany,Algeria,1,,25,CAF
-2014,4,round_of_16,,4768154,Algeria,Germany,-1,,2,UEFA
-2014,4,round_of_16,,4768148,Netherlands,Mexico,1,,20,CONCACAF
-2014,4,round_of_16,,4768148,Mexico,Netherlands,-1,,9,UEFA
-2014,4,round_of_16,,4768150,Costa Rica,Greece,1,,12,UEFA
-2014,4,round_of_16,,4768150,Greece,Costa Rica,-1,,28,CONCACAF
-2014,4,round_of_16,,4768156,Argentina,Switzerland,1,,7,UEFA
-2014,4,round_of_16,,4768156,Switzerland,Argentina,-1,,3,CONMEBOL
-2014,4,round_of_16,,4768158,Belgium,USA,1,,14,CONCACAF
-2014,4,round_of_16,,4768158,USA,Belgium,-1,,5,UEFA
-2014,3,quarter_final,,4768164,Brazil,Colombia,1,,4,CONMEBOL
-2014,3,quarter_final,,4768164,Colombia,Brazil,-1,,10,CONMEBOL
-2014,3,quarter_final,,4768166,France,Germany,-1,,2,UEFA
-2014,3,quarter_final,,4768166,Germany,France,1,,17,UEFA
-2014,3,quarter_final,,4768168,Netherlands,Costa Rica,1,,28,CONCACAF
-2014,3,quarter_final,,4768168,Costa Rica,Netherlands,-1,,9,UEFA
-2014,3,quarter_final,,4768170,Argentina,Belgium,1,,5,UEFA
-2014,3,quarter_final,,4768170,Belgium,Argentina,-1,,3,CONMEBOL
-2014,2,semi_final,,4768172,Brazil,Germany,-6,,2,UEFA
-2014,2,semi_final,,4768172,Germany,Brazil,6,,10,CONMEBOL
-2014,2,semi_final,,4768174,Netherlands,Argentina,-1,,3,CONMEBOL
-2014,2,semi_final,,4768174,Argentina,Netherlands,1,,9,UEFA
-2014,1,final,,4768178,Germany,Argentina,1,,3,CONMEBOL
-2014,1,final,,4768178,Argentina,Germany,-1,,2,UEFA
-2014,20,third_place,,4768176,Brazil,Netherlands,-3,,9,UEFA
-2014,20,third_place,,4768176,Netherlands,Brazil,3,,10,CONMEBOL
-2018,1,group_stage,A,7659862,Russia,Saudi Arabia,5,,67,AFC
-2018,1,group_stage,A,7659862,Saudi Arabia,Russia,-5,,66,UEFA
-2018,1,group_stage,A,7659867,Egypt,Uruguay,-1,,17,CONMEBOL
-2018,1,group_stage,A,7659867,Uruguay,Egypt,1,,45,CAF
-2018,1,group_stage,B,7659865,Morocco,Iran,-1,,37,AFC
-2018,1,group_stage,B,7659865,Iran,Morocco,1,,42,CAF
-2018,1,group_stage,B,7659859,Portugal,Spain,0,,10,UEFA
-2018,1,group_stage,B,7659859,Spain,Portugal,0,,4,UEFA
-2018,1,group_stage,C,7659860,France,Australia,1,,40,AFC
-2018,1,group_stage,C,7659860,Australia,France,-1,,7,UEFA
-2018,1,group_stage,D,7659864,Argentina,Iceland,0,,22,UEFA
-2018,1,group_stage,D,7659864,Iceland,Argentina,0,,5,CONMEBOL
-2018,1,group_stage,C,7659861,Peru,Denmark,-1,,12,UEFA
-2018,1,group_stage,C,7659861,Denmark,Peru,1,,11,CONMEBOL
-2018,1,group_stage,D,7659869,Croatia,Nigeria,2,,48,CAF
-2018,1,group_stage,D,7659869,Nigeria,Croatia,-2,,18,UEFA
-2018,1,group_stage,E,7659866,Costa Rica,Serbia,-1,,38,UEFA
-2018,1,group_stage,E,7659866,Serbia,Costa Rica,1,,23,CONCACAF
-2018,1,group_stage,F,7659868,Germany,Mexico,-1,,15,CONCACAF
-2018,1,group_stage,F,7659868,Mexico,Germany,1,,1,UEFA
-2018,1,group_stage,E,7659863,Brazil,Switzerland,0,,6,UEFA
-2018,1,group_stage,E,7659863,Switzerland,Brazil,0,,2,CONMEBOL
-2018,1,group_stage,F,7659878,Sweden,South Korea,1,,62,AFC
-2018,1,group_stage,F,7659878,South Korea,Sweden,-1,,24,UEFA
-2018,1,group_stage,G,7659886,Belgium,Panama,3,,55,CONCACAF
-2018,1,group_stage,G,7659886,Panama,Belgium,-3,,3,UEFA
-2018,1,group_stage,G,7659882,Tunisia,England,-1,,13,UEFA
-2018,1,group_stage,G,7659882,England,Tunisia,1,,50,CAF
-2018,1,group_stage,H,7659875,Colombia,Japan,-1,,61,AFC
-2018,1,group_stage,H,7659875,Japan,Colombia,1,,16,CONMEBOL
-2018,1,group_stage,H,7659876,Poland,Senegal,-1,,27,CAF
-2018,1,group_stage,H,7659876,Senegal,Poland,1,,8,UEFA
-2018,2,group_stage,A,7659899,Russia,Egypt,2,,45,CAF
-2018,2,group_stage,A,7659899,Egypt,Russia,-2,,66,UEFA
-2018,2,group_stage,B,7659877,Portugal,Morocco,1,,42,CAF
-2018,2,group_stage,B,7659877,Morocco,Portugal,-1,,4,UEFA
-2018,2,group_stage,A,7659872,Uruguay,Saudi Arabia,1,,67,AFC
-2018,2,group_stage,A,7659872,Saudi Arabia,Uruguay,-1,,17,CONMEBOL
-2018,2,group_stage,B,7659871,Iran,Spain,-1,,10,UEFA
-2018,2,group_stage,B,7659871,Spain,Iran,1,,37,AFC
-2018,2,group_stage,C,7659874,Denmark,Australia,0,,40,AFC
-2018,2,group_stage,C,7659874,Australia,Denmark,0,,12,UEFA
-2018,2,group_stage,C,7659870,France,Peru,1,,11,CONMEBOL
-2018,2,group_stage,C,7659870,Peru,France,-1,,7,UEFA
-2018,2,group_stage,D,7659880,Argentina,Croatia,-3,,18,UEFA
-2018,2,group_stage,D,7659880,Croatia,Argentina,3,,5,CONMEBOL
-2018,2,group_stage,E,7659898,Brazil,Costa Rica,2,,23,CONCACAF
-2018,2,group_stage,E,7659898,Costa Rica,Brazil,-2,,2,CONMEBOL
-2018,2,group_stage,D,7659883,Nigeria,Iceland,2,,22,UEFA
-2018,2,group_stage,D,7659883,Iceland,Nigeria,-2,,48,CAF
-2018,2,group_stage,E,7659881,Serbia,Switzerland,-1,,6,UEFA
-2018,2,group_stage,E,7659881,Switzerland,Serbia,1,,38,UEFA
-2018,2,group_stage,G,7659884,Belgium,Tunisia,3,,50,CAF
-2018,2,group_stage,G,7659884,Tunisia,Belgium,-3,,3,UEFA
-2018,2,group_stage,F,7659888,South Korea,Mexico,-1,,15,CONCACAF
-2018,2,group_stage,F,7659888,Mexico,South Korea,1,,62,AFC
-2018,2,group_stage,F,7659900,Germany,Sweden,1,,24,UEFA
-2018,2,group_stage,F,7659900,Sweden,Germany,-1,,1,UEFA
-2018,2,group_stage,G,7659885,England,Panama,5,,55,CONCACAF
-2018,2,group_stage,G,7659885,Panama,England,-5,,13,UEFA
-2018,2,group_stage,H,7659873,Japan,Senegal,0,,27,CAF
-2018,2,group_stage,H,7659873,Senegal,Japan,0,,61,AFC
-2018,2,group_stage,H,7659879,Poland,Colombia,-3,,16,CONMEBOL
-2018,2,group_stage,H,7659879,Colombia,Poland,3,,8,UEFA
-2018,3,group_stage,A,7659896,Saudi Arabia,Egypt,1,,45,CAF
-2018,3,group_stage,A,7659896,Egypt,Saudi Arabia,-1,,67,AFC
-2018,3,group_stage,A,7659887,Uruguay,Russia,3,,66,UEFA
-2018,3,group_stage,A,7659887,Russia,Uruguay,-3,,17,CONMEBOL
-2018,3,group_stage,B,7659889,Iran,Portugal,0,,4,UEFA
-2018,3,group_stage,B,7659889,Portugal,Iran,0,,37,AFC
-2018,3,group_stage,B,7659892,Spain,Morocco,0,,42,CAF
-2018,3,group_stage,B,7659892,Morocco,Spain,0,,10,UEFA
-2018,3,group_stage,C,7659894,Australia,Peru,-2,,11,CONMEBOL
-2018,3,group_stage,C,7659894,Peru,Australia,2,,40,AFC
-2018,3,group_stage,C,7659891,Denmark,France,0,,7,UEFA
-2018,3,group_stage,C,7659891,France,Denmark,0,,12,UEFA
-2018,3,group_stage,D,7659906,Iceland,Croatia,-1,,18,UEFA
-2018,3,group_stage,D,7659906,Croatia,Iceland,1,,22,UEFA
-2018,3,group_stage,D,7659903,Nigeria,Argentina,-1,,5,CONMEBOL
-2018,3,group_stage,D,7659903,Argentina,Nigeria,1,,48,CAF
-2018,3,group_stage,F,7659905,Mexico,Sweden,-3,,24,UEFA
-2018,3,group_stage,F,7659905,Sweden,Mexico,3,,15,CONCACAF
-2018,3,group_stage,F,7659904,South Korea,Germany,2,,1,UEFA
-2018,3,group_stage,F,7659904,Germany,South Korea,-2,,62,AFC
-2018,3,group_stage,E,7659890,Serbia,Brazil,-2,,2,CONMEBOL
-2018,3,group_stage,E,7659890,Brazil,Serbia,2,,38,UEFA
-2018,3,group_stage,E,7659893,Switzerland,Costa Rica,0,,23,CONCACAF
-2018,3,group_stage,E,7659893,Costa Rica,Switzerland,0,,6,UEFA
-2018,3,group_stage,H,7659895,Japan,Poland,-1,,8,UEFA
-2018,3,group_stage,H,7659895,Poland,Japan,1,,61,AFC
-2018,3,group_stage,H,7659897,Senegal,Colombia,-1,,16,CONMEBOL
-2018,3,group_stage,H,7659897,Colombia,Senegal,1,,27,CAF
-2018,3,group_stage,G,7659902,England,Belgium,-1,,3,UEFA
-2018,3,group_stage,G,7659902,Belgium,England,1,,13,UEFA
-2018,3,group_stage,G,7659901,Panama,Tunisia,-1,,50,CAF
-2018,3,group_stage,G,7659901,Tunisia,Panama,1,,55,CONCACAF
-2018,4,round_of_16,,7665827,Uruguay,Portugal,1,,4,UEFA
-2018,4,round_of_16,,7665827,Portugal,Uruguay,-1,,17,CONMEBOL
-2018,4,round_of_16,,7665828,France,Argentina,1,,5,CONMEBOL
-2018,4,round_of_16,,7665828,Argentina,France,-1,,7,UEFA
-2018,4,round_of_16,,7665825,Brazil,Mexico,2,,15,CONCACAF
-2018,4,round_of_16,,7665825,Mexico,Brazil,-2,,2,CONMEBOL
-2018,4,round_of_16,,7665826,Belgium,Japan,1,,61,AFC
-2018,4,round_of_16,,7665826,Japan,Belgium,-1,,3,UEFA
-2018,4,round_of_16,,7665832,Spain,Russia,-1,,66,UEFA
-2018,4,round_of_16,,7665832,Russia,Spain,1,,10,UEFA
-2018,4,round_of_16,,7665829,Croatia,Denmark,1,,12,UEFA
-2018,4,round_of_16,,7665829,Denmark,Croatia,-1,,18,UEFA
-2018,4,round_of_16,,7665831,Sweden,Switzerland,1,,6,UEFA
-2018,4,round_of_16,,7665831,Switzerland,Sweden,-1,,24,UEFA
-2018,4,round_of_16,,7665830,Colombia,England,-1,,13,UEFA
-2018,4,round_of_16,,7665830,England,Colombia,1,,16,CONMEBOL
-2018,3,quarter_final,,7693129,Uruguay,France,-2,,7,UEFA
-2018,3,quarter_final,,7693129,France,Uruguay,2,,17,CONMEBOL
-2018,3,quarter_final,,7693128,Brazil,Belgium,-1,,3,UEFA
-2018,3,quarter_final,,7693128,Belgium,Brazil,1,,2,CONMEBOL
-2018,3,quarter_final,,7693127,Russia,Croatia,-1,,18,UEFA
-2018,3,quarter_final,,7693127,Croatia,Russia,1,,66,UEFA
-2018,3,quarter_final,,7693130,Sweden,England,-2,,13,UEFA
-2018,3,quarter_final,,7693130,England,Sweden,2,,24,UEFA
-2018,2,semi_final,,7693134,France,Belgium,1,,3,UEFA
-2018,2,semi_final,,7693134,Belgium,France,-1,,7,UEFA
-2018,2,semi_final,,7693132,Croatia,England,1,,13,UEFA
-2018,2,semi_final,,7693132,England,Croatia,-1,,18,UEFA
-2018,1,final,,7693131,France,Croatia,2,,18,UEFA
-2018,1,final,,7693131,Croatia,France,-2,,7,UEFA
-2018,50,third_place,,7693133,Belgium,England,2,,13,UEFA
-2018,50,third_place,,7693133,England,Belgium,-2,,3,UEFA
-2022,1,group_stage,A,10230541,Qatar,Ecuador,-2,,44,CONMEBOL
-2022,1,group_stage,A,10230541,Ecuador,Qatar,2,,51,AFC
-2022,1,group_stage,B,10230543,England,Iran,4,,20,AFC
-2022,1,group_stage,B,10230543,Iran,England,-4,,5,UEFA
-2022,1,group_stage,A,10230533,Senegal,Netherlands,-2,,8,UEFA
-2022,1,group_stage,A,10230533,Netherlands,Senegal,2,,18,CAF
-2022,1,group_stage,B,10230548,USA,Wales,0,,19,UEFA
-2022,1,group_stage,B,10230548,Wales,USA,0,,14,CONCACAF
-2022,1,group_stage,C,10230528,Argentina,Saudi Arabia,-1,,51,AFC
-2022,1,group_stage,C,10230528,Saudi Arabia,Argentina,1,,3,CONMEBOL
-2022,1,group_stage,D,10230576,Denmark,Tunisia,0,,30,CAF
-2022,1,group_stage,D,10230576,Tunisia,Denmark,0,,10,UEFA
-2022,1,group_stage,C,10230565,Mexico,Poland,0,,26,UEFA
-2022,1,group_stage,C,10230565,Poland,Mexico,0,,13,CONCACAF
-2022,1,group_stage,D,10230563,France,Australia,3,,38,AFC
-2022,1,group_stage,D,10230563,Australia,France,-3,,4,UEFA
-2022,1,group_stage,F,10230570,Morocco,Croatia,0,,15,UEFA
-2022,1,group_stage,F,10230570,Croatia,Morocco,0,,22,CAF
-2022,1,group_stage,E,10230562,Germany,Japan,-1,,24,AFC
-2022,1,group_stage,E,10230562,Japan,Germany,1,,11,UEFA
-2022,1,group_stage,E,10230571,Spain,Costa Rica,7,,31,CONCACAF
-2022,1,group_stage,E,10230571,Costa Rica,Spain,-7,,6,UEFA
-2022,1,group_stage,F,10230559,Belgium,Canada,1,,41,CONCACAF
-2022,1,group_stage,F,10230559,Canada,Belgium,-1,,2,UEFA
-2022,1,group_stage,G,10230569,Switzerland,Cameroon,1,,43,CAF
-2022,1,group_stage,G,10230569,Cameroon,Switzerland,-1,,15,UEFA
-2022,1,group_stage,H,10230530,Uruguay,South Korea,0,,28,AFC
-2022,1,group_stage,H,10230530,South Korea,Uruguay,0,,14,CONMEBOL
-2022,1,group_stage,H,10230534,Portugal,Ghana,1,,60,CAF
-2022,1,group_stage,H,10230534,Ghana,Portugal,-1,,7,UEFA
-2022,1,group_stage,G,10230567,Brazil,Serbia,2,,21,UEFA
-2022,1,group_stage,G,10230567,Serbia,Brazil,-2,,1,CONMEBOL
-2022,2,group_stage,B,10230556,Wales,Iran,-2,,20,AFC
-2022,2,group_stage,B,10230556,Iran,Wales,2,,19,UEFA
-2022,2,group_stage,A,10230537,Qatar,Senegal,-2,,18,CAF
-2022,2,group_stage,A,10230537,Senegal,Qatar,2,,51,AFC
-2022,2,group_stage,A,10230529,Netherlands,Ecuador,0,,44,CONMEBOL
-2022,2,group_stage,A,10230529,Ecuador,Netherlands,0,,8,UEFA
-2022,2,group_stage,B,10230557,England,USA,0,,14,CONCACAF
-2022,2,group_stage,B,10230557,USA,England,0,,5,UEFA
-2022,2,group_stage,D,10230574,Tunisia,Australia,-1,,38,AFC
-2022,2,group_stage,D,10230574,Australia,Tunisia,1,,30,CAF
-2022,2,group_stage,C,10230542,Poland,Saudi Arabia,2,,51,AFC
-2022,2,group_stage,C,10230542,Saudi Arabia,Poland,-2,,26,UEFA
-2022,2,group_stage,D,10230577,France,Denmark,1,,10,UEFA
-2022,2,group_stage,D,10230577,Denmark,France,-1,,4,UEFA
-2022,2,group_stage,C,10230540,Argentina,Mexico,2,,13,CONCACAF
-2022,2,group_stage,C,10230540,Mexico,Argentina,-2,,3,CONMEBOL
-2022,2,group_stage,E,10230564,Japan,Costa Rica,-1,,31,CONCACAF
-2022,2,group_stage,E,10230564,Costa Rica,Japan,1,,24,AFC
-2022,2,group_stage,F,10230545,Belgium,Morocco,-2,,22,CAF
-2022,2,group_stage,F,10230545,Morocco,Belgium,2,,2,UEFA
-2022,2,group_stage,F,10230550,Croatia,Canada,3,,41,CONCACAF
-2022,2,group_stage,F,10230550,Canada,Croatia,-3,,15,UEFA
-2022,2,group_stage,E,10230575,Spain,Germany,0,,11,UEFA
-2022,2,group_stage,E,10230575,Germany,Spain,0,,6,UEFA
-2022,2,group_stage,G,10230568,Cameroon,Serbia,0,,21,UEFA
-2022,2,group_stage,G,10230568,Serbia,Cameroon,0,,43,CAF
-2022,2,group_stage,H,10230552,South Korea,Ghana,-1,,60,CAF
-2022,2,group_stage,H,10230552,Ghana,South Korea,1,,28,AFC
-2022,2,group_stage,G,10230561,Brazil,Switzerland,1,,15,UEFA
-2022,2,group_stage,G,10230561,Switzerland,Brazil,-1,,1,CONMEBOL
-2022,2,group_stage,H,10230539,Portugal,Uruguay,2,,14,CONMEBOL
-2022,2,group_stage,H,10230539,Uruguay,Portugal,-2,,7,UEFA
-2022,3,group_stage,A,10230551,Ecuador,Senegal,-1,,18,CAF
-2022,3,group_stage,A,10230551,Senegal,Ecuador,1,,44,CONMEBOL
-2022,3,group_stage,A,10230538,Netherlands,Qatar,2,,51,AFC
-2022,3,group_stage,A,10230538,Qatar,Netherlands,-2,,8,UEFA
-2022,3,group_stage,B,10230536,Iran,USA,-1,,14,CONCACAF
-2022,3,group_stage,B,10230536,USA,Iran,1,,20,AFC
-2022,3,group_stage,B,10230532,Wales,England,-3,,5,UEFA
-2022,3,group_stage,B,10230532,England,Wales,3,,19,UEFA
-2022,3,group_stage,D,10230560,Australia,Denmark,1,,10,UEFA
-2022,3,group_stage,D,10230560,Denmark,Australia,-1,,38,AFC
-2022,3,group_stage,D,10230555,Tunisia,France,1,,4,UEFA
-2022,3,group_stage,D,10230555,France,Tunisia,-1,,30,CAF
-2022,3,group_stage,C,10230547,Poland,Argentina,-2,,3,CONMEBOL
-2022,3,group_stage,C,10230547,Argentina,Poland,2,,26,UEFA
-2022,3,group_stage,C,10230546,Saudi Arabia,Mexico,-1,,13,CONCACAF
-2022,3,group_stage,C,10230546,Mexico,Saudi Arabia,1,,51,AFC
-2022,3,group_stage,F,10230531,Canada,Morocco,-1,,22,CAF
-2022,3,group_stage,F,10230531,Morocco,Canada,1,,41,CONCACAF
-2022,3,group_stage,F,10230535,Croatia,Belgium,0,,2,UEFA
-2022,3,group_stage,F,10230535,Belgium,Croatia,0,,15,UEFA
-2022,3,group_stage,E,10230573,Costa Rica,Germany,-2,,11,UEFA
-2022,3,group_stage,E,10230573,Germany,Costa Rica,2,,31,CONCACAF
-2022,3,group_stage,E,10230554,Japan,Spain,1,,6,UEFA
-2022,3,group_stage,E,10230554,Spain,Japan,-1,,24,AFC
-2022,3,group_stage,H,10230549,Ghana,Uruguay,-2,,14,CONMEBOL
-2022,3,group_stage,H,10230549,Uruguay,Ghana,2,,60,CAF
-2022,3,group_stage,H,10230544,South Korea,Portugal,1,,7,UEFA
-2022,3,group_stage,H,10230544,Portugal,South Korea,-1,,28,AFC
-2022,3,group_stage,G,10230553,Cameroon,Brazil,1,,1,CONMEBOL
-2022,3,group_stage,G,10230553,Brazil,Cameroon,-1,,43,CAF
-2022,3,group_stage,G,10230558,Serbia,Switzerland,-1,,15,UEFA
-2022,3,group_stage,G,10230558,Switzerland,Serbia,1,,21,UEFA
-2022,5,round_of_16,,10230638,Netherlands,USA,2,,14,CONCACAF
-2022,5,round_of_16,,10230638,USA,Netherlands,-2,,8,UEFA
-2022,5,round_of_16,,10230641,Argentina,Australia,1,,38,AFC
-2022,5,round_of_16,,10230641,Australia,Argentina,-1,,3,CONMEBOL
-2022,5,round_of_16,,10230582,Japan,Croatia,-1,,15,UEFA
-2022,5,round_of_16,,10230582,Croatia,Japan,1,,24,AFC
-2022,5,round_of_16,,10230633,Brazil,South Korea,3,,28,AFC
-2022,5,round_of_16,,10230633,South Korea,Brazil,-3,,1,CONMEBOL
-2022,5,round_of_16,,10230632,England,Senegal,3,,18,CAF
-2022,5,round_of_16,,10230632,Senegal,England,-3,,5,UEFA
-2022,5,round_of_16,,10230579,France,Poland,2,,26,UEFA
-2022,5,round_of_16,,10230579,Poland,France,-2,,4,UEFA
-2022,5,round_of_16,,10230636,Morocco,Spain,1,,6,UEFA
-2022,5,round_of_16,,10230636,Spain,Morocco,-1,,22,CAF
-2022,5,round_of_16,,10230631,Portugal,Switzerland,5,,15,UEFA
-2022,5,round_of_16,,10230631,Switzerland,Portugal,-5,,7,UEFA
-2022,27,quarter_final,,10230639,Netherlands,Argentina,-1,,3,CONMEBOL
-2022,27,quarter_final,,10230639,Argentina,Netherlands,1,,8,UEFA
-2022,27,quarter_final,,10230640,Croatia,Brazil,1,,1,CONMEBOL
-2022,27,quarter_final,,10230640,Brazil,Croatia,-1,,15,UEFA
-2022,27,quarter_final,,10230634,England,France,-1,,4,UEFA
-2022,27,quarter_final,,10230634,France,England,1,,5,UEFA
-2022,27,quarter_final,,10230581,Morocco,Portugal,1,,7,UEFA
-2022,27,quarter_final,,10230581,Portugal,Morocco,-1,,22,CAF
-2022,28,semi_final,,10230580,Argentina,Croatia,3,,15,UEFA
-2022,28,semi_final,,10230580,Croatia,Argentina,-3,,3,CONMEBOL
-2022,28,semi_final,,10230578,France,Morocco,2,,22,CAF
-2022,28,semi_final,,10230578,Morocco,France,-2,,4,UEFA
-2022,29,final,,10230635,Argentina,France,1,,4,UEFA
-2022,29,final,,10230635,France,Argentina,-1,,3,CONMEBOL
-2022,50,third_place,,10230637,Croatia,Morocco,1,,22,CAF
-2022,50,third_place,,10230637,Morocco,Croatia,-1,,15,UEFA
-2026,1,group_stage,A,15186710,Mexico,South Africa,2,2,54,CAF
-2026,1,group_stage,A,15186710,South Africa,Mexico,-2,0,10,CONCACAF
-2026,1,group_stage,A,15186720,South Korea,Czech Republic,1,2,48,UEFA
-2026,1,group_stage,A,15186720,Czech Republic,South Korea,-1,1,32,AFC
-2026,1,group_stage,B,15186836,Canada,Bosnia and Herzegovina,0,1,61,UEFA
-2026,1,group_stage,B,15186836,Bosnia and Herzegovina,Canada,0,1,30,CONCACAF
-2026,1,group_stage,D,15186873,USA,Paraguay,3,4,34,CONMEBOL
-2026,1,group_stage,D,15186873,Paraguay,USA,-3,1,16,CONCACAF
-2026,1,group_stage,B,15186526,Qatar,Switzerland,0,1,14,UEFA
-2026,1,group_stage,B,15186526,Switzerland,Qatar,0,1,59,AFC
-2026,1,group_stage,C,15186850,Brazil,Morocco,0,1,6,CAF
-2026,1,group_stage,C,15186850,Morocco,Brazil,0,1,5,CONMEBOL
-2026,1,group_stage,C,15186853,Haiti,Scotland,-1,0,42,UEFA
-2026,1,group_stage,C,15186853,Scotland,Haiti,1,1,88,CONCACAF
-2026,1,group_stage,D,15186874,Australia,Turkey,2,2,27,UEFA
-2026,1,group_stage,D,15186874,Turkey,Australia,-2,0,28,AFC
-2026,1,group_stage,E,15186899,Germany,Curacao,6,7,82,CONCACAF
-2026,1,group_stage,E,15186899,Curacao,Germany,-6,1,12,UEFA
-2026,1,group_stage,F,15186945,Netherlands,Japan,0,2,17,AFC
-2026,1,group_stage,F,15186945,Japan,Netherlands,0,2,9,UEFA
-2026,1,group_stage,E,15186904,Ivory Coast,Ecuador,1,1,25,CONMEBOL
-2026,1,group_stage,E,15186904,Ecuador,Ivory Coast,-1,0,31,CAF
-2026,1,group_stage,F,15186951,Sweden,Tunisia,4,5,57,CAF
-2026,1,group_stage,F,15186951,Tunisia,Sweden,-4,1,37,UEFA
-2026,1,group_stage,H,15186783,Spain,Cape Verde,0,0,64,CAF
-2026,1,group_stage,H,15186783,Cape Verde,Spain,0,0,2,UEFA
-2026,1,group_stage,G,15186837,Belgium,Egypt,0,1,24,CAF
-2026,1,group_stage,G,15186837,Egypt,Belgium,0,1,8,UEFA
-2026,1,group_stage,H,15186811,Saudi Arabia,Uruguay,0,1,20,CONMEBOL
-2026,1,group_stage,H,15186811,Uruguay,Saudi Arabia,0,1,58,AFC
-2026,1,group_stage,G,15186832,Iran,New Zealand,0,2,86,OFC
-2026,1,group_stage,G,15186832,New Zealand,Iran,0,2,22,AFC
-2026,1,group_stage,I,15186501,France,Senegal,2,3,19,CAF
-2026,1,group_stage,I,15186501,Senegal,France,-2,1,1,UEFA
-2026,1,group_stage,I,15186773,Iraq,Norway,-3,1,18,UEFA
-2026,1,group_stage,I,15186773,Norway,Iraq,3,4,63,AFC
-2026,1,group_stage,J,15186854,Argentina,Algeria,3,3,29,CAF
-2026,1,group_stage,J,15186854,Algeria,Argentina,-3,0,3,CONMEBOL
-2026,1,group_stage,J,15186751,Austria,Jordan,2,3,73,AFC
-2026,1,group_stage,J,15186751,Jordan,Austria,-2,1,23,UEFA
-2026,1,group_stage,K,15186709,Portugal,DR Congo,0,1,41,CAF
-2026,1,group_stage,K,15186709,DR Congo,Portugal,0,1,7,UEFA
-2026,1,group_stage,L,15186504,England,Croatia,2,4,13,UEFA
-2026,1,group_stage,L,15186504,Croatia,England,-2,2,4,UEFA
-2026,1,group_stage,L,15186687,Ghana,Panama,1,1,44,CONCACAF
-2026,1,group_stage,L,15186687,Panama,Ghana,-1,0,65,CAF
-2026,1,group_stage,K,15186722,Uzbekistan,Colombia,-2,1,11,CONMEBOL
-2026,1,group_stage,K,15186722,Colombia,Uzbekistan,2,3,60,AFC
-2026,2,group_stage,A,15186731,Czech Republic,South Africa,0,1,54,CAF
-2026,2,group_stage,A,15186731,South Africa,Czech Republic,0,1,48,UEFA
-2026,2,group_stage,B,15186806,Switzerland,Bosnia and Herzegovina,3,4,61,UEFA
-2026,2,group_stage,B,15186806,Bosnia and Herzegovina,Switzerland,-3,1,14,UEFA
-2026,2,group_stage,B,15186798,Canada,Qatar,6,6,59,AFC
-2026,2,group_stage,B,15186798,Qatar,Canada,-6,0,30,CONCACAF
-2026,2,group_stage,A,15186490,Mexico,South Korea,1,1,32,AFC
-2026,2,group_stage,A,15186490,South Korea,Mexico,-1,0,10,CONCACAF
-2026,2,group_stage,D,15186878,USA,Australia,2,2,28,AFC
-2026,2,group_stage,D,15186878,Australia,USA,-2,0,16,CONCACAF
-2026,2,group_stage,C,15186859,Scotland,Morocco,-1,0,6,CAF
-2026,2,group_stage,C,15186859,Morocco,Scotland,1,1,42,UEFA
-2026,2,group_stage,C,15186856,Brazil,Haiti,3,3,88,CONCACAF
-2026,2,group_stage,C,15186856,Haiti,Brazil,-3,0,5,CONMEBOL
-2026,2,group_stage,D,15186879,Turkey,Paraguay,-1,0,34,CONMEBOL
-2026,2,group_stage,D,15186879,Paraguay,Turkey,1,1,27,UEFA
-2026,2,group_stage,F,15186957,Netherlands,Sweden,4,5,37,UEFA
-2026,2,group_stage,F,15186957,Sweden,Netherlands,-4,1,9,UEFA
-2026,2,group_stage,E,15186905,Germany,Ivory Coast,1,2,31,CAF
-2026,2,group_stage,E,15186905,Ivory Coast,Germany,-1,1,12,UEFA
-2026,2,group_stage,E,15186906,Ecuador,Curacao,0,0,82,CONCACAF
-2026,2,group_stage,E,15186906,Curacao,Ecuador,0,0,25,CONMEBOL
-2026,2,group_stage,F,15186963,Tunisia,Japan,-4,0,17,AFC
-2026,2,group_stage,F,15186963,Japan,Tunisia,4,4,57,CAF
-2026,2,group_stage,H,15186840,Spain,Saudi Arabia,4,4,58,AFC
-2026,2,group_stage,H,15186840,Saudi Arabia,Spain,-4,0,2,UEFA
-2026,2,group_stage,G,15186499,Belgium,Iran,0,0,22,AFC
-2026,2,group_stage,G,15186499,Iran,Belgium,0,0,8,UEFA
-2026,2,group_stage,H,15186800,Uruguay,Cape Verde,0,2,64,CAF
-2026,2,group_stage,H,15186800,Cape Verde,Uruguay,0,2,20,CONMEBOL
-2026,2,group_stage,G,15186827,New Zealand,Egypt,-2,1,24,CAF
-2026,2,group_stage,G,15186827,Egypt,New Zealand,2,3,86,OFC
-2026,2,group_stage,J,15186502,Argentina,Austria,2,2,23,UEFA
-2026,2,group_stage,J,15186502,Austria,Argentina,-2,0,3,CONMEBOL
-2026,2,group_stage,I,15186769,France,Iraq,3,3,63,AFC
-2026,2,group_stage,I,15186769,Iraq,France,-3,0,1,UEFA
-2026,2,group_stage,I,15186770,Norway,Senegal,1,3,19,CAF
-2026,2,group_stage,I,15186770,Senegal,Norway,-1,2,18,UEFA
-2026,2,group_stage,J,15186740,Jordan,Algeria,-1,1,29,CAF
-2026,2,group_stage,J,15186740,Algeria,Jordan,1,2,73,AFC
-2026,2,group_stage,K,15186858,Portugal,Uzbekistan,5,5,60,AFC
-2026,2,group_stage,K,15186858,Uzbekistan,Portugal,-5,0,7,UEFA
-2026,2,group_stage,L,15186672,England,Ghana,0,0,65,CAF
-2026,2,group_stage,L,15186672,Ghana,England,0,0,4,UEFA
-2026,2,group_stage,L,15186520,Panama,Croatia,-1,0,13,UEFA
-2026,2,group_stage,L,15186520,Croatia,Panama,1,1,44,CONCACAF
-2026,2,group_stage,K,15186713,Colombia,DR Congo,1,1,41,CAF
-2026,2,group_stage,K,15186713,DR Congo,Colombia,-1,0,11,CONMEBOL
-2026,3,group_stage,B,15186829,Bosnia and Herzegovina,Qatar,2,3,59,AFC
-2026,3,group_stage,B,15186829,Qatar,Bosnia and Herzegovina,-2,1,61,UEFA
-2026,3,group_stage,B,15186821,Switzerland,Canada,1,2,30,CONCACAF
-2026,3,group_stage,B,15186821,Canada,Switzerland,-1,1,14,UEFA
-2026,3,group_stage,C,15186864,Morocco,Haiti,2,4,88,CONCACAF
-2026,3,group_stage,C,15186864,Haiti,Morocco,-2,2,6,CAF
-2026,3,group_stage,C,15186861,Scotland,Brazil,-3,0,5,CONMEBOL
-2026,3,group_stage,C,15186861,Brazil,Scotland,3,3,42,UEFA
-2026,3,group_stage,A,15186732,Czech Republic,Mexico,-3,0,10,CONCACAF
-2026,3,group_stage,A,15186732,Mexico,Czech Republic,3,3,48,UEFA
-2026,3,group_stage,A,15186744,South Africa,South Korea,1,1,32,AFC
-2026,3,group_stage,A,15186744,South Korea,South Africa,-1,0,54,CAF
-2026,3,group_stage,E,15186908,Curacao,Ivory Coast,-2,0,31,CAF
-2026,3,group_stage,E,15186908,Ivory Coast,Curacao,2,2,82,CONCACAF
-2026,3,group_stage,E,15186907,Ecuador,Germany,1,2,12,UEFA
-2026,3,group_stage,E,15186907,Germany,Ecuador,-1,1,25,CONMEBOL
-2026,3,group_stage,F,15186972,Japan,Sweden,0,1,37,UEFA
-2026,3,group_stage,F,15186972,Sweden,Japan,0,1,17,AFC
-2026,3,group_stage,F,15186973,Tunisia,Netherlands,-2,1,9,UEFA
-2026,3,group_stage,F,15186973,Netherlands,Tunisia,2,3,57,CAF
-2026,3,group_stage,D,15186891,Paraguay,Australia,0,0,28,AFC
-2026,3,group_stage,D,15186891,Australia,Paraguay,0,0,34,CONMEBOL
-2026,3,group_stage,D,15186887,Turkey,USA,1,3,16,CONCACAF
-2026,3,group_stage,D,15186887,USA,Turkey,-1,2,27,UEFA
-2026,3,group_stage,I,15186537,Norway,France,-3,1,1,UEFA
-2026,3,group_stage,I,15186537,France,Norway,3,4,18,UEFA
-2026,3,group_stage,I,15186771,Senegal,Iraq,5,5,63,AFC
-2026,3,group_stage,I,15186771,Iraq,Senegal,-5,0,19,CAF
-2026,3,group_stage,H,15186803,Cape Verde,Saudi Arabia,0,0,58,AFC
-2026,3,group_stage,H,15186803,Saudi Arabia,Cape Verde,0,0,64,CAF
-2026,3,group_stage,H,15186841,Uruguay,Spain,-1,0,2,UEFA
-2026,3,group_stage,H,15186841,Spain,Uruguay,1,1,20,CONMEBOL
-2026,3,group_stage,G,15186828,Egypt,Iran,0,1,22,AFC
-2026,3,group_stage,G,15186828,Iran,Egypt,0,1,24,CAF
-2026,3,group_stage,G,15186822,New Zealand,Belgium,-4,1,8,UEFA
-2026,3,group_stage,G,15186822,Belgium,New Zealand,4,5,86,OFC
-2026,3,group_stage,L,15186624,Croatia,Ghana,1,2,65,CAF
-2026,3,group_stage,L,15186624,Ghana,Croatia,-1,1,13,UEFA
-2026,3,group_stage,L,15186676,Panama,England,-2,0,4,UEFA
-2026,3,group_stage,L,15186676,England,Panama,2,2,44,CONCACAF
-2026,3,group_stage,K,15186696,Colombia,Portugal,0,0,7,UEFA
-2026,3,group_stage,K,15186696,Portugal,Colombia,0,0,11,CONMEBOL
-2026,3,group_stage,K,15186717,DR Congo,Uzbekistan,2,3,60,AFC
-2026,3,group_stage,K,15186717,Uzbekistan,DR Congo,-2,1,41,CAF
-2026,3,group_stage,J,15186747,Algeria,Austria,0,3,23,UEFA
-2026,3,group_stage,J,15186747,Austria,Algeria,0,3,29,CAF
-2026,3,group_stage,J,15186734,Jordan,Argentina,-2,1,3,CONMEBOL
-2026,3,group_stage,J,15186734,Argentina,Jordan,2,3,73,AFC
-2026,6,round_of_32,,12813014,Germany,Paraguay,-1,0,34,CONMEBOL
-2026,6,round_of_32,,12813014,Paraguay,Germany,1,1,12,UEFA
-2026,6,round_of_32,,12812995,France,Sweden,3,3,37,UEFA
-2026,6,round_of_32,,12812995,Sweden,France,-3,0,1,UEFA
-2026,6,round_of_32,,12813000,South Africa,Canada,-1,0,30,CONCACAF
-2026,6,round_of_32,,12813000,Canada,South Africa,1,1,54,CAF
-2026,6,round_of_32,,12812998,Netherlands,Morocco,-1,0,6,CAF
-2026,6,round_of_32,,12812998,Morocco,Netherlands,1,1,9,UEFA
-2026,6,round_of_32,,12812997,Portugal,Croatia,1,2,13,UEFA
-2026,6,round_of_32,,12812997,Croatia,Portugal,-1,1,7,UEFA
-2026,6,round_of_32,,12813004,Spain,Austria,3,3,23,UEFA
-2026,6,round_of_32,,12813004,Austria,Spain,-3,0,2,UEFA
-2026,6,round_of_32,,12812992,USA,Bosnia and Herzegovina,2,2,61,UEFA
-2026,6,round_of_32,,12812992,Bosnia and Herzegovina,USA,-2,0,16,CONCACAF
-2026,6,round_of_32,,12813013,Belgium,Senegal,1,3,19,CAF
-2026,6,round_of_32,,12813013,Senegal,Belgium,-1,2,8,UEFA
-2026,6,round_of_32,,12813012,Brazil,Japan,1,2,17,AFC
-2026,6,round_of_32,,12813012,Japan,Brazil,-1,1,5,CONMEBOL
-2026,6,round_of_32,,12812989,Ivory Coast,Norway,-1,1,18,UEFA
-2026,6,round_of_32,,12812989,Norway,Ivory Coast,1,2,31,CAF
-2026,6,round_of_32,,12813001,Mexico,Ecuador,2,2,25,CONMEBOL
-2026,6,round_of_32,,12813001,Ecuador,Mexico,-2,0,10,CONCACAF
-2026,6,round_of_32,,12813020,England,DR Congo,1,2,41,CAF
-2026,6,round_of_32,,12813020,DR Congo,England,-1,1,4,UEFA
-2026,6,round_of_32,,12812999,Argentina,Cape Verde,1,3,64,CAF
-2026,6,round_of_32,,12812999,Cape Verde,Argentina,-1,2,3,CONMEBOL
-2026,6,round_of_32,,12813018,Australia,Egypt,-1,0,24,CAF
-2026,6,round_of_32,,12813018,Egypt,Australia,1,1,28,AFC
-2026,6,round_of_32,,12813019,Switzerland,Algeria,2,2,29,CAF
-2026,6,round_of_32,,12813019,Algeria,Switzerland,-2,0,14,UEFA
-2026,6,round_of_32,,12813011,Colombia,Ghana,1,1,65,CAF
-2026,6,round_of_32,,12813011,Ghana,Colombia,-1,0,11,CONMEBOL
-2026,5,round_of_16,,12813010,Paraguay,France,-1,0,1,UEFA
-2026,5,round_of_16,,12813010,France,Paraguay,1,1,34,CONMEBOL
-2026,5,round_of_16,,12813009,Canada,Morocco,-3,0,6,CAF
-2026,5,round_of_16,,12813009,Morocco,Canada,3,3,30,CONCACAF
-2026,5,round_of_16,,12812990,Portugal,Spain,-1,0,2,UEFA
-2026,5,round_of_16,,12812990,Spain,Portugal,1,1,7,UEFA
-2026,5,round_of_16,,12813002,USA,Belgium,-3,1,8,UEFA
-2026,5,round_of_16,,12813002,Belgium,USA,3,4,16,CONCACAF
-2026,5,round_of_16,,12813006,Brazil,Norway,-1,1,18,UEFA
-2026,5,round_of_16,,12813006,Norway,Brazil,1,2,5,CONMEBOL
-2026,5,round_of_16,,12813007,Mexico,England,-1,2,4,UEFA
-2026,5,round_of_16,,12813007,England,Mexico,1,3,10,CONCACAF
-2026,5,round_of_16,,12812993,Argentina,Egypt,1,3,24,CAF
-2026,5,round_of_16,,12812993,Egypt,Argentina,-1,2,3,CONMEBOL
-2026,5,round_of_16,,12812991,Switzerland,Colombia,1,1,11,CONMEBOL
-2026,5,round_of_16,,12812991,Colombia,Switzerland,-1,0,14,UEFA
-2026,27,quarter_final,,12813016,France,Morocco,2,2,6,CAF
-2026,27,quarter_final,,12813016,Morocco,France,-2,0,1,UEFA
-2026,27,quarter_final,,12812994,Spain,Belgium,1,2,8,UEFA
-2026,27,quarter_final,,12812994,Belgium,Spain,-1,1,2,UEFA
-2026,27,quarter_final,,12813017,Norway,England,-1,1,4,UEFA
-2026,27,quarter_final,,12813017,England,Norway,1,2,18,UEFA
-2026,27,quarter_final,,12813015,Argentina,Switzerland,,,14,UEFA
-2026,27,quarter_final,,12813015,Switzerland,Argentina,,,3,CONMEBOL
-2026,28,semi_final,,12813008,France,Spain,,,2,UEFA
-2026,28,semi_final,,12813008,Spain,France,,,1,UEFA
-2002,1,group_stage,A,264960,France,Senegal,-1,0,65,CAF
-2002,1,group_stage,A,264960,Senegal,France,1,1,1,UEFA
-2002,1,group_stage,E,264984,Ireland,Cameroon,0,1,38,CAF
-2002,1,group_stage,E,264984,Cameroon,Ireland,0,1,20,UEFA
-2002,1,group_stage,A,264959,Uruguay,Denmark,-1,1,17,UEFA
-2002,1,group_stage,A,264959,Denmark,Uruguay,1,2,23,CONMEBOL
-2002,1,group_stage,E,264983,Germany,Saudi Arabia,8,8,30,AFC
-2002,1,group_stage,E,264983,Saudi Arabia,Germany,-8,0,14,UEFA
-2002,1,group_stage,F,264990,Argentina,Nigeria,1,1,42,CAF
-2002,1,group_stage,F,264990,Nigeria,Argentina,-1,0,3,CONMEBOL
-2002,1,group_stage,B,264966,Paraguay,South Africa,0,2,32,CAF
-2002,1,group_stage,B,264966,South Africa,Paraguay,0,2,13,CONMEBOL
-2002,1,group_stage,F,264989,England,Sweden,0,1,18,UEFA
-2002,1,group_stage,F,264989,Sweden,England,0,1,9,UEFA
-2002,1,group_stage,B,264965,Spain,Slovenia,2,3,27,UEFA
-2002,1,group_stage,B,264965,Slovenia,Spain,-2,1,6,UEFA
-2002,1,group_stage,G,264996,Croatia,Mexico,-1,0,11,CONCACAF
-2002,1,group_stage,G,264996,Mexico,Croatia,1,1,16,UEFA
-2002,1,group_stage,C,264972,Brazil,Turkey,1,2,34,UEFA
-2002,1,group_stage,C,264972,Turkey,Brazil,-1,1,2,CONMEBOL
-2002,1,group_stage,G,264995,Italy,Ecuador,2,2,39,CONMEBOL
-2002,1,group_stage,G,264995,Ecuador,Italy,-2,0,4,UEFA
-2002,1,group_stage,C,264971,China,Costa Rica,-2,0,29,CONCACAF
-2002,1,group_stage,C,264971,Costa Rica,China,2,2,55,AFC
-2002,1,group_stage,H,265002,Japan,Belgium,0,2,33,UEFA
-2002,1,group_stage,H,265002,Belgium,Japan,0,2,26,AFC
-2002,1,group_stage,D,264978,South Korea,Poland,2,2,28,UEFA
-2002,1,group_stage,D,264978,Poland,South Korea,-2,0,43,AFC
-2002,1,group_stage,H,265001,Russia,Tunisia,2,2,25,CAF
-2002,1,group_stage,H,265001,Tunisia,Russia,-2,0,21,UEFA
-2002,1,group_stage,D,264977,USA,Portugal,1,3,5,UEFA
-2002,1,group_stage,D,264977,Portugal,USA,-1,2,19,CONCACAF
-2002,2,group_stage,E,264982,Germany,Ireland,0,1,20,UEFA
-2002,2,group_stage,E,264982,Ireland,Germany,0,1,14,UEFA
-2002,2,group_stage,A,264958,Denmark,Senegal,0,1,65,CAF
-2002,2,group_stage,A,264958,Senegal,Denmark,0,1,17,UEFA
-2002,2,group_stage,E,264981,Cameroon,Saudi Arabia,1,1,30,AFC
-2002,2,group_stage,E,264981,Saudi Arabia,Cameroon,-1,0,38,CAF
-2002,2,group_stage,A,264957,France,Uruguay,0,0,23,CONMEBOL
-2002,2,group_stage,A,264957,Uruguay,France,0,0,1,UEFA
-2002,2,group_stage,F,264988,Sweden,Nigeria,1,2,42,CAF
-2002,2,group_stage,F,264988,Nigeria,Sweden,-1,1,18,UEFA
-2002,2,group_stage,B,264964,Spain,Paraguay,2,3,13,CONMEBOL
-2002,2,group_stage,B,264964,Paraguay,Spain,-2,1,6,UEFA
-2002,2,group_stage,F,264987,Argentina,England,-1,0,9,UEFA
-2002,2,group_stage,F,264987,England,Argentina,1,1,3,CONMEBOL
-2002,2,group_stage,B,264963,South Africa,Slovenia,1,1,27,UEFA
-2002,2,group_stage,B,264963,Slovenia,South Africa,-1,0,32,CAF
-2002,2,group_stage,G,264994,Italy,Croatia,-1,1,16,UEFA
-2002,2,group_stage,G,264994,Croatia,Italy,1,2,4,UEFA
-2002,2,group_stage,C,264970,Brazil,China,4,4,55,AFC
-2002,2,group_stage,C,264970,China,Brazil,-4,0,2,CONMEBOL
-2002,2,group_stage,G,264993,Mexico,Ecuador,1,2,39,CONMEBOL
-2002,2,group_stage,G,264993,Ecuador,Mexico,-1,1,11,CONCACAF
-2002,2,group_stage,C,264969,Costa Rica,Turkey,0,1,34,UEFA
-2002,2,group_stage,C,264969,Turkey,Costa Rica,0,1,29,CONCACAF
-2002,2,group_stage,H,265000,Japan,Russia,1,1,21,UEFA
-2002,2,group_stage,H,265000,Russia,Japan,-1,0,26,AFC
-2002,2,group_stage,D,264976,South Korea,USA,0,1,19,CONCACAF
-2002,2,group_stage,D,264976,USA,South Korea,0,1,43,AFC
-2002,2,group_stage,H,264999,Tunisia,Belgium,0,1,33,UEFA
-2002,2,group_stage,H,264999,Belgium,Tunisia,0,1,25,CAF
-2002,2,group_stage,D,264975,Portugal,Poland,4,4,28,UEFA
-2002,2,group_stage,D,264975,Poland,Portugal,-4,0,5,UEFA
-2002,3,group_stage,A,264956,Denmark,France,2,2,1,UEFA
-2002,3,group_stage,A,264956,France,Denmark,-2,0,17,UEFA
-2002,3,group_stage,A,264955,Senegal,Uruguay,0,3,23,CONMEBOL
-2002,3,group_stage,A,264955,Uruguay,Senegal,0,3,65,CAF
-2002,3,group_stage,E,264980,Cameroon,Germany,-2,0,14,UEFA
-2002,3,group_stage,E,264980,Germany,Cameroon,2,2,38,CAF
-2002,3,group_stage,E,264979,Saudi Arabia,Ireland,-3,0,20,UEFA
-2002,3,group_stage,E,264979,Ireland,Saudi Arabia,3,3,30,AFC
-2002,3,group_stage,F,264985,Nigeria,England,0,0,9,UEFA
-2002,3,group_stage,F,264985,England,Nigeria,0,0,42,CAF
-2002,3,group_stage,F,264986,Sweden,Argentina,0,1,3,CONMEBOL
-2002,3,group_stage,F,264986,Argentina,Sweden,0,1,18,UEFA
-2002,3,group_stage,B,264961,Slovenia,Paraguay,-2,1,13,CONMEBOL
-2002,3,group_stage,B,264961,Paraguay,Slovenia,2,3,27,UEFA
-2002,3,group_stage,B,264962,South Africa,Spain,-1,2,6,UEFA
-2002,3,group_stage,B,264962,Spain,South Africa,1,3,32,CAF
-2002,3,group_stage,C,264968,Costa Rica,Brazil,-3,2,2,CONMEBOL
-2002,3,group_stage,C,264968,Brazil,Costa Rica,3,5,29,CONCACAF
-2002,3,group_stage,C,264967,Turkey,China,3,3,55,AFC
-2002,3,group_stage,C,264967,China,Turkey,-3,0,34,UEFA
-2002,3,group_stage,G,264992,Ecuador,Croatia,1,1,16,UEFA
-2002,3,group_stage,G,264992,Croatia,Ecuador,-1,0,39,CONMEBOL
-2002,3,group_stage,G,264991,Mexico,Italy,0,1,4,UEFA
-2002,3,group_stage,G,264991,Italy,Mexico,0,1,11,CONCACAF
-2002,3,group_stage,H,264998,Belgium,Russia,1,3,21,UEFA
-2002,3,group_stage,H,264998,Russia,Belgium,-1,2,33,UEFA
-2002,3,group_stage,H,264997,Tunisia,Japan,-2,0,26,AFC
-2002,3,group_stage,H,264997,Japan,Tunisia,2,2,25,CAF
-2002,3,group_stage,D,264974,Poland,USA,2,3,19,CONCACAF
-2002,3,group_stage,D,264974,USA,Poland,-2,1,28,UEFA
-2002,3,group_stage,D,264973,Portugal,South Korea,-1,0,43,AFC
-2002,3,group_stage,D,264973,South Korea,Portugal,1,1,5,UEFA
-2002,4,round_of_16,,265010,Germany,Paraguay,1,1,13,CONMEBOL
-2002,4,round_of_16,,265010,Paraguay,Germany,-1,0,14,UEFA
-2002,4,round_of_16,,265006,Mexico,USA,-2,0,19,CONCACAF
-2002,4,round_of_16,,265006,USA,Mexico,2,2,11,CONCACAF
-2002,4,round_of_16,,265007,Spain,Ireland,1,1,20,UEFA
-2002,4,round_of_16,,265007,Ireland,Spain,-1,0,6,UEFA
-2002,4,round_of_16,,265003,South Korea,Italy,1,2,4,UEFA
-2002,4,round_of_16,,265003,Italy,South Korea,-1,1,43,AFC
-2002,4,round_of_16,,265009,Denmark,England,-3,0,9,UEFA
-2002,4,round_of_16,,265009,England,Denmark,3,3,17,UEFA
-2002,4,round_of_16,,265005,Brazil,Belgium,2,2,33,UEFA
-2002,4,round_of_16,,265005,Belgium,Brazil,-2,0,2,CONMEBOL
-2002,4,round_of_16,,265008,Sweden,Senegal,-1,1,65,CAF
-2002,4,round_of_16,,265008,Senegal,Sweden,1,2,18,UEFA
-2002,4,round_of_16,,265004,Japan,Turkey,-1,0,34,UEFA
-2002,4,round_of_16,,265004,Turkey,Japan,1,1,26,AFC
-2002,3,quarter_final,,265013,Germany,USA,1,1,19,CONCACAF
-2002,3,quarter_final,,265013,USA,Germany,-1,0,14,UEFA
-2002,3,quarter_final,,265012,Spain,South Korea,-1,0,43,AFC
-2002,3,quarter_final,,265012,South Korea,Spain,1,1,6,UEFA
-2002,3,quarter_final,,265014,England,Brazil,-1,1,2,CONMEBOL
-2002,3,quarter_final,,265014,Brazil,England,1,2,9,UEFA
-2002,3,quarter_final,,265011,Senegal,Turkey,-1,0,34,UEFA
-2002,3,quarter_final,,265011,Turkey,Senegal,1,1,65,CAF
-2002,2,semi_final,,265016,Germany,South Korea,1,1,43,AFC
-2002,2,semi_final,,265016,South Korea,Germany,-1,0,14,UEFA
-2002,2,semi_final,,265015,Brazil,Turkey,1,1,34,UEFA
-2002,2,semi_final,,265015,Turkey,Brazil,-1,0,2,CONMEBOL
-2002,1,final,,265018,Germany,Brazil,-2,0,2,CONMEBOL
-2002,1,final,,265018,Brazil,Germany,2,2,14,UEFA
-2002,20,third_place,,265017,South Korea,Turkey,-1,2,34,UEFA
-2002,20,third_place,,265017,Turkey,South Korea,1,3,43,AFC
-2006,1,group_stage,A,231121,Germany,Costa Rica,2,4,26,CONCACAF
-2006,1,group_stage,A,231121,Costa Rica,Germany,-2,2,19,UEFA
-2006,1,group_stage,A,231122,Poland,Ecuador,-2,0,39,CONMEBOL
-2006,1,group_stage,A,231122,Ecuador,Poland,2,2,29,UEFA
-2006,1,group_stage,B,231127,England,Paraguay,1,1,33,CONMEBOL
-2006,1,group_stage,B,231127,Paraguay,England,-1,0,10,UEFA
-2006,1,group_stage,B,231128,Trinidad and Tobago,Sweden,0,0,56,UEFA
-2006,1,group_stage,B,231128,Sweden,Trinidad and Tobago,0,0,47,CONCACAF
-2006,1,group_stage,C,231309,Argentina,Ivory Coast,1,2,32,CAF
-2006,1,group_stage,C,231309,Ivory Coast,Argentina,-1,1,9,CONMEBOL
-2006,1,group_stage,C,231134,Serbia,Netherlands,-1,0,3,UEFA
-2006,1,group_stage,C,231134,Netherlands,Serbia,1,1,44,UEFA
-2006,1,group_stage,D,231139,Mexico,Iran,2,3,23,AFC
-2006,1,group_stage,D,231139,Iran,Mexico,-2,1,4,CONCACAF
-2006,1,group_stage,D,231140,Angola,Portugal,-1,0,7,UEFA
-2006,1,group_stage,D,231140,Portugal,Angola,1,1,59,CAF
-2006,1,group_stage,F,231153,Australia,Japan,2,3,18,AFC
-2006,1,group_stage,F,231153,Japan,Australia,-2,1,69,AFC
-2006,1,group_stage,E,231146,USA,Czech Republic,-3,0,2,UEFA
-2006,1,group_stage,E,231146,Czech Republic,USA,3,3,5,CONCACAF
-2006,1,group_stage,E,231145,Italy,Ghana,2,2,48,CAF
-2006,1,group_stage,E,231145,Ghana,Italy,-2,0,13,UEFA
-2006,1,group_stage,G,231160,South Korea,Togo,1,2,61,CAF
-2006,1,group_stage,G,231160,Togo,South Korea,-1,1,30,AFC
-2006,1,group_stage,G,231159,France,Switzerland,0,0,35,UEFA
-2006,1,group_stage,G,231159,Switzerland,France,0,0,8,UEFA
-2006,1,group_stage,F,231151,Brazil,Croatia,1,1,24,UEFA
-2006,1,group_stage,F,231151,Croatia,Brazil,-1,0,1,CONMEBOL
-2006,1,group_stage,H,231165,Spain,Ukraine,4,4,45,UEFA
-2006,1,group_stage,H,231165,Ukraine,Spain,-4,0,6,UEFA
-2006,1,group_stage,H,231166,Tunisia,Saudi Arabia,0,2,34,AFC
-2006,1,group_stage,H,231166,Saudi Arabia,Tunisia,0,2,62,CAF
-2006,2,group_stage,A,231123,Germany,Poland,1,1,29,UEFA
-2006,2,group_stage,A,231123,Poland,Germany,-1,0,19,UEFA
-2006,2,group_stage,A,231124,Ecuador,Costa Rica,3,3,26,CONCACAF
-2006,2,group_stage,A,231124,Costa Rica,Ecuador,-3,0,39,CONMEBOL
-2006,2,group_stage,B,231129,England,Trinidad and Tobago,2,2,47,CONCACAF
-2006,2,group_stage,B,231129,Trinidad and Tobago,England,-2,0,10,UEFA
-2006,2,group_stage,B,231130,Sweden,Paraguay,1,1,33,CONMEBOL
-2006,2,group_stage,B,231130,Paraguay,Sweden,-1,0,56,UEFA
-2006,2,group_stage,C,231135,Argentina,Serbia,6,6,44,UEFA
-2006,2,group_stage,C,231135,Serbia,Argentina,-6,0,9,CONMEBOL
-2006,2,group_stage,C,231310,Netherlands,Ivory Coast,1,2,32,CAF
-2006,2,group_stage,C,231310,Ivory Coast,Netherlands,-1,1,3,UEFA
-2006,2,group_stage,D,231141,Mexico,Angola,0,0,59,CAF
-2006,2,group_stage,D,231141,Angola,Mexico,0,0,4,CONCACAF
-2006,2,group_stage,D,231142,Portugal,Iran,2,2,23,AFC
-2006,2,group_stage,D,231142,Iran,Portugal,-2,0,7,UEFA
-2006,2,group_stage,E,231148,Czech Republic,Ghana,-2,0,48,CAF
-2006,2,group_stage,E,231148,Ghana,Czech Republic,2,2,2,UEFA
-2006,2,group_stage,E,231147,Italy,USA,0,1,5,CONCACAF
-2006,2,group_stage,E,231147,USA,Italy,0,1,13,UEFA
-2006,2,group_stage,F,231156,Japan,Croatia,0,0,24,UEFA
-2006,2,group_stage,F,231156,Croatia,Japan,0,0,18,AFC
-2006,2,group_stage,F,231154,Brazil,Australia,2,2,69,AFC
-2006,2,group_stage,F,231154,Australia,Brazil,-2,0,1,CONMEBOL
-2006,2,group_stage,G,231161,France,South Korea,0,1,30,AFC
-2006,2,group_stage,G,231161,South Korea,France,0,1,8,UEFA
-2006,2,group_stage,G,231162,Togo,Switzerland,-2,0,35,UEFA
-2006,2,group_stage,G,231162,Switzerland,Togo,2,2,61,CAF
-2006,2,group_stage,H,231168,Saudi Arabia,Ukraine,-4,0,45,UEFA
-2006,2,group_stage,H,231168,Ukraine,Saudi Arabia,4,4,34,AFC
-2006,2,group_stage,H,231167,Spain,Tunisia,2,3,62,CAF
-2006,2,group_stage,H,231167,Tunisia,Spain,-2,1,6,UEFA
-2006,3,group_stage,A,231126,Costa Rica,Poland,-1,1,29,UEFA
-2006,3,group_stage,A,231126,Poland,Costa Rica,1,2,26,CONCACAF
-2006,3,group_stage,A,231125,Ecuador,Germany,-3,0,19,UEFA
-2006,3,group_stage,A,231125,Germany,Ecuador,3,3,39,CONMEBOL
-2006,3,group_stage,B,231132,Paraguay,Trinidad and Tobago,2,2,47,CONCACAF
-2006,3,group_stage,B,231132,Trinidad and Tobago,Paraguay,-2,0,33,CONMEBOL
-2006,3,group_stage,B,231131,Sweden,England,0,2,10,UEFA
-2006,3,group_stage,B,231131,England,Sweden,0,2,56,UEFA
-2006,3,group_stage,D,231144,Iran,Angola,0,1,59,CAF
-2006,3,group_stage,D,231144,Angola,Iran,0,1,23,AFC
-2006,3,group_stage,D,231143,Portugal,Mexico,1,2,4,CONCACAF
-2006,3,group_stage,D,231143,Mexico,Portugal,-1,1,7,UEFA
-2006,3,group_stage,C,231311,Ivory Coast,Serbia,1,3,44,UEFA
-2006,3,group_stage,C,231311,Serbia,Ivory Coast,-1,2,32,CAF
-2006,3,group_stage,C,231137,Netherlands,Argentina,0,0,9,CONMEBOL
-2006,3,group_stage,C,231137,Argentina,Netherlands,0,0,3,UEFA
-2006,3,group_stage,E,231149,Czech Republic,Italy,-2,0,13,UEFA
-2006,3,group_stage,E,231149,Italy,Czech Republic,2,2,2,UEFA
-2006,3,group_stage,E,231150,Ghana,USA,1,2,5,CONCACAF
-2006,3,group_stage,E,231150,USA,Ghana,-1,1,48,CAF
-2006,3,group_stage,F,231158,Croatia,Australia,0,2,69,AFC
-2006,3,group_stage,F,231158,Australia,Croatia,0,2,24,UEFA
-2006,3,group_stage,F,231157,Japan,Brazil,-3,1,1,CONMEBOL
-2006,3,group_stage,F,231157,Brazil,Japan,3,4,18,AFC
-2006,3,group_stage,H,231169,Saudi Arabia,Spain,-1,0,6,UEFA
-2006,3,group_stage,H,231169,Spain,Saudi Arabia,1,1,34,AFC
-2006,3,group_stage,H,231170,Ukraine,Tunisia,1,1,62,CAF
-2006,3,group_stage,H,231170,Tunisia,Ukraine,-1,0,45,UEFA
-2006,3,group_stage,G,231164,Switzerland,South Korea,2,2,30,AFC
-2006,3,group_stage,G,231164,South Korea,Switzerland,-2,0,35,UEFA
-2006,3,group_stage,G,231163,Togo,France,-2,0,8,UEFA
-2006,3,group_stage,G,231163,France,Togo,2,2,61,CAF
-2006,4,round_of_16,,265795,Germany,Sweden,2,2,56,UEFA
-2006,4,round_of_16,,265795,Sweden,Germany,-2,0,19,UEFA
-2006,4,round_of_16,,265796,Argentina,Mexico,1,2,4,CONCACAF
-2006,4,round_of_16,,265796,Mexico,Argentina,-1,1,9,CONMEBOL
-2006,4,round_of_16,,265799,Italy,Australia,1,1,69,AFC
-2006,4,round_of_16,,265799,Australia,Italy,-1,0,13,UEFA
-2006,4,round_of_16,,265800,Switzerland,Ukraine,-1,0,45,UEFA
-2006,4,round_of_16,,265800,Ukraine,Switzerland,1,1,35,UEFA
-2006,4,round_of_16,,265797,England,Ecuador,1,1,39,CONMEBOL
-2006,4,round_of_16,,265797,Ecuador,England,-1,0,10,UEFA
-2006,4,round_of_16,,265798,Portugal,Netherlands,1,1,3,UEFA
-2006,4,round_of_16,,265798,Netherlands,Portugal,-1,0,7,UEFA
-2006,4,round_of_16,,265801,Brazil,Ghana,3,3,48,CAF
-2006,4,round_of_16,,265801,Ghana,Brazil,-3,0,1,CONMEBOL
-2006,4,round_of_16,,265802,Spain,France,-2,1,8,UEFA
-2006,4,round_of_16,,265802,France,Spain,2,3,6,UEFA
-2006,3,quarter_final,,268527,Germany,Argentina,1,1,9,CONMEBOL
-2006,3,quarter_final,,268527,Argentina,Germany,-1,0,19,UEFA
-2006,3,quarter_final,,268528,Italy,Ukraine,3,3,45,UEFA
-2006,3,quarter_final,,268528,Ukraine,Italy,-3,0,13,UEFA
-2006,3,quarter_final,,268529,England,Portugal,-1,0,7,UEFA
-2006,3,quarter_final,,268529,Portugal,England,1,1,10,UEFA
-2006,3,quarter_final,,268530,Brazil,France,-1,0,8,UEFA
-2006,3,quarter_final,,268530,France,Brazil,1,1,1,CONMEBOL
-2006,2,semi_final,,268531,Germany,Italy,-2,0,13,UEFA
-2006,2,semi_final,,268531,Italy,Germany,2,2,19,UEFA
-2006,2,semi_final,,268532,Portugal,France,-1,0,8,UEFA
-2006,2,semi_final,,268532,France,Portugal,1,1,7,UEFA
-2006,1,final,,268534,Italy,France,1,1,8,UEFA
-2006,1,final,,268534,France,Italy,-1,0,13,UEFA
-2006,20,third_place,,268533,Germany,Portugal,2,3,7,UEFA
-2006,20,third_place,,268533,Portugal,Germany,-2,1,19,UEFA
-1990,1,group_stage,B,7846790,Argentina,Cameroon,-1,0,50,CAF
-1990,1,group_stage,B,7846790,Cameroon,Argentina,1,1,50,CONMEBOL
-1990,1,group_stage,B,7846791,USSR,Romania,-2,0,50,UEFA
-1990,1,group_stage,B,7846791,Romania,USSR,2,2,50,UEFA
-1990,1,group_stage,A,7846772,Italy,Austria,1,1,50,UEFA
-1990,1,group_stage,A,7846772,Austria,Italy,-1,0,50,UEFA
-1990,1,group_stage,D,7846812,United Arab Emirates,Colombia,-2,0,50,CONMEBOL
-1990,1,group_stage,D,7846812,Colombia,United Arab Emirates,2,2,50,UEFA
-1990,1,group_stage,A,7846773,USA,Czechoslovakia,-4,1,50,UEFA
-1990,1,group_stage,A,7846773,Czechoslovakia,USA,4,5,50,CONCACAF
-1990,1,group_stage,C,7846784,Brazil,Sweden,1,2,50,UEFA
-1990,1,group_stage,C,7846784,Sweden,Brazil,-1,1,50,CONMEBOL
-1990,1,group_stage,D,7846813,West Germany,Yugoslavia,3,4,50,UEFA
-1990,1,group_stage,D,7846813,Yugoslavia,West Germany,-3,1,50,UEFA
-1990,1,group_stage,C,7846785,Costa Rica,Scotland,1,1,50,UEFA
-1990,1,group_stage,C,7846785,Scotland,Costa Rica,-1,0,50,CONCACAF
-1990,1,group_stage,F,7846818,England,Ireland,0,1,50,UEFA
-1990,1,group_stage,F,7846818,Ireland,England,0,1,50,UEFA
-1990,1,group_stage,E,7846778,Belgium,South Korea,2,2,50,AFC
-1990,1,group_stage,E,7846778,South Korea,Belgium,-2,0,50,UEFA
-1990,1,group_stage,F,7846819,Netherlands,Egypt,0,1,50,CAF
-1990,1,group_stage,F,7846819,Egypt,Netherlands,0,1,50,UEFA
-1990,1,group_stage,E,7846779,Uruguay,Spain,0,0,50,UEFA
-1990,1,group_stage,E,7846779,Spain,Uruguay,0,0,50,CONMEBOL
-1990,2,group_stage,B,7846792,Argentina,USSR,2,2,50,UEFA
-1990,2,group_stage,B,7846792,USSR,Argentina,-2,0,50,CONMEBOL
-1990,2,group_stage,D,7846814,Yugoslavia,Colombia,1,1,50,CONMEBOL
-1990,2,group_stage,D,7846814,Colombia,Yugoslavia,-1,0,50,UEFA
-1990,2,group_stage,A,7846774,Italy,USA,1,1,50,CONCACAF
-1990,2,group_stage,A,7846774,USA,Italy,-1,0,50,UEFA
-1990,2,group_stage,B,7846793,Cameroon,Romania,1,2,50,UEFA
-1990,2,group_stage,B,7846793,Romania,Cameroon,-1,1,50,CAF
-1990,2,group_stage,A,7846775,Austria,Czechoslovakia,-1,0,50,UEFA
-1990,2,group_stage,A,7846775,Czechoslovakia,Austria,1,1,50,UEFA
-1990,2,group_stage,D,7846815,West Germany,United Arab Emirates,4,5,50,UEFA
-1990,2,group_stage,D,7846815,United Arab Emirates,West Germany,-4,1,50,UEFA
-1990,2,group_stage,C,7846786,Brazil,Costa Rica,1,1,50,CONCACAF
-1990,2,group_stage,C,7846786,Costa Rica,Brazil,-1,0,50,CONMEBOL
-1990,2,group_stage,C,7846787,Sweden,Scotland,-1,1,50,UEFA
-1990,2,group_stage,C,7846787,Scotland,Sweden,1,2,50,UEFA
-1990,2,group_stage,F,7846820,England,Netherlands,0,0,50,UEFA
-1990,2,group_stage,F,7846820,Netherlands,England,0,0,50,UEFA
-1990,2,group_stage,F,7846821,Ireland,Egypt,0,0,50,CAF
-1990,2,group_stage,F,7846821,Egypt,Ireland,0,0,50,UEFA
-1990,2,group_stage,E,7846780,Belgium,Uruguay,2,3,50,CONMEBOL
-1990,2,group_stage,E,7846780,Uruguay,Belgium,-2,1,50,UEFA
-1990,2,group_stage,E,7846781,South Korea,Spain,-2,1,50,UEFA
-1990,2,group_stage,E,7846781,Spain,South Korea,2,3,50,AFC
-1990,3,group_stage,B,7846794,Argentina,Romania,0,1,50,UEFA
-1990,3,group_stage,B,7846794,Romania,Argentina,0,1,50,CONMEBOL
-1990,3,group_stage,B,7846795,Cameroon,USSR,-4,0,50,UEFA
-1990,3,group_stage,B,7846795,USSR,Cameroon,4,4,50,CAF
-1990,3,group_stage,D,7846817,West Germany,Colombia,0,1,50,CONMEBOL
-1990,3,group_stage,D,7846817,Colombia,West Germany,0,1,50,UEFA
-1990,3,group_stage,D,7846816,Yugoslavia,United Arab Emirates,3,4,50,UEFA
-1990,3,group_stage,D,7846816,United Arab Emirates,Yugoslavia,-3,1,50,UEFA
-1990,3,group_stage,A,7846777,Austria,USA,1,2,50,CONCACAF
-1990,3,group_stage,A,7846777,USA,Austria,-1,1,50,UEFA
-1990,3,group_stage,A,7846776,Italy,Czechoslovakia,2,2,50,UEFA
-1990,3,group_stage,A,7846776,Czechoslovakia,Italy,-2,0,50,UEFA
-1990,3,group_stage,C,7846789,Brazil,Scotland,1,1,50,UEFA
-1990,3,group_stage,C,7846789,Scotland,Brazil,-1,0,50,CONMEBOL
-1990,3,group_stage,C,7846788,Sweden,Costa Rica,-1,1,50,CONCACAF
-1990,3,group_stage,C,7846788,Costa Rica,Sweden,1,2,50,UEFA
-1990,3,group_stage,E,7846782,Belgium,Spain,-1,1,50,UEFA
-1990,3,group_stage,E,7846782,Spain,Belgium,1,2,50,UEFA
-1990,3,group_stage,E,7846783,South Korea,Uruguay,-1,0,50,CONMEBOL
-1990,3,group_stage,E,7846783,Uruguay,South Korea,1,1,50,AFC
-1990,3,group_stage,F,7846823,England,Egypt,1,1,50,CAF
-1990,3,group_stage,F,7846823,Egypt,England,-1,0,50,UEFA
-1990,3,group_stage,F,7846822,Ireland,Netherlands,0,1,50,UEFA
-1990,3,group_stage,F,7846822,Netherlands,Ireland,0,1,50,UEFA
-1990,4,round_of_16,,7846799,West Germany,Netherlands,1,2,50,UEFA
-1990,4,round_of_16,,7846799,Netherlands,West Germany,-1,1,50,UEFA
-1990,4,round_of_16,,7846797,Czechoslovakia,Costa Rica,3,4,50,CONCACAF
-1990,4,round_of_16,,7846797,Costa Rica,Czechoslovakia,-3,1,50,UEFA
-1990,4,round_of_16,,7846803,England,Belgium,1,1,50,UEFA
-1990,4,round_of_16,,7846803,Belgium,England,-1,0,50,UEFA
-1990,4,round_of_16,,7846796,Cameroon,Colombia,1,2,50,CONMEBOL
-1990,4,round_of_16,,7846796,Colombia,Cameroon,-1,1,50,CAF
-1990,4,round_of_16,,7846801,Italy,Uruguay,2,2,50,CONMEBOL
-1990,4,round_of_16,,7846801,Uruguay,Italy,-2,0,50,UEFA
-1990,4,round_of_16,,7846800,Ireland,Romania,1,1,50,UEFA
-1990,4,round_of_16,,7846800,Romania,Ireland,-1,0,50,UEFA
-1990,4,round_of_16,,7846802,Spain,Yugoslavia,-1,1,50,UEFA
-1990,4,round_of_16,,7846802,Yugoslavia,Spain,1,2,50,UEFA
-1990,4,round_of_16,,7846798,Brazil,Argentina,-1,0,50,CONMEBOL
-1990,4,round_of_16,,7846798,Argentina,Brazil,1,1,50,CONMEBOL
-1990,3,quarter_final,,7846806,West Germany,Czechoslovakia,1,1,50,UEFA
-1990,3,quarter_final,,7846806,Czechoslovakia,West Germany,-1,0,50,UEFA
-1990,3,quarter_final,,7846807,England,Cameroon,1,3,50,CAF
-1990,3,quarter_final,,7846807,Cameroon,England,-1,2,50,UEFA
-1990,3,quarter_final,,7846805,Italy,Ireland,1,1,50,UEFA
-1990,3,quarter_final,,7846805,Ireland,Italy,-1,0,50,UEFA
-1990,3,quarter_final,,7846804,Yugoslavia,Argentina,-1,0,50,CONMEBOL
-1990,3,quarter_final,,7846804,Argentina,Yugoslavia,1,1,50,UEFA
-1990,2,semi_final,,7846809,West Germany,England,1,1,50,UEFA
-1990,2,semi_final,,7846809,England,West Germany,-1,0,50,UEFA
-1990,2,semi_final,,7846808,Italy,Argentina,-1,0,50,CONMEBOL
-1990,2,semi_final,,7846808,Argentina,Italy,1,1,50,UEFA
-1990,1,final,,7846811,West Germany,Argentina,1,1,50,CONMEBOL
-1990,1,final,,7846811,Argentina,West Germany,-1,0,50,UEFA
-1990,20,third_place,,7846810,Italy,England,1,2,50,UEFA
-1990,20,third_place,,7846810,England,Italy,-1,1,50,UEFA
-1994,1,group_stage,C,7846846,Germany,Bolivia,1,1,50,UEFA
-1994,1,group_stage,C,7846846,Bolivia,Germany,-1,0,50,UEFA
-1994,1,group_stage,C,7846847,Spain,South Korea,0,2,50,AFC
-1994,1,group_stage,C,7846847,South Korea,Spain,0,2,50,UEFA
-1994,1,group_stage,A,7846858,USA,Switzerland,0,1,50,UEFA
-1994,1,group_stage,A,7846858,Switzerland,USA,0,1,50,CONCACAF
-1994,1,group_stage,E,7846852,Italy,Ireland,-1,0,50,UEFA
-1994,1,group_stage,E,7846852,Ireland,Italy,1,1,50,UEFA
-1994,1,group_stage,A,7846859,Colombia,Romania,-2,1,50,UEFA
-1994,1,group_stage,A,7846859,Romania,Colombia,2,3,50,CONMEBOL
-1994,1,group_stage,F,7846870,Belgium,Morocco,1,1,50,CAF
-1994,1,group_stage,F,7846870,Morocco,Belgium,-1,0,50,UEFA
-1994,1,group_stage,E,7846853,Norway,Mexico,1,1,50,CONCACAF
-1994,1,group_stage,E,7846853,Mexico,Norway,-1,0,50,UEFA
-1994,1,group_stage,B,7846864,Cameroon,Sweden,0,2,50,UEFA
-1994,1,group_stage,B,7846864,Sweden,Cameroon,0,2,50,CAF
-1994,1,group_stage,B,7846865,Brazil,Russia,2,2,50,UEFA
-1994,1,group_stage,B,7846865,Russia,Brazil,-2,0,50,CONMEBOL
-1994,1,group_stage,F,7846871,Netherlands,Saudi Arabia,1,2,50,AFC
-1994,1,group_stage,F,7846871,Saudi Arabia,Netherlands,-1,1,50,UEFA
-1994,1,group_stage,D,7846840,Argentina,Greece,4,4,50,UEFA
-1994,1,group_stage,D,7846840,Greece,Argentina,-4,0,50,CONMEBOL
-1994,1,group_stage,D,7846841,Nigeria,Bulgaria,3,3,50,UEFA
-1994,1,group_stage,D,7846841,Bulgaria,Nigeria,-3,0,50,CAF
-1994,2,group_stage,C,7846848,Germany,Spain,0,1,50,UEFA
-1994,2,group_stage,C,7846848,Spain,Germany,0,1,50,UEFA
-1994,2,group_stage,A,7846860,Romania,Switzerland,-3,1,50,UEFA
-1994,2,group_stage,A,7846860,Switzerland,Romania,3,4,50,UEFA
-1994,2,group_stage,A,7846861,USA,Colombia,1,2,50,CONMEBOL
-1994,2,group_stage,A,7846861,Colombia,USA,-1,1,50,CONCACAF
-1994,2,group_stage,E,7846854,Italy,Norway,1,1,50,UEFA
-1994,2,group_stage,E,7846854,Norway,Italy,-1,0,50,UEFA
-1994,2,group_stage,C,7846849,South Korea,Bolivia,0,0,50,UEFA
-1994,2,group_stage,C,7846849,Bolivia,South Korea,0,0,50,AFC
-1994,2,group_stage,E,7846855,Mexico,Ireland,1,2,50,UEFA
-1994,2,group_stage,E,7846855,Ireland,Mexico,-1,1,50,CONCACAF
-1994,2,group_stage,B,7846866,Brazil,Cameroon,3,3,50,CAF
-1994,2,group_stage,B,7846866,Cameroon,Brazil,-3,0,50,CONMEBOL
-1994,2,group_stage,B,7846867,Sweden,Russia,2,3,50,UEFA
-1994,2,group_stage,B,7846867,Russia,Sweden,-2,1,50,UEFA
-1994,2,group_stage,F,7846872,Belgium,Netherlands,1,1,50,UEFA
-1994,2,group_stage,F,7846872,Netherlands,Belgium,-1,0,50,UEFA
-1994,2,group_stage,F,7846873,Saudi Arabia,Morocco,1,2,50,CAF
-1994,2,group_stage,F,7846873,Morocco,Saudi Arabia,-1,1,50,AFC
-1994,2,group_stage,D,7846842,Argentina,Nigeria,1,2,50,CAF
-1994,2,group_stage,D,7846842,Nigeria,Argentina,-1,1,50,CONMEBOL
-1994,2,group_stage,D,7846843,Bulgaria,Greece,4,4,50,UEFA
-1994,2,group_stage,D,7846843,Greece,Bulgaria,-4,0,50,UEFA
-1994,3,group_stage,A,7846863,Switzerland,Colombia,-2,0,50,CONMEBOL
-1994,3,group_stage,A,7846863,Colombia,Switzerland,2,2,50,UEFA
-1994,3,group_stage,A,7846862,USA,Romania,-1,0,50,UEFA
-1994,3,group_stage,A,7846862,Romania,USA,1,1,50,CONCACAF
-1994,3,group_stage,C,7846851,Bolivia,Spain,-2,1,50,UEFA
-1994,3,group_stage,C,7846851,Spain,Bolivia,2,3,50,UEFA
-1994,3,group_stage,C,7846850,Germany,South Korea,1,3,50,AFC
-1994,3,group_stage,C,7846850,South Korea,Germany,-1,2,50,UEFA
-1994,3,group_stage,E,7846856,Ireland,Norway,0,0,50,UEFA
-1994,3,group_stage,E,7846856,Norway,Ireland,0,0,50,UEFA
-1994,3,group_stage,E,7846857,Italy,Mexico,0,1,50,CONCACAF
-1994,3,group_stage,E,7846857,Mexico,Italy,0,1,50,UEFA
-1994,3,group_stage,B,7846868,Brazil,Sweden,0,1,50,UEFA
-1994,3,group_stage,B,7846868,Sweden,Brazil,0,1,50,CONMEBOL
-1994,3,group_stage,B,7846869,Russia,Cameroon,5,6,50,CAF
-1994,3,group_stage,B,7846869,Cameroon,Russia,-5,1,50,UEFA
-1994,3,group_stage,F,7846875,Belgium,Saudi Arabia,-1,0,50,AFC
-1994,3,group_stage,F,7846875,Saudi Arabia,Belgium,1,1,50,UEFA
-1994,3,group_stage,F,7846874,Morocco,Netherlands,-1,1,50,UEFA
-1994,3,group_stage,F,7846874,Netherlands,Morocco,1,2,50,CAF
-1994,3,group_stage,D,7846845,Argentina,Bulgaria,-2,0,50,UEFA
-1994,3,group_stage,D,7846845,Bulgaria,Argentina,2,2,50,CONMEBOL
-1994,3,group_stage,D,7846844,Greece,Nigeria,-2,0,50,CAF
-1994,3,group_stage,D,7846844,Nigeria,Greece,2,2,50,UEFA
-1994,4,round_of_16,,7846827,Romania,Argentina,1,3,50,CONMEBOL
-1994,4,round_of_16,,7846827,Argentina,Romania,-1,2,50,UEFA
-1994,4,round_of_16,,7846826,Saudi Arabia,Sweden,-2,1,50,UEFA
-1994,4,round_of_16,,7846826,Sweden,Saudi Arabia,2,3,50,AFC
-1994,4,round_of_16,,7846828,Netherlands,Ireland,2,2,50,UEFA
-1994,4,round_of_16,,7846828,Ireland,Netherlands,-2,0,50,UEFA
-1994,4,round_of_16,,7846829,Brazil,USA,1,1,50,CONCACAF
-1994,4,round_of_16,,7846829,USA,Brazil,-1,0,50,CONMEBOL
-1994,4,round_of_16,,7846831,Mexico,Bulgaria,-1,0,50,UEFA
-1994,4,round_of_16,,7846831,Bulgaria,Mexico,1,1,50,CONCACAF
-1994,4,round_of_16,,7846824,Germany,Belgium,1,3,50,UEFA
-1994,4,round_of_16,,7846824,Belgium,Germany,-1,2,50,UEFA
-1994,4,round_of_16,,7846830,Nigeria,Italy,-1,1,50,UEFA
-1994,4,round_of_16,,7846830,Italy,Nigeria,1,2,50,CAF
-1994,4,round_of_16,,7846825,Spain,Switzerland,3,3,50,UEFA
-1994,4,round_of_16,,7846825,Switzerland,Spain,-3,0,50,UEFA
-1994,3,quarter_final,,7846835,Romania,Sweden,0,2,50,UEFA
-1994,3,quarter_final,,7846835,Sweden,Romania,0,2,50,UEFA
-1994,3,quarter_final,,7846833,Netherlands,Brazil,-1,2,50,CONMEBOL
-1994,3,quarter_final,,7846833,Brazil,Netherlands,1,3,50,UEFA
-1994,3,quarter_final,,7846834,Bulgaria,Germany,1,2,50,UEFA
-1994,3,quarter_final,,7846834,Germany,Bulgaria,-1,1,50,UEFA
-1994,3,quarter_final,,7846832,Italy,Spain,1,2,50,UEFA
-1994,3,quarter_final,,7846832,Spain,Italy,-1,1,50,UEFA
-1994,2,semi_final,,7846837,Sweden,Brazil,-1,0,50,CONMEBOL
-1994,2,semi_final,,7846837,Brazil,Sweden,1,1,50,UEFA
-1994,2,semi_final,,7846836,Bulgaria,Italy,-1,1,50,UEFA
-1994,2,semi_final,,7846836,Italy,Bulgaria,1,2,50,UEFA
-1994,1,final,,7846839,Brazil,Italy,1,1,50,UEFA
-1994,1,final,,7846839,Italy,Brazil,-1,0,50,CONMEBOL
-1994,20,third_place,,7846838,Sweden,Bulgaria,4,4,50,UEFA
-1994,20,third_place,,7846838,Bulgaria,Sweden,-4,0,50,UEFA
-1998,1,group_stage,A,264896,Brazil,Scotland,1,2,50,UEFA
-1998,1,group_stage,A,264896,Scotland,Brazil,-1,1,50,CONMEBOL
-1998,1,group_stage,A,264895,Morocco,Norway,0,2,50,UEFA
-1998,1,group_stage,A,264895,Norway,Morocco,0,2,50,CAF
-1998,1,group_stage,B,264902,Italy,Chile,0,2,50,CONMEBOL
-1998,1,group_stage,B,264902,Chile,Italy,0,2,50,UEFA
-1998,1,group_stage,B,264901,Cameroon,Austria,0,1,50,UEFA
-1998,1,group_stage,B,264901,Austria,Cameroon,0,1,50,CAF
-1998,1,group_stage,D,264914,Paraguay,Bulgaria,0,0,50,UEFA
-1998,1,group_stage,D,264914,Bulgaria,Paraguay,0,0,50,CONMEBOL
-1998,1,group_stage,C,264908,Saudi Arabia,Denmark,-1,0,50,UEFA
-1998,1,group_stage,C,264908,Denmark,Saudi Arabia,1,1,50,AFC
-1998,1,group_stage,C,264907,France,South Africa,3,3,50,CAF
-1998,1,group_stage,C,264907,South Africa,France,-3,0,50,UEFA
-1998,1,group_stage,D,264913,Spain,Nigeria,-1,2,50,CAF
-1998,1,group_stage,D,264913,Nigeria,Spain,1,3,50,UEFA
-1998,1,group_stage,E,264920,South Korea,Mexico,-2,1,50,CONCACAF
-1998,1,group_stage,E,264920,Mexico,South Korea,2,3,50,AFC
-1998,1,group_stage,E,264919,Netherlands,Belgium,0,0,50,UEFA
-1998,1,group_stage,E,264919,Belgium,Netherlands,0,0,50,UEFA
-1998,1,group_stage,H,264938,Argentina,Japan,1,1,50,AFC
-1998,1,group_stage,H,264938,Japan,Argentina,-1,0,50,CONMEBOL
-1998,1,group_stage,F,264926,Yugoslavia,Iran,1,1,50,AFC
-1998,1,group_stage,F,264926,Iran,Yugoslavia,-1,0,50,UEFA
-1998,1,group_stage,H,264937,Jamaica,Croatia,-2,1,50,UEFA
-1998,1,group_stage,H,264937,Croatia,Jamaica,2,3,50,CONCACAF
-1998,1,group_stage,G,264932,England,Tunisia,2,2,50,CAF
-1998,1,group_stage,G,264932,Tunisia,England,-2,0,50,UEFA
-1998,1,group_stage,G,264931,Romania,Colombia,1,1,50,CONMEBOL
-1998,1,group_stage,G,264931,Colombia,Romania,-1,0,50,UEFA
-1998,1,group_stage,F,264925,Germany,USA,2,2,50,CONCACAF
-1998,1,group_stage,F,264925,USA,Germany,-2,0,50,UEFA
-1998,2,group_stage,A,264894,Scotland,Norway,0,1,50,UEFA
-1998,2,group_stage,A,264894,Norway,Scotland,0,1,50,UEFA
-1998,2,group_stage,A,264893,Brazil,Morocco,3,3,50,CAF
-1998,2,group_stage,A,264893,Morocco,Brazil,-3,0,50,CONMEBOL
-1998,2,group_stage,B,264900,Chile,Austria,0,1,50,UEFA
-1998,2,group_stage,B,264900,Austria,Chile,0,1,50,CONMEBOL
-1998,2,group_stage,B,264899,Italy,Cameroon,3,3,50,CAF
-1998,2,group_stage,B,264899,Cameroon,Italy,-3,0,50,UEFA
-1998,2,group_stage,C,264906,South Africa,Denmark,0,1,50,UEFA
-1998,2,group_stage,C,264906,Denmark,South Africa,0,1,50,CAF
-1998,2,group_stage,C,264905,France,Saudi Arabia,4,4,50,AFC
-1998,2,group_stage,C,264905,Saudi Arabia,France,-4,0,50,UEFA
-1998,2,group_stage,D,264912,Nigeria,Bulgaria,1,1,50,UEFA
-1998,2,group_stage,D,264912,Bulgaria,Nigeria,-1,0,50,CAF
-1998,2,group_stage,D,264911,Spain,Paraguay,0,0,50,CONMEBOL
-1998,2,group_stage,D,264911,Paraguay,Spain,0,0,50,UEFA
-1998,2,group_stage,H,264936,Japan,Croatia,-1,0,50,UEFA
-1998,2,group_stage,H,264936,Croatia,Japan,1,1,50,AFC
-1998,2,group_stage,E,264918,Belgium,Mexico,0,2,50,CONCACAF
-1998,2,group_stage,E,264918,Mexico,Belgium,0,2,50,UEFA
-1998,2,group_stage,E,264917,Netherlands,South Korea,5,5,50,AFC
-1998,2,group_stage,E,264917,South Korea,Netherlands,-5,0,50,UEFA
-1998,2,group_stage,F,264924,Germany,Yugoslavia,0,2,50,UEFA
-1998,2,group_stage,F,264924,Yugoslavia,Germany,0,2,50,UEFA
-1998,2,group_stage,H,264935,Argentina,Jamaica,5,5,50,CONCACAF
-1998,2,group_stage,H,264935,Jamaica,Argentina,-5,0,50,CONMEBOL
-1998,2,group_stage,F,264923,USA,Iran,-1,1,50,AFC
-1998,2,group_stage,F,264923,Iran,USA,1,2,50,CONCACAF
-1998,2,group_stage,G,264930,Colombia,Tunisia,1,1,50,CAF
-1998,2,group_stage,G,264930,Tunisia,Colombia,-1,0,50,CONMEBOL
-1998,2,group_stage,G,264929,Romania,England,1,2,50,UEFA
-1998,2,group_stage,G,264929,England,Romania,-1,1,50,UEFA
-1998,3,group_stage,B,264897,Chile,Cameroon,0,1,50,CAF
-1998,3,group_stage,B,264897,Cameroon,Chile,0,1,50,CONMEBOL
-1998,3,group_stage,B,264898,Italy,Austria,1,2,50,UEFA
-1998,3,group_stage,B,264898,Austria,Italy,-1,1,50,UEFA
-1998,3,group_stage,A,264892,Brazil,Norway,-1,1,50,UEFA
-1998,3,group_stage,A,264892,Norway,Brazil,1,2,50,CONMEBOL
-1998,3,group_stage,A,264891,Scotland,Morocco,-3,0,50,CAF
-1998,3,group_stage,A,264891,Morocco,Scotland,3,3,50,UEFA
-1998,3,group_stage,C,264904,France,Denmark,1,2,50,UEFA
-1998,3,group_stage,C,264904,Denmark,France,-1,1,50,UEFA
-1998,3,group_stage,C,264903,South Africa,Saudi Arabia,0,2,50,AFC
-1998,3,group_stage,C,264903,Saudi Arabia,South Africa,0,2,50,CAF
-1998,3,group_stage,D,264910,Nigeria,Paraguay,-2,1,50,CONMEBOL
-1998,3,group_stage,D,264910,Paraguay,Nigeria,2,3,50,CAF
-1998,3,group_stage,D,264909,Spain,Bulgaria,5,6,50,UEFA
-1998,3,group_stage,D,264909,Bulgaria,Spain,-5,1,50,UEFA
-1998,3,group_stage,E,264915,Belgium,South Korea,0,1,50,AFC
-1998,3,group_stage,E,264915,South Korea,Belgium,0,1,50,UEFA
-1998,3,group_stage,E,264916,Netherlands,Mexico,0,2,50,CONCACAF
-1998,3,group_stage,E,264916,Mexico,Netherlands,0,2,50,UEFA
-1998,3,group_stage,F,264921,Germany,Iran,2,2,50,AFC
-1998,3,group_stage,F,264921,Iran,Germany,-2,0,50,UEFA
-1998,3,group_stage,F,264922,USA,Yugoslavia,-1,0,50,UEFA
-1998,3,group_stage,F,264922,Yugoslavia,USA,1,1,50,CONCACAF
-1998,3,group_stage,H,264934,Argentina,Croatia,1,1,50,UEFA
-1998,3,group_stage,H,264934,Croatia,Argentina,-1,0,50,CONMEBOL
-1998,3,group_stage,H,264933,Japan,Jamaica,-1,1,50,CONCACAF
-1998,3,group_stage,H,264933,Jamaica,Japan,1,2,50,AFC
-1998,3,group_stage,G,264928,Colombia,England,-2,0,50,UEFA
-1998,3,group_stage,G,264928,England,Colombia,2,2,50,CONMEBOL
-1998,3,group_stage,G,264927,Romania,Tunisia,0,1,50,CAF
-1998,3,group_stage,G,264927,Tunisia,Romania,0,1,50,UEFA
-1998,4,round_of_16,,264945,Brazil,Chile,3,4,50,CONMEBOL
-1998,4,round_of_16,,264945,Chile,Brazil,-3,1,50,CONMEBOL
-1998,4,round_of_16,,264943,Nigeria,Denmark,-3,1,50,UEFA
-1998,4,round_of_16,,264943,Denmark,Nigeria,3,4,50,CAF
-1998,4,round_of_16,,264939,Argentina,England,1,1,50,UEFA
-1998,4,round_of_16,,264939,England,Argentina,-1,0,50,CONMEBOL
-1998,4,round_of_16,,264941,Netherlands,Yugoslavia,1,2,50,UEFA
-1998,4,round_of_16,,264941,Yugoslavia,Netherlands,-1,1,50,UEFA
-1998,4,round_of_16,,264946,Italy,Norway,1,1,50,UEFA
-1998,4,round_of_16,,264946,Norway,Italy,-1,0,50,UEFA
-1998,4,round_of_16,,264944,France,Paraguay,1,1,50,CONMEBOL
-1998,4,round_of_16,,264944,Paraguay,France,-1,0,50,UEFA
-1998,4,round_of_16,,264940,Romania,Croatia,-1,0,50,UEFA
-1998,4,round_of_16,,264940,Croatia,Romania,1,1,50,UEFA
-1998,4,round_of_16,,264942,Germany,Mexico,1,2,50,CONCACAF
-1998,4,round_of_16,,264942,Mexico,Germany,-1,1,50,UEFA
-1998,3,quarter_final,,264949,Brazil,Denmark,1,3,50,UEFA
-1998,3,quarter_final,,264949,Denmark,Brazil,-1,2,50,CONMEBOL
-1998,3,quarter_final,,264948,Netherlands,Argentina,1,2,50,CONMEBOL
-1998,3,quarter_final,,264948,Argentina,Netherlands,-1,1,50,UEFA
-1998,3,quarter_final,,264950,Italy,France,-1,0,50,UEFA
-1998,3,quarter_final,,264950,France,Italy,1,1,50,UEFA
-1998,3,quarter_final,,264947,Germany,Croatia,-3,0,50,UEFA
-1998,3,quarter_final,,264947,Croatia,Germany,3,3,50,UEFA
-1998,2,semi_final,,264952,Brazil,Netherlands,1,1,50,UEFA
-1998,2,semi_final,,264952,Netherlands,Brazil,-1,0,50,CONMEBOL
-1998,2,semi_final,,264951,France,Croatia,1,2,50,UEFA
-1998,2,semi_final,,264951,Croatia,France,-1,1,50,UEFA
-1998,1,final,,264954,Brazil,France,-3,0,50,UEFA
-1998,1,final,,264954,France,Brazil,3,3,50,CONMEBOL
-1998,20,third_place,,264953,Netherlands,Croatia,-1,1,50,UEFA
-1998,20,third_place,,264953,Croatia,Netherlands,1,2,50,UEFA
+tournament_year,round_num,stage,group,event_id,team,opponent,gd,gf,opponent_raw_rank,opponent_conf,reg_gd,reg_gf
+2026,1,group_stage,A,15186710,Mexico,South Africa,2,2,54,CAF,2,2
+2026,1,group_stage,A,15186710,South Africa,Mexico,-2,0,10,CONCACAF,-2,0
+2026,1,group_stage,A,15186720,South Korea,Czech Republic,1,2,48,UEFA,1,2
+2026,1,group_stage,A,15186720,Czech Republic,South Korea,-1,1,32,AFC,-1,1
+2026,1,group_stage,B,15186836,Canada,Bosnia and Herzegovina,0,1,61,UEFA,0,1
+2026,1,group_stage,B,15186836,Bosnia and Herzegovina,Canada,0,1,30,CONCACAF,0,1
+2026,1,group_stage,D,15186873,USA,Paraguay,3,4,34,CONMEBOL,3,4
+2026,1,group_stage,D,15186873,Paraguay,USA,-3,1,16,CONCACAF,-3,1
+2026,1,group_stage,B,15186526,Qatar,Switzerland,0,1,14,UEFA,0,1
+2026,1,group_stage,B,15186526,Switzerland,Qatar,0,1,59,AFC,0,1
+2026,1,group_stage,C,15186850,Brazil,Morocco,0,1,6,CAF,0,1
+2026,1,group_stage,C,15186850,Morocco,Brazil,0,1,5,CONMEBOL,0,1
+2026,1,group_stage,C,15186853,Haiti,Scotland,-1,0,42,UEFA,-1,0
+2026,1,group_stage,C,15186853,Scotland,Haiti,1,1,88,CONCACAF,1,1
+2026,1,group_stage,D,15186874,Australia,Turkey,2,2,27,UEFA,2,2
+2026,1,group_stage,D,15186874,Turkey,Australia,-2,0,28,AFC,-2,0
+2026,1,group_stage,E,15186899,Germany,Curacao,6,7,82,CONCACAF,6,7
+2026,1,group_stage,E,15186899,Curacao,Germany,-6,1,12,UEFA,-6,1
+2026,1,group_stage,F,15186945,Netherlands,Japan,0,2,17,AFC,0,2
+2026,1,group_stage,F,15186945,Japan,Netherlands,0,2,9,UEFA,0,2
+2026,1,group_stage,E,15186904,Ivory Coast,Ecuador,1,1,25,CONMEBOL,1,1
+2026,1,group_stage,E,15186904,Ecuador,Ivory Coast,-1,0,31,CAF,-1,0
+2026,1,group_stage,F,15186951,Sweden,Tunisia,4,5,57,CAF,4,5
+2026,1,group_stage,F,15186951,Tunisia,Sweden,-4,1,37,UEFA,-4,1
+2026,1,group_stage,H,15186783,Spain,Cape Verde,0,0,64,CAF,0,0
+2026,1,group_stage,H,15186783,Cape Verde,Spain,0,0,2,UEFA,0,0
+2026,1,group_stage,G,15186837,Belgium,Egypt,0,1,24,CAF,0,1
+2026,1,group_stage,G,15186837,Egypt,Belgium,0,1,8,UEFA,0,1
+2026,1,group_stage,H,15186811,Saudi Arabia,Uruguay,0,1,20,CONMEBOL,0,1
+2026,1,group_stage,H,15186811,Uruguay,Saudi Arabia,0,1,58,AFC,0,1
+2026,1,group_stage,G,15186832,Iran,New Zealand,0,2,86,OFC,0,2
+2026,1,group_stage,G,15186832,New Zealand,Iran,0,2,22,AFC,0,2
+2026,1,group_stage,I,15186501,France,Senegal,2,3,19,CAF,2,3
+2026,1,group_stage,I,15186501,Senegal,France,-2,1,1,UEFA,-2,1
+2026,1,group_stage,I,15186773,Iraq,Norway,-3,1,18,UEFA,-3,1
+2026,1,group_stage,I,15186773,Norway,Iraq,3,4,63,AFC,3,4
+2026,1,group_stage,J,15186854,Argentina,Algeria,3,3,29,CAF,3,3
+2026,1,group_stage,J,15186854,Algeria,Argentina,-3,0,3,CONMEBOL,-3,0
+2026,1,group_stage,J,15186751,Austria,Jordan,2,3,73,AFC,2,3
+2026,1,group_stage,J,15186751,Jordan,Austria,-2,1,23,UEFA,-2,1
+2026,1,group_stage,K,15186709,Portugal,DR Congo,0,1,41,CAF,0,1
+2026,1,group_stage,K,15186709,DR Congo,Portugal,0,1,7,UEFA,0,1
+2026,1,group_stage,L,15186504,England,Croatia,2,4,13,UEFA,2,4
+2026,1,group_stage,L,15186504,Croatia,England,-2,2,4,UEFA,-2,2
+2026,1,group_stage,L,15186687,Ghana,Panama,1,1,44,CONCACAF,1,1
+2026,1,group_stage,L,15186687,Panama,Ghana,-1,0,65,CAF,-1,0
+2026,1,group_stage,K,15186722,Uzbekistan,Colombia,-2,1,11,CONMEBOL,-2,1
+2026,1,group_stage,K,15186722,Colombia,Uzbekistan,2,3,60,AFC,2,3
+2026,2,group_stage,A,15186731,Czech Republic,South Africa,0,1,54,CAF,0,1
+2026,2,group_stage,A,15186731,South Africa,Czech Republic,0,1,48,UEFA,0,1
+2026,2,group_stage,B,15186806,Switzerland,Bosnia and Herzegovina,3,4,61,UEFA,3,4
+2026,2,group_stage,B,15186806,Bosnia and Herzegovina,Switzerland,-3,1,14,UEFA,-3,1
+2026,2,group_stage,B,15186798,Canada,Qatar,6,6,59,AFC,6,6
+2026,2,group_stage,B,15186798,Qatar,Canada,-6,0,30,CONCACAF,-6,0
+2026,2,group_stage,A,15186490,Mexico,South Korea,1,1,32,AFC,1,1
+2026,2,group_stage,A,15186490,South Korea,Mexico,-1,0,10,CONCACAF,-1,0
+2026,2,group_stage,D,15186878,USA,Australia,2,2,28,AFC,2,2
+2026,2,group_stage,D,15186878,Australia,USA,-2,0,16,CONCACAF,-2,0
+2026,2,group_stage,C,15186859,Scotland,Morocco,-1,0,6,CAF,-1,0
+2026,2,group_stage,C,15186859,Morocco,Scotland,1,1,42,UEFA,1,1
+2026,2,group_stage,C,15186856,Brazil,Haiti,3,3,88,CONCACAF,3,3
+2026,2,group_stage,C,15186856,Haiti,Brazil,-3,0,5,CONMEBOL,-3,0
+2026,2,group_stage,D,15186879,Turkey,Paraguay,-1,0,34,CONMEBOL,-1,0
+2026,2,group_stage,D,15186879,Paraguay,Turkey,1,1,27,UEFA,1,1
+2026,2,group_stage,F,15186957,Netherlands,Sweden,4,5,37,UEFA,4,5
+2026,2,group_stage,F,15186957,Sweden,Netherlands,-4,1,9,UEFA,-4,1
+2026,2,group_stage,E,15186905,Germany,Ivory Coast,1,2,31,CAF,1,2
+2026,2,group_stage,E,15186905,Ivory Coast,Germany,-1,1,12,UEFA,-1,1
+2026,2,group_stage,E,15186906,Ecuador,Curacao,0,0,82,CONCACAF,0,0
+2026,2,group_stage,E,15186906,Curacao,Ecuador,0,0,25,CONMEBOL,0,0
+2026,2,group_stage,F,15186963,Tunisia,Japan,-4,0,17,AFC,-4,0
+2026,2,group_stage,F,15186963,Japan,Tunisia,4,4,57,CAF,4,4
+2026,2,group_stage,H,15186840,Spain,Saudi Arabia,4,4,58,AFC,4,4
+2026,2,group_stage,H,15186840,Saudi Arabia,Spain,-4,0,2,UEFA,-4,0
+2026,2,group_stage,G,15186499,Belgium,Iran,0,0,22,AFC,0,0
+2026,2,group_stage,G,15186499,Iran,Belgium,0,0,8,UEFA,0,0
+2026,2,group_stage,H,15186800,Uruguay,Cape Verde,0,2,64,CAF,0,2
+2026,2,group_stage,H,15186800,Cape Verde,Uruguay,0,2,20,CONMEBOL,0,2
+2026,2,group_stage,G,15186827,New Zealand,Egypt,-2,1,24,CAF,-2,1
+2026,2,group_stage,G,15186827,Egypt,New Zealand,2,3,86,OFC,2,3
+2026,2,group_stage,J,15186502,Argentina,Austria,2,2,23,UEFA,2,2
+2026,2,group_stage,J,15186502,Austria,Argentina,-2,0,3,CONMEBOL,-2,0
+2026,2,group_stage,I,15186769,France,Iraq,3,3,63,AFC,3,3
+2026,2,group_stage,I,15186769,Iraq,France,-3,0,1,UEFA,-3,0
+2026,2,group_stage,I,15186770,Norway,Senegal,1,3,19,CAF,1,3
+2026,2,group_stage,I,15186770,Senegal,Norway,-1,2,18,UEFA,-1,2
+2026,2,group_stage,J,15186740,Jordan,Algeria,-1,1,29,CAF,-1,1
+2026,2,group_stage,J,15186740,Algeria,Jordan,1,2,73,AFC,1,2
+2026,2,group_stage,K,15186858,Portugal,Uzbekistan,5,5,60,AFC,5,5
+2026,2,group_stage,K,15186858,Uzbekistan,Portugal,-5,0,7,UEFA,-5,0
+2026,2,group_stage,L,15186672,England,Ghana,0,0,65,CAF,0,0
+2026,2,group_stage,L,15186672,Ghana,England,0,0,4,UEFA,0,0
+2026,2,group_stage,L,15186520,Panama,Croatia,-1,0,13,UEFA,-1,0
+2026,2,group_stage,L,15186520,Croatia,Panama,1,1,44,CONCACAF,1,1
+2026,2,group_stage,K,15186713,Colombia,DR Congo,1,1,41,CAF,1,1
+2026,2,group_stage,K,15186713,DR Congo,Colombia,-1,0,11,CONMEBOL,-1,0
+2026,3,group_stage,B,15186829,Bosnia and Herzegovina,Qatar,2,3,59,AFC,2,3
+2026,3,group_stage,B,15186829,Qatar,Bosnia and Herzegovina,-2,1,61,UEFA,-2,1
+2026,3,group_stage,B,15186821,Switzerland,Canada,1,2,30,CONCACAF,1,2
+2026,3,group_stage,B,15186821,Canada,Switzerland,-1,1,14,UEFA,-1,1
+2026,3,group_stage,C,15186864,Morocco,Haiti,2,4,88,CONCACAF,2,4
+2026,3,group_stage,C,15186864,Haiti,Morocco,-2,2,6,CAF,-2,2
+2026,3,group_stage,C,15186861,Scotland,Brazil,-3,0,5,CONMEBOL,-3,0
+2026,3,group_stage,C,15186861,Brazil,Scotland,3,3,42,UEFA,3,3
+2026,3,group_stage,A,15186732,Czech Republic,Mexico,-3,0,10,CONCACAF,-3,0
+2026,3,group_stage,A,15186732,Mexico,Czech Republic,3,3,48,UEFA,3,3
+2026,3,group_stage,A,15186744,South Africa,South Korea,1,1,32,AFC,1,1
+2026,3,group_stage,A,15186744,South Korea,South Africa,-1,0,54,CAF,-1,0
+2026,3,group_stage,E,15186908,Curacao,Ivory Coast,-2,0,31,CAF,-2,0
+2026,3,group_stage,E,15186908,Ivory Coast,Curacao,2,2,82,CONCACAF,2,2
+2026,3,group_stage,E,15186907,Ecuador,Germany,1,2,12,UEFA,1,2
+2026,3,group_stage,E,15186907,Germany,Ecuador,-1,1,25,CONMEBOL,-1,1
+2026,3,group_stage,F,15186972,Japan,Sweden,0,1,37,UEFA,0,1
+2026,3,group_stage,F,15186972,Sweden,Japan,0,1,17,AFC,0,1
+2026,3,group_stage,F,15186973,Tunisia,Netherlands,-2,1,9,UEFA,-2,1
+2026,3,group_stage,F,15186973,Netherlands,Tunisia,2,3,57,CAF,2,3
+2026,3,group_stage,D,15186891,Paraguay,Australia,0,0,28,AFC,0,0
+2026,3,group_stage,D,15186891,Australia,Paraguay,0,0,34,CONMEBOL,0,0
+2026,3,group_stage,D,15186887,Turkey,USA,1,3,16,CONCACAF,1,3
+2026,3,group_stage,D,15186887,USA,Turkey,-1,2,27,UEFA,-1,2
+2026,3,group_stage,I,15186537,Norway,France,-3,1,1,UEFA,-3,1
+2026,3,group_stage,I,15186537,France,Norway,3,4,18,UEFA,3,4
+2026,3,group_stage,I,15186771,Senegal,Iraq,5,5,63,AFC,5,5
+2026,3,group_stage,I,15186771,Iraq,Senegal,-5,0,19,CAF,-5,0
+2026,3,group_stage,H,15186803,Cape Verde,Saudi Arabia,0,0,58,AFC,0,0
+2026,3,group_stage,H,15186803,Saudi Arabia,Cape Verde,0,0,64,CAF,0,0
+2026,3,group_stage,H,15186841,Uruguay,Spain,-1,0,2,UEFA,-1,0
+2026,3,group_stage,H,15186841,Spain,Uruguay,1,1,20,CONMEBOL,1,1
+2026,3,group_stage,G,15186828,Egypt,Iran,0,1,22,AFC,0,1
+2026,3,group_stage,G,15186828,Iran,Egypt,0,1,24,CAF,0,1
+2026,3,group_stage,G,15186822,New Zealand,Belgium,-4,1,8,UEFA,-4,1
+2026,3,group_stage,G,15186822,Belgium,New Zealand,4,5,86,OFC,4,5
+2026,3,group_stage,L,15186624,Croatia,Ghana,1,2,65,CAF,1,2
+2026,3,group_stage,L,15186624,Ghana,Croatia,-1,1,13,UEFA,-1,1
+2026,3,group_stage,L,15186676,Panama,England,-2,0,4,UEFA,-2,0
+2026,3,group_stage,L,15186676,England,Panama,2,2,44,CONCACAF,2,2
+2026,3,group_stage,K,15186696,Colombia,Portugal,0,0,7,UEFA,0,0
+2026,3,group_stage,K,15186696,Portugal,Colombia,0,0,11,CONMEBOL,0,0
+2026,3,group_stage,K,15186717,DR Congo,Uzbekistan,2,3,60,AFC,2,3
+2026,3,group_stage,K,15186717,Uzbekistan,DR Congo,-2,1,41,CAF,-2,1
+2026,3,group_stage,J,15186747,Algeria,Austria,0,3,23,UEFA,0,3
+2026,3,group_stage,J,15186747,Austria,Algeria,0,3,29,CAF,0,3
+2026,3,group_stage,J,15186734,Jordan,Argentina,-2,1,3,CONMEBOL,-2,1
+2026,3,group_stage,J,15186734,Argentina,Jordan,2,3,73,AFC,2,3
+2026,6,round_of_32,,12813014,Germany,Paraguay,-1,0,34,CONMEBOL,0,1
+2026,6,round_of_32,,12813014,Paraguay,Germany,1,1,12,UEFA,0,1
+2026,6,round_of_32,,12812995,France,Sweden,3,3,37,UEFA,3,3
+2026,6,round_of_32,,12812995,Sweden,France,-3,0,1,UEFA,-3,0
+2026,6,round_of_32,,12813000,South Africa,Canada,-1,0,30,CONCACAF,-1,0
+2026,6,round_of_32,,12813000,Canada,South Africa,1,1,54,CAF,1,1
+2026,6,round_of_32,,12812998,Netherlands,Morocco,-1,0,6,CAF,0,1
+2026,6,round_of_32,,12812998,Morocco,Netherlands,1,1,9,UEFA,0,1
+2026,6,round_of_32,,12812997,Portugal,Croatia,1,2,13,UEFA,1,2
+2026,6,round_of_32,,12812997,Croatia,Portugal,-1,1,7,UEFA,-1,1
+2026,6,round_of_32,,12813004,Spain,Austria,3,3,23,UEFA,3,3
+2026,6,round_of_32,,12813004,Austria,Spain,-3,0,2,UEFA,-3,0
+2026,6,round_of_32,,12812992,USA,Bosnia and Herzegovina,2,2,61,UEFA,2,2
+2026,6,round_of_32,,12812992,Bosnia and Herzegovina,USA,-2,0,16,CONCACAF,-2,0
+2026,6,round_of_32,,12813013,Belgium,Senegal,1,3,19,CAF,1,3
+2026,6,round_of_32,,12813013,Senegal,Belgium,-1,2,8,UEFA,-1,2
+2026,6,round_of_32,,12813012,Brazil,Japan,1,2,17,AFC,1,2
+2026,6,round_of_32,,12813012,Japan,Brazil,-1,1,5,CONMEBOL,-1,1
+2026,6,round_of_32,,12812989,Ivory Coast,Norway,-1,1,18,UEFA,-1,1
+2026,6,round_of_32,,12812989,Norway,Ivory Coast,1,2,31,CAF,1,2
+2026,6,round_of_32,,12813001,Mexico,Ecuador,2,2,25,CONMEBOL,2,2
+2026,6,round_of_32,,12813001,Ecuador,Mexico,-2,0,10,CONCACAF,-2,0
+2026,6,round_of_32,,12813020,England,DR Congo,1,2,41,CAF,1,2
+2026,6,round_of_32,,12813020,DR Congo,England,-1,1,4,UEFA,-1,1
+2026,6,round_of_32,,12812999,Argentina,Cape Verde,1,3,64,CAF,1,3
+2026,6,round_of_32,,12812999,Cape Verde,Argentina,-1,2,3,CONMEBOL,-1,2
+2026,6,round_of_32,,12813018,Australia,Egypt,-1,0,24,CAF,0,1
+2026,6,round_of_32,,12813018,Egypt,Australia,1,1,28,AFC,0,1
+2026,6,round_of_32,,12813019,Switzerland,Algeria,2,2,29,CAF,2,2
+2026,6,round_of_32,,12813019,Algeria,Switzerland,-2,0,14,UEFA,-2,0
+2026,6,round_of_32,,12813011,Colombia,Ghana,1,1,65,CAF,1,1
+2026,6,round_of_32,,12813011,Ghana,Colombia,-1,0,11,CONMEBOL,-1,0
+2026,5,round_of_16,,12813010,Paraguay,France,-1,0,1,UEFA,-1,0
+2026,5,round_of_16,,12813010,France,Paraguay,1,1,34,CONMEBOL,1,1
+2026,5,round_of_16,,12813009,Canada,Morocco,-3,0,6,CAF,-3,0
+2026,5,round_of_16,,12813009,Morocco,Canada,3,3,30,CONCACAF,3,3
+2026,5,round_of_16,,12812990,Portugal,Spain,-1,0,2,UEFA,-1,0
+2026,5,round_of_16,,12812990,Spain,Portugal,1,1,7,UEFA,1,1
+2026,5,round_of_16,,12813002,USA,Belgium,-3,1,8,UEFA,-3,1
+2026,5,round_of_16,,12813002,Belgium,USA,3,4,16,CONCACAF,3,4
+2026,5,round_of_16,,12813006,Brazil,Norway,-1,1,18,UEFA,-1,1
+2026,5,round_of_16,,12813006,Norway,Brazil,1,2,5,CONMEBOL,1,2
+2026,5,round_of_16,,12813007,Mexico,England,-1,2,4,UEFA,-1,2
+2026,5,round_of_16,,12813007,England,Mexico,1,3,10,CONCACAF,1,3
+2026,5,round_of_16,,12812993,Argentina,Egypt,1,3,24,CAF,1,3
+2026,5,round_of_16,,12812993,Egypt,Argentina,-1,2,3,CONMEBOL,-1,2
+2026,5,round_of_16,,12812991,Switzerland,Colombia,1,1,11,CONMEBOL,0,0
+2026,5,round_of_16,,12812991,Colombia,Switzerland,-1,0,14,UEFA,0,0
+2026,27,quarter_final,,12813016,France,Morocco,2,2,6,CAF,2,2
+2026,27,quarter_final,,12813016,Morocco,France,-2,0,1,UEFA,-2,0
+2026,27,quarter_final,,12812994,Spain,Belgium,1,2,8,UEFA,1,2
+2026,27,quarter_final,,12812994,Belgium,Spain,-1,1,2,UEFA,-1,1
+2026,27,quarter_final,,12813017,Norway,England,-1,1,4,UEFA,-1,1
+2026,27,quarter_final,,12813017,England,Norway,1,2,18,UEFA,1,2
+2026,27,quarter_final,,12813015,Argentina,Switzerland,2,3,14,UEFA,2,3
+2026,27,quarter_final,,12813015,Switzerland,Argentina,-2,1,3,CONMEBOL,-2,1
+2026,28,semi_final,,12813008,France,Spain,-2,0,2,UEFA,-2,0
+2026,28,semi_final,,12813008,Spain,France,2,2,1,UEFA,2,2
+2002,1,group_stage,A,264960,France,Senegal,-1,0,65,CAF,-1,0
+2002,1,group_stage,A,264960,Senegal,France,1,1,1,UEFA,1,1
+2002,1,group_stage,E,264984,Ireland,Cameroon,0,1,38,CAF,0,1
+2002,1,group_stage,E,264984,Cameroon,Ireland,0,1,20,UEFA,0,1
+2002,1,group_stage,A,264959,Uruguay,Denmark,-1,1,17,UEFA,-1,1
+2002,1,group_stage,A,264959,Denmark,Uruguay,1,2,23,CONMEBOL,1,2
+2002,1,group_stage,E,264983,Germany,Saudi Arabia,8,8,30,AFC,8,8
+2002,1,group_stage,E,264983,Saudi Arabia,Germany,-8,0,14,UEFA,-8,0
+2002,1,group_stage,F,264990,Argentina,Nigeria,1,1,42,CAF,1,1
+2002,1,group_stage,F,264990,Nigeria,Argentina,-1,0,3,CONMEBOL,-1,0
+2002,1,group_stage,B,264966,Paraguay,South Africa,0,2,32,CAF,0,2
+2002,1,group_stage,B,264966,South Africa,Paraguay,0,2,13,CONMEBOL,0,2
+2002,1,group_stage,F,264989,England,Sweden,0,1,18,UEFA,0,1
+2002,1,group_stage,F,264989,Sweden,England,0,1,9,UEFA,0,1
+2002,1,group_stage,B,264965,Spain,Slovenia,2,3,27,UEFA,2,3
+2002,1,group_stage,B,264965,Slovenia,Spain,-2,1,6,UEFA,-2,1
+2002,1,group_stage,G,264996,Croatia,Mexico,-1,0,11,CONCACAF,-1,0
+2002,1,group_stage,G,264996,Mexico,Croatia,1,1,16,UEFA,1,1
+2002,1,group_stage,C,264972,Brazil,Turkey,1,2,34,UEFA,1,2
+2002,1,group_stage,C,264972,Turkey,Brazil,-1,1,2,CONMEBOL,-1,1
+2002,1,group_stage,G,264995,Italy,Ecuador,2,2,39,CONMEBOL,2,2
+2002,1,group_stage,G,264995,Ecuador,Italy,-2,0,4,UEFA,-2,0
+2002,1,group_stage,C,264971,China,Costa Rica,-2,0,29,CONCACAF,-2,0
+2002,1,group_stage,C,264971,Costa Rica,China,2,2,55,AFC,2,2
+2002,1,group_stage,H,265002,Japan,Belgium,0,2,33,UEFA,0,2
+2002,1,group_stage,H,265002,Belgium,Japan,0,2,26,AFC,0,2
+2002,1,group_stage,D,264978,South Korea,Poland,2,2,28,UEFA,2,2
+2002,1,group_stage,D,264978,Poland,South Korea,-2,0,43,AFC,-2,0
+2002,1,group_stage,H,265001,Russia,Tunisia,2,2,25,CAF,2,2
+2002,1,group_stage,H,265001,Tunisia,Russia,-2,0,21,UEFA,-2,0
+2002,1,group_stage,D,264977,USA,Portugal,1,3,5,UEFA,1,3
+2002,1,group_stage,D,264977,Portugal,USA,-1,2,19,CONCACAF,-1,2
+2002,2,group_stage,E,264982,Germany,Ireland,0,1,20,UEFA,0,1
+2002,2,group_stage,E,264982,Ireland,Germany,0,1,14,UEFA,0,1
+2002,2,group_stage,A,264958,Denmark,Senegal,0,1,65,CAF,0,1
+2002,2,group_stage,A,264958,Senegal,Denmark,0,1,17,UEFA,0,1
+2002,2,group_stage,E,264981,Cameroon,Saudi Arabia,1,1,30,AFC,1,1
+2002,2,group_stage,E,264981,Saudi Arabia,Cameroon,-1,0,38,CAF,-1,0
+2002,2,group_stage,A,264957,France,Uruguay,0,0,23,CONMEBOL,0,0
+2002,2,group_stage,A,264957,Uruguay,France,0,0,1,UEFA,0,0
+2002,2,group_stage,F,264988,Sweden,Nigeria,1,2,42,CAF,1,2
+2002,2,group_stage,F,264988,Nigeria,Sweden,-1,1,18,UEFA,-1,1
+2002,2,group_stage,B,264964,Spain,Paraguay,2,3,13,CONMEBOL,2,3
+2002,2,group_stage,B,264964,Paraguay,Spain,-2,1,6,UEFA,-2,1
+2002,2,group_stage,F,264987,Argentina,England,-1,0,9,UEFA,-1,0
+2002,2,group_stage,F,264987,England,Argentina,1,1,3,CONMEBOL,1,1
+2002,2,group_stage,B,264963,South Africa,Slovenia,1,1,27,UEFA,1,1
+2002,2,group_stage,B,264963,Slovenia,South Africa,-1,0,32,CAF,-1,0
+2002,2,group_stage,G,264994,Italy,Croatia,-1,1,16,UEFA,-1,1
+2002,2,group_stage,G,264994,Croatia,Italy,1,2,4,UEFA,1,2
+2002,2,group_stage,C,264970,Brazil,China,4,4,55,AFC,4,4
+2002,2,group_stage,C,264970,China,Brazil,-4,0,2,CONMEBOL,-4,0
+2002,2,group_stage,G,264993,Mexico,Ecuador,1,2,39,CONMEBOL,1,2
+2002,2,group_stage,G,264993,Ecuador,Mexico,-1,1,11,CONCACAF,-1,1
+2002,2,group_stage,C,264969,Costa Rica,Turkey,0,1,34,UEFA,0,1
+2002,2,group_stage,C,264969,Turkey,Costa Rica,0,1,29,CONCACAF,0,1
+2002,2,group_stage,H,265000,Japan,Russia,1,1,21,UEFA,1,1
+2002,2,group_stage,H,265000,Russia,Japan,-1,0,26,AFC,-1,0
+2002,2,group_stage,D,264976,South Korea,USA,0,1,19,CONCACAF,0,1
+2002,2,group_stage,D,264976,USA,South Korea,0,1,43,AFC,0,1
+2002,2,group_stage,H,264999,Tunisia,Belgium,0,1,33,UEFA,0,1
+2002,2,group_stage,H,264999,Belgium,Tunisia,0,1,25,CAF,0,1
+2002,2,group_stage,D,264975,Portugal,Poland,4,4,28,UEFA,4,4
+2002,2,group_stage,D,264975,Poland,Portugal,-4,0,5,UEFA,-4,0
+2002,3,group_stage,A,264956,Denmark,France,2,2,1,UEFA,2,2
+2002,3,group_stage,A,264956,France,Denmark,-2,0,17,UEFA,-2,0
+2002,3,group_stage,A,264955,Senegal,Uruguay,0,3,23,CONMEBOL,0,3
+2002,3,group_stage,A,264955,Uruguay,Senegal,0,3,65,CAF,0,3
+2002,3,group_stage,E,264980,Cameroon,Germany,-2,0,14,UEFA,-2,0
+2002,3,group_stage,E,264980,Germany,Cameroon,2,2,38,CAF,2,2
+2002,3,group_stage,E,264979,Saudi Arabia,Ireland,-3,0,20,UEFA,-3,0
+2002,3,group_stage,E,264979,Ireland,Saudi Arabia,3,3,30,AFC,3,3
+2002,3,group_stage,F,264985,Nigeria,England,0,0,9,UEFA,0,0
+2002,3,group_stage,F,264985,England,Nigeria,0,0,42,CAF,0,0
+2002,3,group_stage,F,264986,Sweden,Argentina,0,1,3,CONMEBOL,0,1
+2002,3,group_stage,F,264986,Argentina,Sweden,0,1,18,UEFA,0,1
+2002,3,group_stage,B,264961,Slovenia,Paraguay,-2,1,13,CONMEBOL,-2,1
+2002,3,group_stage,B,264961,Paraguay,Slovenia,2,3,27,UEFA,2,3
+2002,3,group_stage,B,264962,South Africa,Spain,-1,2,6,UEFA,-1,2
+2002,3,group_stage,B,264962,Spain,South Africa,1,3,32,CAF,1,3
+2002,3,group_stage,C,264968,Costa Rica,Brazil,-3,2,2,CONMEBOL,-3,2
+2002,3,group_stage,C,264968,Brazil,Costa Rica,3,5,29,CONCACAF,3,5
+2002,3,group_stage,C,264967,Turkey,China,3,3,55,AFC,3,3
+2002,3,group_stage,C,264967,China,Turkey,-3,0,34,UEFA,-3,0
+2002,3,group_stage,G,264992,Ecuador,Croatia,1,1,16,UEFA,1,1
+2002,3,group_stage,G,264992,Croatia,Ecuador,-1,0,39,CONMEBOL,-1,0
+2002,3,group_stage,G,264991,Mexico,Italy,0,1,4,UEFA,0,1
+2002,3,group_stage,G,264991,Italy,Mexico,0,1,11,CONCACAF,0,1
+2002,3,group_stage,H,264998,Belgium,Russia,1,3,21,UEFA,1,3
+2002,3,group_stage,H,264998,Russia,Belgium,-1,2,33,UEFA,-1,2
+2002,3,group_stage,H,264997,Tunisia,Japan,-2,0,26,AFC,-2,0
+2002,3,group_stage,H,264997,Japan,Tunisia,2,2,25,CAF,2,2
+2002,3,group_stage,D,264974,Poland,USA,2,3,19,CONCACAF,2,3
+2002,3,group_stage,D,264974,USA,Poland,-2,1,28,UEFA,-2,1
+2002,3,group_stage,D,264973,Portugal,South Korea,-1,0,43,AFC,-1,0
+2002,3,group_stage,D,264973,South Korea,Portugal,1,1,5,UEFA,1,1
+2002,4,round_of_16,,265010,Germany,Paraguay,1,1,13,CONMEBOL,1,1
+2002,4,round_of_16,,265010,Paraguay,Germany,-1,0,14,UEFA,-1,0
+2002,4,round_of_16,,265006,Mexico,USA,-2,0,19,CONCACAF,-2,0
+2002,4,round_of_16,,265006,USA,Mexico,2,2,11,CONCACAF,2,2
+2002,4,round_of_16,,265007,Spain,Ireland,1,1,20,UEFA,0,1
+2002,4,round_of_16,,265007,Ireland,Spain,-1,0,6,UEFA,0,1
+2002,4,round_of_16,,265003,South Korea,Italy,1,2,4,UEFA,1,2
+2002,4,round_of_16,,265003,Italy,South Korea,-1,1,43,AFC,-1,1
+2002,4,round_of_16,,265009,Denmark,England,-3,0,9,UEFA,-3,0
+2002,4,round_of_16,,265009,England,Denmark,3,3,17,UEFA,3,3
+2002,4,round_of_16,,265005,Brazil,Belgium,2,2,33,UEFA,2,2
+2002,4,round_of_16,,265005,Belgium,Brazil,-2,0,2,CONMEBOL,-2,0
+2002,4,round_of_16,,265008,Sweden,Senegal,-1,1,65,CAF,-1,1
+2002,4,round_of_16,,265008,Senegal,Sweden,1,2,18,UEFA,1,2
+2002,4,round_of_16,,265004,Japan,Turkey,-1,0,34,UEFA,-1,0
+2002,4,round_of_16,,265004,Turkey,Japan,1,1,26,AFC,1,1
+2002,3,quarter_final,,265013,Germany,USA,1,1,19,CONCACAF,1,1
+2002,3,quarter_final,,265013,USA,Germany,-1,0,14,UEFA,-1,0
+2002,3,quarter_final,,265012,Spain,South Korea,-1,0,43,AFC,0,0
+2002,3,quarter_final,,265012,South Korea,Spain,1,1,6,UEFA,0,0
+2002,3,quarter_final,,265014,England,Brazil,-1,1,2,CONMEBOL,-1,1
+2002,3,quarter_final,,265014,Brazil,England,1,2,9,UEFA,1,2
+2002,3,quarter_final,,265011,Senegal,Turkey,-1,0,34,UEFA,-1,0
+2002,3,quarter_final,,265011,Turkey,Senegal,1,1,65,CAF,1,1
+2002,2,semi_final,,265016,Germany,South Korea,1,1,43,AFC,1,1
+2002,2,semi_final,,265016,South Korea,Germany,-1,0,14,UEFA,-1,0
+2002,2,semi_final,,265015,Brazil,Turkey,1,1,34,UEFA,1,1
+2002,2,semi_final,,265015,Turkey,Brazil,-1,0,2,CONMEBOL,-1,0
+2002,1,final,,265018,Germany,Brazil,-2,0,2,CONMEBOL,-2,0
+2002,1,final,,265018,Brazil,Germany,2,2,14,UEFA,2,2
+2002,20,third_place,,265017,South Korea,Turkey,-1,2,34,UEFA,-1,2
+2002,20,third_place,,265017,Turkey,South Korea,1,3,43,AFC,1,3
+2006,1,group_stage,A,231121,Germany,Costa Rica,2,4,26,CONCACAF,2,4
+2006,1,group_stage,A,231121,Costa Rica,Germany,-2,2,19,UEFA,-2,2
+2006,1,group_stage,A,231122,Poland,Ecuador,-2,0,39,CONMEBOL,-2,0
+2006,1,group_stage,A,231122,Ecuador,Poland,2,2,29,UEFA,2,2
+2006,1,group_stage,B,231127,England,Paraguay,1,1,33,CONMEBOL,1,1
+2006,1,group_stage,B,231127,Paraguay,England,-1,0,10,UEFA,-1,0
+2006,1,group_stage,B,231128,Trinidad and Tobago,Sweden,0,0,56,UEFA,0,0
+2006,1,group_stage,B,231128,Sweden,Trinidad and Tobago,0,0,47,CONCACAF,0,0
+2006,1,group_stage,C,231309,Argentina,Ivory Coast,1,2,32,CAF,1,2
+2006,1,group_stage,C,231309,Ivory Coast,Argentina,-1,1,9,CONMEBOL,-1,1
+2006,1,group_stage,C,231134,Serbia,Netherlands,-1,0,3,UEFA,-1,0
+2006,1,group_stage,C,231134,Netherlands,Serbia,1,1,44,UEFA,1,1
+2006,1,group_stage,D,231139,Mexico,Iran,2,3,23,AFC,2,3
+2006,1,group_stage,D,231139,Iran,Mexico,-2,1,4,CONCACAF,-2,1
+2006,1,group_stage,D,231140,Angola,Portugal,-1,0,7,UEFA,-1,0
+2006,1,group_stage,D,231140,Portugal,Angola,1,1,59,CAF,1,1
+2006,1,group_stage,F,231153,Australia,Japan,2,3,18,AFC,2,3
+2006,1,group_stage,F,231153,Japan,Australia,-2,1,69,AFC,-2,1
+2006,1,group_stage,E,231146,USA,Czech Republic,-3,0,2,UEFA,-3,0
+2006,1,group_stage,E,231146,Czech Republic,USA,3,3,5,CONCACAF,3,3
+2006,1,group_stage,E,231145,Italy,Ghana,2,2,48,CAF,2,2
+2006,1,group_stage,E,231145,Ghana,Italy,-2,0,13,UEFA,-2,0
+2006,1,group_stage,G,231160,South Korea,Togo,1,2,61,CAF,1,2
+2006,1,group_stage,G,231160,Togo,South Korea,-1,1,30,AFC,-1,1
+2006,1,group_stage,G,231159,France,Switzerland,0,0,35,UEFA,0,0
+2006,1,group_stage,G,231159,Switzerland,France,0,0,8,UEFA,0,0
+2006,1,group_stage,F,231151,Brazil,Croatia,1,1,24,UEFA,1,1
+2006,1,group_stage,F,231151,Croatia,Brazil,-1,0,1,CONMEBOL,-1,0
+2006,1,group_stage,H,231165,Spain,Ukraine,4,4,45,UEFA,4,4
+2006,1,group_stage,H,231165,Ukraine,Spain,-4,0,6,UEFA,-4,0
+2006,1,group_stage,H,231166,Tunisia,Saudi Arabia,0,2,34,AFC,0,2
+2006,1,group_stage,H,231166,Saudi Arabia,Tunisia,0,2,62,CAF,0,2
+2006,2,group_stage,A,231123,Germany,Poland,1,1,29,UEFA,1,1
+2006,2,group_stage,A,231123,Poland,Germany,-1,0,19,UEFA,-1,0
+2006,2,group_stage,A,231124,Ecuador,Costa Rica,3,3,26,CONCACAF,3,3
+2006,2,group_stage,A,231124,Costa Rica,Ecuador,-3,0,39,CONMEBOL,-3,0
+2006,2,group_stage,B,231129,England,Trinidad and Tobago,2,2,47,CONCACAF,2,2
+2006,2,group_stage,B,231129,Trinidad and Tobago,England,-2,0,10,UEFA,-2,0
+2006,2,group_stage,B,231130,Sweden,Paraguay,1,1,33,CONMEBOL,1,1
+2006,2,group_stage,B,231130,Paraguay,Sweden,-1,0,56,UEFA,-1,0
+2006,2,group_stage,C,231135,Argentina,Serbia,6,6,44,UEFA,6,6
+2006,2,group_stage,C,231135,Serbia,Argentina,-6,0,9,CONMEBOL,-6,0
+2006,2,group_stage,C,231310,Netherlands,Ivory Coast,1,2,32,CAF,1,2
+2006,2,group_stage,C,231310,Ivory Coast,Netherlands,-1,1,3,UEFA,-1,1
+2006,2,group_stage,D,231141,Mexico,Angola,0,0,59,CAF,0,0
+2006,2,group_stage,D,231141,Angola,Mexico,0,0,4,CONCACAF,0,0
+2006,2,group_stage,D,231142,Portugal,Iran,2,2,23,AFC,2,2
+2006,2,group_stage,D,231142,Iran,Portugal,-2,0,7,UEFA,-2,0
+2006,2,group_stage,E,231148,Czech Republic,Ghana,-2,0,48,CAF,-2,0
+2006,2,group_stage,E,231148,Ghana,Czech Republic,2,2,2,UEFA,2,2
+2006,2,group_stage,E,231147,Italy,USA,0,1,5,CONCACAF,0,1
+2006,2,group_stage,E,231147,USA,Italy,0,1,13,UEFA,0,1
+2006,2,group_stage,F,231156,Japan,Croatia,0,0,24,UEFA,0,0
+2006,2,group_stage,F,231156,Croatia,Japan,0,0,18,AFC,0,0
+2006,2,group_stage,F,231154,Brazil,Australia,2,2,69,AFC,2,2
+2006,2,group_stage,F,231154,Australia,Brazil,-2,0,1,CONMEBOL,-2,0
+2006,2,group_stage,G,231161,France,South Korea,0,1,30,AFC,0,1
+2006,2,group_stage,G,231161,South Korea,France,0,1,8,UEFA,0,1
+2006,2,group_stage,G,231162,Togo,Switzerland,-2,0,35,UEFA,-2,0
+2006,2,group_stage,G,231162,Switzerland,Togo,2,2,61,CAF,2,2
+2006,2,group_stage,H,231168,Saudi Arabia,Ukraine,-4,0,45,UEFA,-4,0
+2006,2,group_stage,H,231168,Ukraine,Saudi Arabia,4,4,34,AFC,4,4
+2006,2,group_stage,H,231167,Spain,Tunisia,2,3,62,CAF,2,3
+2006,2,group_stage,H,231167,Tunisia,Spain,-2,1,6,UEFA,-2,1
+2006,3,group_stage,A,231126,Costa Rica,Poland,-1,1,29,UEFA,-1,1
+2006,3,group_stage,A,231126,Poland,Costa Rica,1,2,26,CONCACAF,1,2
+2006,3,group_stage,A,231125,Ecuador,Germany,-3,0,19,UEFA,-3,0
+2006,3,group_stage,A,231125,Germany,Ecuador,3,3,39,CONMEBOL,3,3
+2006,3,group_stage,B,231132,Paraguay,Trinidad and Tobago,2,2,47,CONCACAF,2,2
+2006,3,group_stage,B,231132,Trinidad and Tobago,Paraguay,-2,0,33,CONMEBOL,-2,0
+2006,3,group_stage,B,231131,Sweden,England,0,2,10,UEFA,0,2
+2006,3,group_stage,B,231131,England,Sweden,0,2,56,UEFA,0,2
+2006,3,group_stage,D,231144,Iran,Angola,0,1,59,CAF,0,1
+2006,3,group_stage,D,231144,Angola,Iran,0,1,23,AFC,0,1
+2006,3,group_stage,D,231143,Portugal,Mexico,1,2,4,CONCACAF,1,2
+2006,3,group_stage,D,231143,Mexico,Portugal,-1,1,7,UEFA,-1,1
+2006,3,group_stage,C,231311,Ivory Coast,Serbia,1,3,44,UEFA,1,3
+2006,3,group_stage,C,231311,Serbia,Ivory Coast,-1,2,32,CAF,-1,2
+2006,3,group_stage,C,231137,Netherlands,Argentina,0,0,9,CONMEBOL,0,0
+2006,3,group_stage,C,231137,Argentina,Netherlands,0,0,3,UEFA,0,0
+2006,3,group_stage,E,231149,Czech Republic,Italy,-2,0,13,UEFA,-2,0
+2006,3,group_stage,E,231149,Italy,Czech Republic,2,2,2,UEFA,2,2
+2006,3,group_stage,E,231150,Ghana,USA,1,2,5,CONCACAF,1,2
+2006,3,group_stage,E,231150,USA,Ghana,-1,1,48,CAF,-1,1
+2006,3,group_stage,F,231158,Croatia,Australia,0,2,69,AFC,0,2
+2006,3,group_stage,F,231158,Australia,Croatia,0,2,24,UEFA,0,2
+2006,3,group_stage,F,231157,Japan,Brazil,-3,1,1,CONMEBOL,-3,1
+2006,3,group_stage,F,231157,Brazil,Japan,3,4,18,AFC,3,4
+2006,3,group_stage,H,231169,Saudi Arabia,Spain,-1,0,6,UEFA,-1,0
+2006,3,group_stage,H,231169,Spain,Saudi Arabia,1,1,34,AFC,1,1
+2006,3,group_stage,H,231170,Ukraine,Tunisia,1,1,62,CAF,1,1
+2006,3,group_stage,H,231170,Tunisia,Ukraine,-1,0,45,UEFA,-1,0
+2006,3,group_stage,G,231164,Switzerland,South Korea,2,2,30,AFC,2,2
+2006,3,group_stage,G,231164,South Korea,Switzerland,-2,0,35,UEFA,-2,0
+2006,3,group_stage,G,231163,Togo,France,-2,0,8,UEFA,-2,0
+2006,3,group_stage,G,231163,France,Togo,2,2,61,CAF,2,2
+2006,4,round_of_16,,265795,Germany,Sweden,2,2,56,UEFA,2,2
+2006,4,round_of_16,,265795,Sweden,Germany,-2,0,19,UEFA,-2,0
+2006,4,round_of_16,,265796,Argentina,Mexico,1,2,4,CONCACAF,1,2
+2006,4,round_of_16,,265796,Mexico,Argentina,-1,1,9,CONMEBOL,-1,1
+2006,4,round_of_16,,265799,Italy,Australia,1,1,69,AFC,1,1
+2006,4,round_of_16,,265799,Australia,Italy,-1,0,13,UEFA,-1,0
+2006,4,round_of_16,,265800,Switzerland,Ukraine,-1,0,45,UEFA,0,0
+2006,4,round_of_16,,265800,Ukraine,Switzerland,1,1,35,UEFA,0,0
+2006,4,round_of_16,,265797,England,Ecuador,1,1,39,CONMEBOL,1,1
+2006,4,round_of_16,,265797,Ecuador,England,-1,0,10,UEFA,-1,0
+2006,4,round_of_16,,265798,Portugal,Netherlands,1,1,3,UEFA,1,1
+2006,4,round_of_16,,265798,Netherlands,Portugal,-1,0,7,UEFA,-1,0
+2006,4,round_of_16,,265801,Brazil,Ghana,3,3,48,CAF,3,3
+2006,4,round_of_16,,265801,Ghana,Brazil,-3,0,1,CONMEBOL,-3,0
+2006,4,round_of_16,,265802,Spain,France,-2,1,8,UEFA,-2,1
+2006,4,round_of_16,,265802,France,Spain,2,3,6,UEFA,2,3
+2006,3,quarter_final,,268527,Germany,Argentina,1,1,9,CONMEBOL,0,1
+2006,3,quarter_final,,268527,Argentina,Germany,-1,0,19,UEFA,0,1
+2006,3,quarter_final,,268528,Italy,Ukraine,3,3,45,UEFA,3,3
+2006,3,quarter_final,,268528,Ukraine,Italy,-3,0,13,UEFA,-3,0
+2006,3,quarter_final,,268529,England,Portugal,-1,0,7,UEFA,0,0
+2006,3,quarter_final,,268529,Portugal,England,1,1,10,UEFA,0,0
+2006,3,quarter_final,,268530,Brazil,France,-1,0,8,UEFA,-1,0
+2006,3,quarter_final,,268530,France,Brazil,1,1,1,CONMEBOL,1,1
+2006,2,semi_final,,268531,Germany,Italy,-2,0,13,UEFA,-2,0
+2006,2,semi_final,,268531,Italy,Germany,2,2,19,UEFA,2,2
+2006,2,semi_final,,268532,Portugal,France,-1,0,8,UEFA,-1,0
+2006,2,semi_final,,268532,France,Portugal,1,1,7,UEFA,1,1
+2006,1,final,,268534,Italy,France,1,1,8,UEFA,0,1
+2006,1,final,,268534,France,Italy,-1,0,13,UEFA,0,1
+2006,20,third_place,,268533,Germany,Portugal,2,3,7,UEFA,2,3
+2006,20,third_place,,268533,Portugal,Germany,-2,1,19,UEFA,-2,1
+1990,1,group_stage,B,7846790,Argentina,Cameroon,-1,0,50,CAF,-1,0
+1990,1,group_stage,B,7846790,Cameroon,Argentina,1,1,50,CONMEBOL,1,1
+1990,1,group_stage,B,7846791,USSR,Romania,-2,0,50,UEFA,-2,0
+1990,1,group_stage,B,7846791,Romania,USSR,2,2,50,UEFA,2,2
+1990,1,group_stage,A,7846772,Italy,Austria,1,1,50,UEFA,1,1
+1990,1,group_stage,A,7846772,Austria,Italy,-1,0,50,UEFA,-1,0
+1990,1,group_stage,D,7846812,United Arab Emirates,Colombia,-2,0,50,CONMEBOL,-2,0
+1990,1,group_stage,D,7846812,Colombia,United Arab Emirates,2,2,50,UEFA,2,2
+1990,1,group_stage,A,7846773,USA,Czechoslovakia,-4,1,50,UEFA,-4,1
+1990,1,group_stage,A,7846773,Czechoslovakia,USA,4,5,50,CONCACAF,4,5
+1990,1,group_stage,C,7846784,Brazil,Sweden,1,2,50,UEFA,1,2
+1990,1,group_stage,C,7846784,Sweden,Brazil,-1,1,50,CONMEBOL,-1,1
+1990,1,group_stage,D,7846813,West Germany,Yugoslavia,3,4,50,UEFA,3,4
+1990,1,group_stage,D,7846813,Yugoslavia,West Germany,-3,1,50,UEFA,-3,1
+1990,1,group_stage,C,7846785,Costa Rica,Scotland,1,1,50,UEFA,1,1
+1990,1,group_stage,C,7846785,Scotland,Costa Rica,-1,0,50,CONCACAF,-1,0
+1990,1,group_stage,F,7846818,England,Ireland,0,1,50,UEFA,0,1
+1990,1,group_stage,F,7846818,Ireland,England,0,1,50,UEFA,0,1
+1990,1,group_stage,E,7846778,Belgium,South Korea,2,2,50,AFC,2,2
+1990,1,group_stage,E,7846778,South Korea,Belgium,-2,0,50,UEFA,-2,0
+1990,1,group_stage,F,7846819,Netherlands,Egypt,0,1,50,CAF,0,1
+1990,1,group_stage,F,7846819,Egypt,Netherlands,0,1,50,UEFA,0,1
+1990,1,group_stage,E,7846779,Uruguay,Spain,0,0,50,UEFA,0,0
+1990,1,group_stage,E,7846779,Spain,Uruguay,0,0,50,CONMEBOL,0,0
+1990,2,group_stage,B,7846792,Argentina,USSR,2,2,50,UEFA,2,2
+1990,2,group_stage,B,7846792,USSR,Argentina,-2,0,50,CONMEBOL,-2,0
+1990,2,group_stage,D,7846814,Yugoslavia,Colombia,1,1,50,CONMEBOL,1,1
+1990,2,group_stage,D,7846814,Colombia,Yugoslavia,-1,0,50,UEFA,-1,0
+1990,2,group_stage,A,7846774,Italy,USA,1,1,50,CONCACAF,1,1
+1990,2,group_stage,A,7846774,USA,Italy,-1,0,50,UEFA,-1,0
+1990,2,group_stage,B,7846793,Cameroon,Romania,1,2,50,UEFA,1,2
+1990,2,group_stage,B,7846793,Romania,Cameroon,-1,1,50,CAF,-1,1
+1990,2,group_stage,A,7846775,Austria,Czechoslovakia,-1,0,50,UEFA,-1,0
+1990,2,group_stage,A,7846775,Czechoslovakia,Austria,1,1,50,UEFA,1,1
+1990,2,group_stage,D,7846815,West Germany,United Arab Emirates,4,5,50,UEFA,4,5
+1990,2,group_stage,D,7846815,United Arab Emirates,West Germany,-4,1,50,UEFA,-4,1
+1990,2,group_stage,C,7846786,Brazil,Costa Rica,1,1,50,CONCACAF,1,1
+1990,2,group_stage,C,7846786,Costa Rica,Brazil,-1,0,50,CONMEBOL,-1,0
+1990,2,group_stage,C,7846787,Sweden,Scotland,-1,1,50,UEFA,-1,1
+1990,2,group_stage,C,7846787,Scotland,Sweden,1,2,50,UEFA,1,2
+1990,2,group_stage,F,7846820,England,Netherlands,0,0,50,UEFA,0,0
+1990,2,group_stage,F,7846820,Netherlands,England,0,0,50,UEFA,0,0
+1990,2,group_stage,F,7846821,Ireland,Egypt,0,0,50,CAF,0,0
+1990,2,group_stage,F,7846821,Egypt,Ireland,0,0,50,UEFA,0,0
+1990,2,group_stage,E,7846780,Belgium,Uruguay,2,3,50,CONMEBOL,2,3
+1990,2,group_stage,E,7846780,Uruguay,Belgium,-2,1,50,UEFA,-2,1
+1990,2,group_stage,E,7846781,South Korea,Spain,-2,1,50,UEFA,-2,1
+1990,2,group_stage,E,7846781,Spain,South Korea,2,3,50,AFC,2,3
+1990,3,group_stage,B,7846794,Argentina,Romania,0,1,50,UEFA,0,1
+1990,3,group_stage,B,7846794,Romania,Argentina,0,1,50,CONMEBOL,0,1
+1990,3,group_stage,B,7846795,Cameroon,USSR,-4,0,50,UEFA,-4,0
+1990,3,group_stage,B,7846795,USSR,Cameroon,4,4,50,CAF,4,4
+1990,3,group_stage,D,7846817,West Germany,Colombia,0,1,50,CONMEBOL,0,1
+1990,3,group_stage,D,7846817,Colombia,West Germany,0,1,50,UEFA,0,1
+1990,3,group_stage,D,7846816,Yugoslavia,United Arab Emirates,3,4,50,UEFA,3,4
+1990,3,group_stage,D,7846816,United Arab Emirates,Yugoslavia,-3,1,50,UEFA,-3,1
+1990,3,group_stage,A,7846777,Austria,USA,1,2,50,CONCACAF,1,2
+1990,3,group_stage,A,7846777,USA,Austria,-1,1,50,UEFA,-1,1
+1990,3,group_stage,A,7846776,Italy,Czechoslovakia,2,2,50,UEFA,2,2
+1990,3,group_stage,A,7846776,Czechoslovakia,Italy,-2,0,50,UEFA,-2,0
+1990,3,group_stage,C,7846789,Brazil,Scotland,1,1,50,UEFA,1,1
+1990,3,group_stage,C,7846789,Scotland,Brazil,-1,0,50,CONMEBOL,-1,0
+1990,3,group_stage,C,7846788,Sweden,Costa Rica,-1,1,50,CONCACAF,-1,1
+1990,3,group_stage,C,7846788,Costa Rica,Sweden,1,2,50,UEFA,1,2
+1990,3,group_stage,E,7846782,Belgium,Spain,-1,1,50,UEFA,-1,1
+1990,3,group_stage,E,7846782,Spain,Belgium,1,2,50,UEFA,1,2
+1990,3,group_stage,E,7846783,South Korea,Uruguay,-1,0,50,CONMEBOL,-1,0
+1990,3,group_stage,E,7846783,Uruguay,South Korea,1,1,50,AFC,1,1
+1990,3,group_stage,F,7846823,England,Egypt,1,1,50,CAF,1,1
+1990,3,group_stage,F,7846823,Egypt,England,-1,0,50,UEFA,-1,0
+1990,3,group_stage,F,7846822,Ireland,Netherlands,0,1,50,UEFA,0,1
+1990,3,group_stage,F,7846822,Netherlands,Ireland,0,1,50,UEFA,0,1
+1990,4,round_of_16,,7846799,West Germany,Netherlands,1,2,50,UEFA,1,2
+1990,4,round_of_16,,7846799,Netherlands,West Germany,-1,1,50,UEFA,-1,1
+1990,4,round_of_16,,7846797,Czechoslovakia,Costa Rica,3,4,50,CONCACAF,3,4
+1990,4,round_of_16,,7846797,Costa Rica,Czechoslovakia,-3,1,50,UEFA,-3,1
+1990,4,round_of_16,,7846803,England,Belgium,1,1,50,UEFA,1,1
+1990,4,round_of_16,,7846803,Belgium,England,-1,0,50,UEFA,-1,0
+1990,4,round_of_16,,7846796,Cameroon,Colombia,1,2,50,CONMEBOL,1,2
+1990,4,round_of_16,,7846796,Colombia,Cameroon,-1,1,50,CAF,-1,1
+1990,4,round_of_16,,7846801,Italy,Uruguay,2,2,50,CONMEBOL,2,2
+1990,4,round_of_16,,7846801,Uruguay,Italy,-2,0,50,UEFA,-2,0
+1990,4,round_of_16,,7846800,Ireland,Romania,1,1,50,UEFA,0,0
+1990,4,round_of_16,,7846800,Romania,Ireland,-1,0,50,UEFA,0,0
+1990,4,round_of_16,,7846802,Spain,Yugoslavia,-1,1,50,UEFA,-1,1
+1990,4,round_of_16,,7846802,Yugoslavia,Spain,1,2,50,UEFA,1,2
+1990,4,round_of_16,,7846798,Brazil,Argentina,-1,0,50,CONMEBOL,-1,0
+1990,4,round_of_16,,7846798,Argentina,Brazil,1,1,50,CONMEBOL,1,1
+1990,3,quarter_final,,7846806,West Germany,Czechoslovakia,1,1,50,UEFA,1,1
+1990,3,quarter_final,,7846806,Czechoslovakia,West Germany,-1,0,50,UEFA,-1,0
+1990,3,quarter_final,,7846807,England,Cameroon,1,3,50,CAF,1,3
+1990,3,quarter_final,,7846807,Cameroon,England,-1,2,50,UEFA,-1,2
+1990,3,quarter_final,,7846805,Italy,Ireland,1,1,50,UEFA,1,1
+1990,3,quarter_final,,7846805,Ireland,Italy,-1,0,50,UEFA,-1,0
+1990,3,quarter_final,,7846804,Yugoslavia,Argentina,-1,0,50,CONMEBOL,0,0
+1990,3,quarter_final,,7846804,Argentina,Yugoslavia,1,1,50,UEFA,0,0
+1990,2,semi_final,,7846809,West Germany,England,1,1,50,UEFA,0,1
+1990,2,semi_final,,7846809,England,West Germany,-1,0,50,UEFA,0,1
+1990,2,semi_final,,7846808,Italy,Argentina,-1,0,50,CONMEBOL,0,1
+1990,2,semi_final,,7846808,Argentina,Italy,1,1,50,UEFA,0,1
+1990,1,final,,7846811,West Germany,Argentina,1,1,50,CONMEBOL,1,1
+1990,1,final,,7846811,Argentina,West Germany,-1,0,50,UEFA,-1,0
+1990,20,third_place,,7846810,Italy,England,1,2,50,UEFA,1,2
+1990,20,third_place,,7846810,England,Italy,-1,1,50,UEFA,-1,1
+1994,1,group_stage,C,7846846,Germany,Bolivia,1,1,50,UEFA,1,1
+1994,1,group_stage,C,7846846,Bolivia,Germany,-1,0,50,UEFA,-1,0
+1994,1,group_stage,C,7846847,Spain,South Korea,0,2,50,AFC,0,2
+1994,1,group_stage,C,7846847,South Korea,Spain,0,2,50,UEFA,0,2
+1994,1,group_stage,A,7846858,USA,Switzerland,0,1,50,UEFA,0,1
+1994,1,group_stage,A,7846858,Switzerland,USA,0,1,50,CONCACAF,0,1
+1994,1,group_stage,E,7846852,Italy,Ireland,-1,0,50,UEFA,-1,0
+1994,1,group_stage,E,7846852,Ireland,Italy,1,1,50,UEFA,1,1
+1994,1,group_stage,A,7846859,Colombia,Romania,-2,1,50,UEFA,-2,1
+1994,1,group_stage,A,7846859,Romania,Colombia,2,3,50,CONMEBOL,2,3
+1994,1,group_stage,F,7846870,Belgium,Morocco,1,1,50,CAF,1,1
+1994,1,group_stage,F,7846870,Morocco,Belgium,-1,0,50,UEFA,-1,0
+1994,1,group_stage,E,7846853,Norway,Mexico,1,1,50,CONCACAF,1,1
+1994,1,group_stage,E,7846853,Mexico,Norway,-1,0,50,UEFA,-1,0
+1994,1,group_stage,B,7846864,Cameroon,Sweden,0,2,50,UEFA,0,2
+1994,1,group_stage,B,7846864,Sweden,Cameroon,0,2,50,CAF,0,2
+1994,1,group_stage,B,7846865,Brazil,Russia,2,2,50,UEFA,2,2
+1994,1,group_stage,B,7846865,Russia,Brazil,-2,0,50,CONMEBOL,-2,0
+1994,1,group_stage,F,7846871,Netherlands,Saudi Arabia,1,2,50,AFC,1,2
+1994,1,group_stage,F,7846871,Saudi Arabia,Netherlands,-1,1,50,UEFA,-1,1
+1994,1,group_stage,D,7846840,Argentina,Greece,4,4,50,UEFA,4,4
+1994,1,group_stage,D,7846840,Greece,Argentina,-4,0,50,CONMEBOL,-4,0
+1994,1,group_stage,D,7846841,Nigeria,Bulgaria,3,3,50,UEFA,3,3
+1994,1,group_stage,D,7846841,Bulgaria,Nigeria,-3,0,50,CAF,-3,0
+1994,2,group_stage,C,7846848,Germany,Spain,0,1,50,UEFA,0,1
+1994,2,group_stage,C,7846848,Spain,Germany,0,1,50,UEFA,0,1
+1994,2,group_stage,A,7846860,Romania,Switzerland,-3,1,50,UEFA,-3,1
+1994,2,group_stage,A,7846860,Switzerland,Romania,3,4,50,UEFA,3,4
+1994,2,group_stage,A,7846861,USA,Colombia,1,2,50,CONMEBOL,1,2
+1994,2,group_stage,A,7846861,Colombia,USA,-1,1,50,CONCACAF,-1,1
+1994,2,group_stage,E,7846854,Italy,Norway,1,1,50,UEFA,1,1
+1994,2,group_stage,E,7846854,Norway,Italy,-1,0,50,UEFA,-1,0
+1994,2,group_stage,C,7846849,South Korea,Bolivia,0,0,50,UEFA,0,0
+1994,2,group_stage,C,7846849,Bolivia,South Korea,0,0,50,AFC,0,0
+1994,2,group_stage,E,7846855,Mexico,Ireland,1,2,50,UEFA,1,2
+1994,2,group_stage,E,7846855,Ireland,Mexico,-1,1,50,CONCACAF,-1,1
+1994,2,group_stage,B,7846866,Brazil,Cameroon,3,3,50,CAF,3,3
+1994,2,group_stage,B,7846866,Cameroon,Brazil,-3,0,50,CONMEBOL,-3,0
+1994,2,group_stage,B,7846867,Sweden,Russia,2,3,50,UEFA,2,3
+1994,2,group_stage,B,7846867,Russia,Sweden,-2,1,50,UEFA,-2,1
+1994,2,group_stage,F,7846872,Belgium,Netherlands,1,1,50,UEFA,1,1
+1994,2,group_stage,F,7846872,Netherlands,Belgium,-1,0,50,UEFA,-1,0
+1994,2,group_stage,F,7846873,Saudi Arabia,Morocco,1,2,50,CAF,1,2
+1994,2,group_stage,F,7846873,Morocco,Saudi Arabia,-1,1,50,AFC,-1,1
+1994,2,group_stage,D,7846842,Argentina,Nigeria,1,2,50,CAF,1,2
+1994,2,group_stage,D,7846842,Nigeria,Argentina,-1,1,50,CONMEBOL,-1,1
+1994,2,group_stage,D,7846843,Bulgaria,Greece,4,4,50,UEFA,4,4
+1994,2,group_stage,D,7846843,Greece,Bulgaria,-4,0,50,UEFA,-4,0
+1994,3,group_stage,A,7846863,Switzerland,Colombia,-2,0,50,CONMEBOL,-2,0
+1994,3,group_stage,A,7846863,Colombia,Switzerland,2,2,50,UEFA,2,2
+1994,3,group_stage,A,7846862,USA,Romania,-1,0,50,UEFA,-1,0
+1994,3,group_stage,A,7846862,Romania,USA,1,1,50,CONCACAF,1,1
+1994,3,group_stage,C,7846851,Bolivia,Spain,-2,1,50,UEFA,-2,1
+1994,3,group_stage,C,7846851,Spain,Bolivia,2,3,50,UEFA,2,3
+1994,3,group_stage,C,7846850,Germany,South Korea,1,3,50,AFC,1,3
+1994,3,group_stage,C,7846850,South Korea,Germany,-1,2,50,UEFA,-1,2
+1994,3,group_stage,E,7846856,Ireland,Norway,0,0,50,UEFA,0,0
+1994,3,group_stage,E,7846856,Norway,Ireland,0,0,50,UEFA,0,0
+1994,3,group_stage,E,7846857,Italy,Mexico,0,1,50,CONCACAF,0,1
+1994,3,group_stage,E,7846857,Mexico,Italy,0,1,50,UEFA,0,1
+1994,3,group_stage,B,7846868,Brazil,Sweden,0,1,50,UEFA,0,1
+1994,3,group_stage,B,7846868,Sweden,Brazil,0,1,50,CONMEBOL,0,1
+1994,3,group_stage,B,7846869,Russia,Cameroon,5,6,50,CAF,5,6
+1994,3,group_stage,B,7846869,Cameroon,Russia,-5,1,50,UEFA,-5,1
+1994,3,group_stage,F,7846875,Belgium,Saudi Arabia,-1,0,50,AFC,-1,0
+1994,3,group_stage,F,7846875,Saudi Arabia,Belgium,1,1,50,UEFA,1,1
+1994,3,group_stage,F,7846874,Morocco,Netherlands,-1,1,50,UEFA,-1,1
+1994,3,group_stage,F,7846874,Netherlands,Morocco,1,2,50,CAF,1,2
+1994,3,group_stage,D,7846845,Argentina,Bulgaria,-2,0,50,UEFA,-2,0
+1994,3,group_stage,D,7846845,Bulgaria,Argentina,2,2,50,CONMEBOL,2,2
+1994,3,group_stage,D,7846844,Greece,Nigeria,-2,0,50,CAF,-2,0
+1994,3,group_stage,D,7846844,Nigeria,Greece,2,2,50,UEFA,2,2
+1994,4,round_of_16,,7846827,Romania,Argentina,1,3,50,CONMEBOL,1,3
+1994,4,round_of_16,,7846827,Argentina,Romania,-1,2,50,UEFA,-1,2
+1994,4,round_of_16,,7846826,Saudi Arabia,Sweden,-2,1,50,UEFA,-2,1
+1994,4,round_of_16,,7846826,Sweden,Saudi Arabia,2,3,50,AFC,2,3
+1994,4,round_of_16,,7846828,Netherlands,Ireland,2,2,50,UEFA,2,2
+1994,4,round_of_16,,7846828,Ireland,Netherlands,-2,0,50,UEFA,-2,0
+1994,4,round_of_16,,7846829,Brazil,USA,1,1,50,CONCACAF,1,1
+1994,4,round_of_16,,7846829,USA,Brazil,-1,0,50,CONMEBOL,-1,0
+1994,4,round_of_16,,7846831,Mexico,Bulgaria,-1,0,50,UEFA,0,1
+1994,4,round_of_16,,7846831,Bulgaria,Mexico,1,1,50,CONCACAF,0,1
+1994,4,round_of_16,,7846824,Germany,Belgium,1,3,50,UEFA,1,3
+1994,4,round_of_16,,7846824,Belgium,Germany,-1,2,50,UEFA,-1,2
+1994,4,round_of_16,,7846830,Nigeria,Italy,-1,1,50,UEFA,-1,1
+1994,4,round_of_16,,7846830,Italy,Nigeria,1,2,50,CAF,1,2
+1994,4,round_of_16,,7846825,Spain,Switzerland,3,3,50,UEFA,3,3
+1994,4,round_of_16,,7846825,Switzerland,Spain,-3,0,50,UEFA,-3,0
+1994,3,quarter_final,,7846835,Romania,Sweden,0,2,50,UEFA,0,2
+1994,3,quarter_final,,7846835,Sweden,Romania,0,2,50,UEFA,0,2
+1994,3,quarter_final,,7846833,Netherlands,Brazil,-1,2,50,CONMEBOL,-1,2
+1994,3,quarter_final,,7846833,Brazil,Netherlands,1,3,50,UEFA,1,3
+1994,3,quarter_final,,7846834,Bulgaria,Germany,1,2,50,UEFA,1,2
+1994,3,quarter_final,,7846834,Germany,Bulgaria,-1,1,50,UEFA,-1,1
+1994,3,quarter_final,,7846832,Italy,Spain,1,2,50,UEFA,1,2
+1994,3,quarter_final,,7846832,Spain,Italy,-1,1,50,UEFA,-1,1
+1994,2,semi_final,,7846837,Sweden,Brazil,-1,0,50,CONMEBOL,-1,0
+1994,2,semi_final,,7846837,Brazil,Sweden,1,1,50,UEFA,1,1
+1994,2,semi_final,,7846836,Bulgaria,Italy,-1,1,50,UEFA,-1,1
+1994,2,semi_final,,7846836,Italy,Bulgaria,1,2,50,UEFA,1,2
+1994,1,final,,7846839,Brazil,Italy,1,1,50,UEFA,0,0
+1994,1,final,,7846839,Italy,Brazil,-1,0,50,CONMEBOL,0,0
+1994,20,third_place,,7846838,Sweden,Bulgaria,4,4,50,UEFA,4,4
+1994,20,third_place,,7846838,Bulgaria,Sweden,-4,0,50,UEFA,-4,0
+1998,1,group_stage,A,264896,Brazil,Scotland,1,2,50,UEFA,1,2
+1998,1,group_stage,A,264896,Scotland,Brazil,-1,1,50,CONMEBOL,-1,1
+1998,1,group_stage,A,264895,Morocco,Norway,0,2,50,UEFA,0,2
+1998,1,group_stage,A,264895,Norway,Morocco,0,2,50,CAF,0,2
+1998,1,group_stage,B,264902,Italy,Chile,0,2,50,CONMEBOL,0,2
+1998,1,group_stage,B,264902,Chile,Italy,0,2,50,UEFA,0,2
+1998,1,group_stage,B,264901,Cameroon,Austria,0,1,50,UEFA,0,1
+1998,1,group_stage,B,264901,Austria,Cameroon,0,1,50,CAF,0,1
+1998,1,group_stage,D,264914,Paraguay,Bulgaria,0,0,50,UEFA,0,0
+1998,1,group_stage,D,264914,Bulgaria,Paraguay,0,0,50,CONMEBOL,0,0
+1998,1,group_stage,C,264908,Saudi Arabia,Denmark,-1,0,50,UEFA,-1,0
+1998,1,group_stage,C,264908,Denmark,Saudi Arabia,1,1,50,AFC,1,1
+1998,1,group_stage,C,264907,France,South Africa,3,3,50,CAF,3,3
+1998,1,group_stage,C,264907,South Africa,France,-3,0,50,UEFA,-3,0
+1998,1,group_stage,D,264913,Spain,Nigeria,-1,2,50,CAF,-1,2
+1998,1,group_stage,D,264913,Nigeria,Spain,1,3,50,UEFA,1,3
+1998,1,group_stage,E,264920,South Korea,Mexico,-2,1,50,CONCACAF,-2,1
+1998,1,group_stage,E,264920,Mexico,South Korea,2,3,50,AFC,2,3
+1998,1,group_stage,E,264919,Netherlands,Belgium,0,0,50,UEFA,0,0
+1998,1,group_stage,E,264919,Belgium,Netherlands,0,0,50,UEFA,0,0
+1998,1,group_stage,H,264938,Argentina,Japan,1,1,50,AFC,1,1
+1998,1,group_stage,H,264938,Japan,Argentina,-1,0,50,CONMEBOL,-1,0
+1998,1,group_stage,F,264926,Yugoslavia,Iran,1,1,50,AFC,1,1
+1998,1,group_stage,F,264926,Iran,Yugoslavia,-1,0,50,UEFA,-1,0
+1998,1,group_stage,H,264937,Jamaica,Croatia,-2,1,50,UEFA,-2,1
+1998,1,group_stage,H,264937,Croatia,Jamaica,2,3,50,CONCACAF,2,3
+1998,1,group_stage,G,264932,England,Tunisia,2,2,50,CAF,2,2
+1998,1,group_stage,G,264932,Tunisia,England,-2,0,50,UEFA,-2,0
+1998,1,group_stage,G,264931,Romania,Colombia,1,1,50,CONMEBOL,1,1
+1998,1,group_stage,G,264931,Colombia,Romania,-1,0,50,UEFA,-1,0
+1998,1,group_stage,F,264925,Germany,USA,2,2,50,CONCACAF,2,2
+1998,1,group_stage,F,264925,USA,Germany,-2,0,50,UEFA,-2,0
+1998,2,group_stage,A,264894,Scotland,Norway,0,1,50,UEFA,0,1
+1998,2,group_stage,A,264894,Norway,Scotland,0,1,50,UEFA,0,1
+1998,2,group_stage,A,264893,Brazil,Morocco,3,3,50,CAF,3,3
+1998,2,group_stage,A,264893,Morocco,Brazil,-3,0,50,CONMEBOL,-3,0
+1998,2,group_stage,B,264900,Chile,Austria,0,1,50,UEFA,0,1
+1998,2,group_stage,B,264900,Austria,Chile,0,1,50,CONMEBOL,0,1
+1998,2,group_stage,B,264899,Italy,Cameroon,3,3,50,CAF,3,3
+1998,2,group_stage,B,264899,Cameroon,Italy,-3,0,50,UEFA,-3,0
+1998,2,group_stage,C,264906,South Africa,Denmark,0,1,50,UEFA,0,1
+1998,2,group_stage,C,264906,Denmark,South Africa,0,1,50,CAF,0,1
+1998,2,group_stage,C,264905,France,Saudi Arabia,4,4,50,AFC,4,4
+1998,2,group_stage,C,264905,Saudi Arabia,France,-4,0,50,UEFA,-4,0
+1998,2,group_stage,D,264912,Nigeria,Bulgaria,1,1,50,UEFA,1,1
+1998,2,group_stage,D,264912,Bulgaria,Nigeria,-1,0,50,CAF,-1,0
+1998,2,group_stage,D,264911,Spain,Paraguay,0,0,50,CONMEBOL,0,0
+1998,2,group_stage,D,264911,Paraguay,Spain,0,0,50,UEFA,0,0
+1998,2,group_stage,H,264936,Japan,Croatia,-1,0,50,UEFA,-1,0
+1998,2,group_stage,H,264936,Croatia,Japan,1,1,50,AFC,1,1
+1998,2,group_stage,E,264918,Belgium,Mexico,0,2,50,CONCACAF,0,2
+1998,2,group_stage,E,264918,Mexico,Belgium,0,2,50,UEFA,0,2
+1998,2,group_stage,E,264917,Netherlands,South Korea,5,5,50,AFC,5,5
+1998,2,group_stage,E,264917,South Korea,Netherlands,-5,0,50,UEFA,-5,0
+1998,2,group_stage,F,264924,Germany,Yugoslavia,0,2,50,UEFA,0,2
+1998,2,group_stage,F,264924,Yugoslavia,Germany,0,2,50,UEFA,0,2
+1998,2,group_stage,H,264935,Argentina,Jamaica,5,5,50,CONCACAF,5,5
+1998,2,group_stage,H,264935,Jamaica,Argentina,-5,0,50,CONMEBOL,-5,0
+1998,2,group_stage,F,264923,USA,Iran,-1,1,50,AFC,-1,1
+1998,2,group_stage,F,264923,Iran,USA,1,2,50,CONCACAF,1,2
+1998,2,group_stage,G,264930,Colombia,Tunisia,1,1,50,CAF,1,1
+1998,2,group_stage,G,264930,Tunisia,Colombia,-1,0,50,CONMEBOL,-1,0
+1998,2,group_stage,G,264929,Romania,England,1,2,50,UEFA,1,2
+1998,2,group_stage,G,264929,England,Romania,-1,1,50,UEFA,-1,1
+1998,3,group_stage,B,264897,Chile,Cameroon,0,1,50,CAF,0,1
+1998,3,group_stage,B,264897,Cameroon,Chile,0,1,50,CONMEBOL,0,1
+1998,3,group_stage,B,264898,Italy,Austria,1,2,50,UEFA,1,2
+1998,3,group_stage,B,264898,Austria,Italy,-1,1,50,UEFA,-1,1
+1998,3,group_stage,A,264892,Brazil,Norway,-1,1,50,UEFA,-1,1
+1998,3,group_stage,A,264892,Norway,Brazil,1,2,50,CONMEBOL,1,2
+1998,3,group_stage,A,264891,Scotland,Morocco,-3,0,50,CAF,-3,0
+1998,3,group_stage,A,264891,Morocco,Scotland,3,3,50,UEFA,3,3
+1998,3,group_stage,C,264904,France,Denmark,1,2,50,UEFA,1,2
+1998,3,group_stage,C,264904,Denmark,France,-1,1,50,UEFA,-1,1
+1998,3,group_stage,C,264903,South Africa,Saudi Arabia,0,2,50,AFC,0,2
+1998,3,group_stage,C,264903,Saudi Arabia,South Africa,0,2,50,CAF,0,2
+1998,3,group_stage,D,264910,Nigeria,Paraguay,-2,1,50,CONMEBOL,-2,1
+1998,3,group_stage,D,264910,Paraguay,Nigeria,2,3,50,CAF,2,3
+1998,3,group_stage,D,264909,Spain,Bulgaria,5,6,50,UEFA,5,6
+1998,3,group_stage,D,264909,Bulgaria,Spain,-5,1,50,UEFA,-5,1
+1998,3,group_stage,E,264915,Belgium,South Korea,0,1,50,AFC,0,1
+1998,3,group_stage,E,264915,South Korea,Belgium,0,1,50,UEFA,0,1
+1998,3,group_stage,E,264916,Netherlands,Mexico,0,2,50,CONCACAF,0,2
+1998,3,group_stage,E,264916,Mexico,Netherlands,0,2,50,UEFA,0,2
+1998,3,group_stage,F,264921,Germany,Iran,2,2,50,AFC,2,2
+1998,3,group_stage,F,264921,Iran,Germany,-2,0,50,UEFA,-2,0
+1998,3,group_stage,F,264922,USA,Yugoslavia,-1,0,50,UEFA,-1,0
+1998,3,group_stage,F,264922,Yugoslavia,USA,1,1,50,CONCACAF,1,1
+1998,3,group_stage,H,264934,Argentina,Croatia,1,1,50,UEFA,1,1
+1998,3,group_stage,H,264934,Croatia,Argentina,-1,0,50,CONMEBOL,-1,0
+1998,3,group_stage,H,264933,Japan,Jamaica,-1,1,50,CONCACAF,-1,1
+1998,3,group_stage,H,264933,Jamaica,Japan,1,2,50,AFC,1,2
+1998,3,group_stage,G,264928,Colombia,England,-2,0,50,UEFA,-2,0
+1998,3,group_stage,G,264928,England,Colombia,2,2,50,CONMEBOL,2,2
+1998,3,group_stage,G,264927,Romania,Tunisia,0,1,50,CAF,0,1
+1998,3,group_stage,G,264927,Tunisia,Romania,0,1,50,UEFA,0,1
+1998,4,round_of_16,,264945,Brazil,Chile,3,4,50,CONMEBOL,3,4
+1998,4,round_of_16,,264945,Chile,Brazil,-3,1,50,CONMEBOL,-3,1
+1998,4,round_of_16,,264943,Nigeria,Denmark,-3,1,50,UEFA,-3,1
+1998,4,round_of_16,,264943,Denmark,Nigeria,3,4,50,CAF,3,4
+1998,4,round_of_16,,264939,Argentina,England,1,1,50,UEFA,0,2
+1998,4,round_of_16,,264939,England,Argentina,-1,0,50,CONMEBOL,0,2
+1998,4,round_of_16,,264941,Netherlands,Yugoslavia,1,2,50,UEFA,1,2
+1998,4,round_of_16,,264941,Yugoslavia,Netherlands,-1,1,50,UEFA,-1,1
+1998,4,round_of_16,,264946,Italy,Norway,1,1,50,UEFA,1,1
+1998,4,round_of_16,,264946,Norway,Italy,-1,0,50,UEFA,-1,0
+1998,4,round_of_16,,264944,France,Paraguay,1,1,50,CONMEBOL,1,1
+1998,4,round_of_16,,264944,Paraguay,France,-1,0,50,UEFA,-1,0
+1998,4,round_of_16,,264940,Romania,Croatia,-1,0,50,UEFA,-1,0
+1998,4,round_of_16,,264940,Croatia,Romania,1,1,50,UEFA,1,1
+1998,4,round_of_16,,264942,Germany,Mexico,1,2,50,CONCACAF,1,2
+1998,4,round_of_16,,264942,Mexico,Germany,-1,1,50,UEFA,-1,1
+1998,3,quarter_final,,264949,Brazil,Denmark,1,3,50,UEFA,1,3
+1998,3,quarter_final,,264949,Denmark,Brazil,-1,2,50,CONMEBOL,-1,2
+1998,3,quarter_final,,264948,Netherlands,Argentina,1,2,50,CONMEBOL,1,2
+1998,3,quarter_final,,264948,Argentina,Netherlands,-1,1,50,UEFA,-1,1
+1998,3,quarter_final,,264950,Italy,France,-1,0,50,UEFA,0,0
+1998,3,quarter_final,,264950,France,Italy,1,1,50,UEFA,0,0
+1998,3,quarter_final,,264947,Germany,Croatia,-3,0,50,UEFA,-3,0
+1998,3,quarter_final,,264947,Croatia,Germany,3,3,50,UEFA,3,3
+1998,2,semi_final,,264952,Brazil,Netherlands,1,1,50,UEFA,0,1
+1998,2,semi_final,,264952,Netherlands,Brazil,-1,0,50,CONMEBOL,0,1
+1998,2,semi_final,,264951,France,Croatia,1,2,50,UEFA,1,2
+1998,2,semi_final,,264951,Croatia,France,-1,1,50,UEFA,-1,1
+1998,1,final,,264954,Brazil,France,-3,0,50,UEFA,-3,0
+1998,1,final,,264954,France,Brazil,3,3,50,CONMEBOL,3,3
+1998,20,third_place,,264953,Netherlands,Croatia,-1,1,50,UEFA,-1,1
+1998,20,third_place,,264953,Croatia,Netherlands,1,2,50,UEFA,1,2
+2026,28,semi_final,,12812996,England,Argentina,-1,1,3,CONMEBOL,-1,1
+2026,28,semi_final,,12812996,Argentina,England,1,2,4,UEFA,1,2
+2026,29,final,,12813005,Spain,Argentina,,,3,CONMEBOL,,
+2026,29,final,,12813005,Argentina,Spain,,,2,UEFA,,
+2026,50,third_place,,12813003,France,England,,,4,UEFA,,
+2026,50,third_place,,12813003,England,France,,,1,UEFA,,
+2010,1,group_stage,A,1251321,South Africa,Mexico,0,1,17,CONCACAF,0,1
+2010,1,group_stage,A,1251321,Mexico,South Africa,0,1,83,CAF,0,1
+2010,1,group_stage,A,1251322,Uruguay,France,0,0,9,UEFA,0,0
+2010,1,group_stage,A,1251322,France,Uruguay,0,0,18,CONMEBOL,0,0
+2010,1,group_stage,B,1251338,South Korea,Greece,2,2,12,UEFA,2,2
+2010,1,group_stage,B,1251338,Greece,South Korea,-2,0,47,AFC,-2,0
+2010,1,group_stage,B,1251334,Argentina,Nigeria,1,1,21,CAF,1,1
+2010,1,group_stage,B,1251334,Nigeria,Argentina,-1,0,6,CONMEBOL,-1,0
+2010,1,group_stage,C,1251327,England,USA,0,1,14,CONCACAF,0,1
+2010,1,group_stage,C,1251327,USA,England,0,1,7,UEFA,0,1
+2010,1,group_stage,C,1251328,Algeria,Slovenia,-1,0,25,UEFA,-1,0
+2010,1,group_stage,C,1251328,Slovenia,Algeria,1,1,28,CAF,1,1
+2010,1,group_stage,D,1251331,Serbia,Ghana,-1,0,33,CAF,-1,0
+2010,1,group_stage,D,1251331,Ghana,Serbia,1,1,15,UEFA,1,1
+2010,1,group_stage,D,1251329,Germany,Australia,4,4,20,AFC,4,4
+2010,1,group_stage,D,1251329,Australia,Germany,-4,0,5,UEFA,-4,0
+2010,1,group_stage,E,1251343,Netherlands,Denmark,2,2,26,UEFA,2,2
+2010,1,group_stage,E,1251343,Denmark,Netherlands,-2,0,3,UEFA,-2,0
+2010,1,group_stage,E,1251345,Japan,Cameroon,1,1,19,CAF,1,1
+2010,1,group_stage,E,1251345,Cameroon,Japan,-1,0,45,AFC,-1,0
+2010,1,group_stage,F,1251360,Italy,Paraguay,0,1,30,CONMEBOL,0,1
+2010,1,group_stage,F,1251360,Paraguay,Italy,0,1,4,UEFA,0,1
+2010,1,group_stage,F,1251362,New Zealand,Slovakia,0,1,37,UEFA,0,1
+2010,1,group_stage,F,1251362,Slovakia,New Zealand,0,1,78,OFC,0,1
+2010,1,group_stage,G,1251351,Ivory Coast,Portugal,0,0,8,UEFA,0,0
+2010,1,group_stage,G,1251351,Portugal,Ivory Coast,0,0,25,CAF,0,0
+2010,1,group_stage,G,1251352,Brazil,North Korea,1,2,105,AFC,1,2
+2010,1,group_stage,G,1251352,North Korea,Brazil,-1,1,2,CONMEBOL,-1,1
+2010,1,group_stage,H,1251357,Honduras,Chile,-1,0,16,CONMEBOL,-1,0
+2010,1,group_stage,H,1251357,Chile,Honduras,1,1,38,CONCACAF,1,1
+2010,1,group_stage,H,1251358,Spain,Switzerland,-1,0,22,UEFA,-1,0
+2010,1,group_stage,H,1251358,Switzerland,Spain,1,1,1,UEFA,1,1
+2010,2,group_stage,A,1251323,South Africa,Uruguay,-3,0,18,CONMEBOL,-3,0
+2010,2,group_stage,A,1251323,Uruguay,South Africa,3,3,83,CAF,3,3
+2010,2,group_stage,B,1251342,Argentina,South Korea,3,4,47,AFC,3,4
+2010,2,group_stage,B,1251342,South Korea,Argentina,-3,1,6,CONMEBOL,-3,1
+2010,2,group_stage,B,1251341,Greece,Nigeria,1,2,21,CAF,1,2
+2010,2,group_stage,B,1251341,Nigeria,Greece,-1,1,12,UEFA,-1,1
+2010,2,group_stage,A,1251324,France,Mexico,-2,0,17,CONCACAF,-2,0
+2010,2,group_stage,A,1251324,Mexico,France,2,2,9,UEFA,2,2
+2010,2,group_stage,D,1251333,Germany,Serbia,-1,0,15,UEFA,-1,0
+2010,2,group_stage,D,1251333,Serbia,Germany,1,1,5,UEFA,1,1
+2010,2,group_stage,C,1251330,Slovenia,USA,0,2,14,CONCACAF,0,2
+2010,2,group_stage,C,1251330,USA,Slovenia,0,2,25,UEFA,0,2
+2010,2,group_stage,C,1251332,England,Algeria,0,0,28,CAF,0,0
+2010,2,group_stage,C,1251332,Algeria,England,0,0,7,UEFA,0,0
+2010,2,group_stage,E,1251347,Netherlands,Japan,1,1,45,AFC,1,1
+2010,2,group_stage,E,1251347,Japan,Netherlands,-1,0,3,UEFA,-1,0
+2010,2,group_stage,D,1251337,Ghana,Australia,0,1,20,AFC,0,1
+2010,2,group_stage,D,1251337,Australia,Ghana,0,1,33,CAF,0,1
+2010,2,group_stage,E,1251348,Cameroon,Denmark,-1,1,26,UEFA,-1,1
+2010,2,group_stage,E,1251348,Denmark,Cameroon,1,2,19,CAF,1,2
+2010,2,group_stage,F,1251363,Slovakia,Paraguay,-2,0,30,CONMEBOL,-2,0
+2010,2,group_stage,F,1251363,Paraguay,Slovakia,2,2,37,UEFA,2,2
+2010,2,group_stage,F,1251366,Italy,New Zealand,0,1,78,OFC,0,1
+2010,2,group_stage,F,1251366,New Zealand,Italy,0,1,4,UEFA,0,1
+2010,2,group_stage,G,1251353,Brazil,Ivory Coast,2,3,25,CAF,2,3
+2010,2,group_stage,G,1251353,Ivory Coast,Brazil,-2,1,2,CONMEBOL,-2,1
+2010,2,group_stage,G,1251354,Portugal,North Korea,7,7,105,AFC,7,7
+2010,2,group_stage,G,1251354,North Korea,Portugal,-7,0,8,UEFA,-7,0
+2010,2,group_stage,H,1251359,Chile,Switzerland,1,1,22,UEFA,1,1
+2010,2,group_stage,H,1251359,Switzerland,Chile,-1,0,16,CONMEBOL,-1,0
+2010,2,group_stage,H,1251361,Spain,Honduras,2,2,38,CONCACAF,2,2
+2010,2,group_stage,H,1251361,Honduras,Spain,-2,0,1,UEFA,-2,0
+2010,3,group_stage,A,1251326,France,South Africa,-1,1,83,CAF,-1,1
+2010,3,group_stage,A,1251326,South Africa,France,1,2,9,UEFA,1,2
+2010,3,group_stage,A,1251325,Mexico,Uruguay,-1,0,18,CONMEBOL,-1,0
+2010,3,group_stage,A,1251325,Uruguay,Mexico,1,1,17,CONCACAF,1,1
+2010,3,group_stage,B,1251346,Greece,Argentina,-2,0,6,CONMEBOL,-2,0
+2010,3,group_stage,B,1251346,Argentina,Greece,2,2,12,UEFA,2,2
+2010,3,group_stage,B,1251344,Nigeria,South Korea,0,2,47,AFC,0,2
+2010,3,group_stage,B,1251344,South Korea,Nigeria,0,2,21,CAF,0,2
+2010,3,group_stage,C,1251335,Slovenia,England,-1,0,7,UEFA,-1,0
+2010,3,group_stage,C,1251335,England,Slovenia,1,1,25,UEFA,1,1
+2010,3,group_stage,C,1251336,USA,Algeria,1,1,28,CAF,1,1
+2010,3,group_stage,C,1251336,Algeria,USA,-1,0,14,CONCACAF,-1,0
+2010,3,group_stage,D,1251340,Australia,Serbia,1,2,15,UEFA,1,2
+2010,3,group_stage,D,1251340,Serbia,Australia,-1,1,20,AFC,-1,1
+2010,3,group_stage,D,1251339,Ghana,Germany,-1,0,5,UEFA,-1,0
+2010,3,group_stage,D,1251339,Germany,Ghana,1,1,33,CAF,1,1
+2010,3,group_stage,F,1251368,Paraguay,New Zealand,0,0,78,OFC,0,0
+2010,3,group_stage,F,1251368,New Zealand,Paraguay,0,0,30,CONMEBOL,0,0
+2010,3,group_stage,F,1251367,Slovakia,Italy,1,3,4,UEFA,1,3
+2010,3,group_stage,F,1251367,Italy,Slovakia,-1,2,37,UEFA,-1,2
+2010,3,group_stage,E,1251350,Cameroon,Netherlands,-1,1,3,UEFA,-1,1
+2010,3,group_stage,E,1251350,Netherlands,Cameroon,1,2,19,CAF,1,2
+2010,3,group_stage,E,1251349,Denmark,Japan,-2,1,45,AFC,-2,1
+2010,3,group_stage,E,1251349,Japan,Denmark,2,3,26,UEFA,2,3
+2010,3,group_stage,G,1251356,North Korea,Ivory Coast,-3,0,25,CAF,-3,0
+2010,3,group_stage,G,1251356,Ivory Coast,North Korea,3,3,105,AFC,3,3
+2010,3,group_stage,G,1251355,Portugal,Brazil,0,0,2,CONMEBOL,0,0
+2010,3,group_stage,G,1251355,Brazil,Portugal,0,0,8,UEFA,0,0
+2010,3,group_stage,H,1251364,Chile,Spain,-1,1,1,UEFA,-1,1
+2010,3,group_stage,H,1251364,Spain,Chile,1,2,16,CONMEBOL,1,2
+2010,3,group_stage,H,1251365,Switzerland,Honduras,0,0,38,CONCACAF,0,0
+2010,3,group_stage,H,1251365,Honduras,Switzerland,0,0,22,UEFA,0,0
+2010,4,round_of_16,,1355384,Uruguay,South Korea,1,2,47,AFC,1,2
+2010,4,round_of_16,,1355384,South Korea,Uruguay,-1,1,18,CONMEBOL,-1,1
+2010,4,round_of_16,,1355385,USA,Ghana,-1,1,33,CAF,-1,1
+2010,4,round_of_16,,1355385,Ghana,USA,1,2,14,CONCACAF,1,2
+2010,4,round_of_16,,1355388,Netherlands,Slovakia,1,2,37,UEFA,1,2
+2010,4,round_of_16,,1355388,Slovakia,Netherlands,-1,1,3,UEFA,-1,1
+2010,4,round_of_16,,1355389,Brazil,Chile,3,3,16,CONMEBOL,3,3
+2010,4,round_of_16,,1355389,Chile,Brazil,-3,0,2,CONMEBOL,-3,0
+2010,4,round_of_16,,1355387,Argentina,Mexico,2,3,17,CONCACAF,2,3
+2010,4,round_of_16,,1355387,Mexico,Argentina,-2,1,6,CONMEBOL,-2,1
+2010,4,round_of_16,,1355386,Germany,England,3,4,7,UEFA,3,4
+2010,4,round_of_16,,1355386,England,Germany,-3,1,5,UEFA,-3,1
+2010,4,round_of_16,,1355390,Paraguay,Japan,1,1,45,AFC,0,0
+2010,4,round_of_16,,1355390,Japan,Paraguay,-1,0,30,CONMEBOL,0,0
+2010,4,round_of_16,,1355391,Spain,Portugal,1,1,8,UEFA,1,1
+2010,4,round_of_16,,1355391,Portugal,Spain,-1,0,1,UEFA,-1,0
+2010,3,quarter_final,,1355393,Uruguay,Ghana,1,1,33,CAF,0,1
+2010,3,quarter_final,,1355393,Ghana,Uruguay,-1,0,18,CONMEBOL,0,1
+2010,3,quarter_final,,1355392,Netherlands,Brazil,1,2,2,CONMEBOL,1,2
+2010,3,quarter_final,,1355392,Brazil,Netherlands,-1,1,3,UEFA,-1,1
+2010,3,quarter_final,,1355394,Argentina,Germany,-4,0,5,UEFA,-4,0
+2010,3,quarter_final,,1355394,Germany,Argentina,4,4,6,CONMEBOL,4,4
+2010,3,quarter_final,,1355395,Paraguay,Spain,-1,0,1,UEFA,-1,0
+2010,3,quarter_final,,1355395,Spain,Paraguay,1,1,30,CONMEBOL,1,1
+2010,2,semi_final,,1355396,Uruguay,Netherlands,-1,2,3,UEFA,-1,2
+2010,2,semi_final,,1355396,Netherlands,Uruguay,1,3,18,CONMEBOL,1,3
+2010,2,semi_final,,1355397,Germany,Spain,-1,0,1,UEFA,-1,0
+2010,2,semi_final,,1355397,Spain,Germany,1,1,5,UEFA,1,1
+2010,1,final,,1355398,Netherlands,Spain,-1,0,1,UEFA,-1,0
+2010,1,final,,1355398,Spain,Netherlands,1,1,3,UEFA,1,1
+2010,20,third_place,,1355440,Uruguay,Germany,-1,2,5,UEFA,-1,2
+2010,20,third_place,,1355440,Germany,Uruguay,1,3,18,CONMEBOL,1,3
+2014,1,group_stage,A,4768710,Brazil,Croatia,2,3,19,UEFA,2,3
+2014,1,group_stage,A,4768710,Croatia,Brazil,-2,1,10,CONMEBOL,-2,1
+2014,1,group_stage,A,4768712,Mexico,Cameroon,1,1,56,CAF,1,1
+2014,1,group_stage,A,4768712,Cameroon,Mexico,-1,0,20,CONCACAF,-1,0
+2014,1,group_stage,B,4768722,Spain,Netherlands,-4,1,9,UEFA,-4,1
+2014,1,group_stage,B,4768722,Netherlands,Spain,4,5,1,UEFA,4,5
+2014,1,group_stage,B,4768724,Chile,Australia,2,3,59,AFC,2,3
+2014,1,group_stage,B,4768724,Australia,Chile,-2,1,11,CONMEBOL,-2,1
+2014,1,group_stage,C,4768734,Colombia,Greece,3,3,12,UEFA,3,3
+2014,1,group_stage,C,4768734,Greece,Colombia,-3,0,4,CONMEBOL,-3,0
+2014,1,group_stage,D,4768746,Uruguay,Costa Rica,-2,1,28,CONCACAF,-2,1
+2014,1,group_stage,D,4768746,Costa Rica,Uruguay,2,3,6,CONMEBOL,2,3
+2014,1,group_stage,D,4768748,England,Italy,-1,1,8,UEFA,-1,1
+2014,1,group_stage,D,4768748,Italy,England,1,2,10,UEFA,1,2
+2014,1,group_stage,C,4768736,Ivory Coast,Japan,1,2,46,AFC,1,2
+2014,1,group_stage,C,4768736,Japan,Ivory Coast,-1,1,18,CAF,-1,1
+2014,1,group_stage,E,4768758,Switzerland,Ecuador,1,2,22,CONMEBOL,1,2
+2014,1,group_stage,E,4768758,Ecuador,Switzerland,-1,1,7,UEFA,-1,1
+2014,1,group_stage,E,4768760,France,Honduras,3,3,33,CONCACAF,3,3
+2014,1,group_stage,E,4768760,Honduras,France,-3,0,17,UEFA,-3,0
+2014,1,group_stage,F,4768770,Argentina,Bosnia and Herzegovina,1,2,16,UEFA,1,2
+2014,1,group_stage,F,4768770,Bosnia and Herzegovina,Argentina,-1,1,3,CONMEBOL,-1,1
+2014,1,group_stage,G,4768782,Germany,Portugal,4,4,4,UEFA,4,4
+2014,1,group_stage,G,4768782,Portugal,Germany,-4,0,2,UEFA,-4,0
+2014,1,group_stage,F,4768772,Iran,Nigeria,0,0,44,CAF,0,0
+2014,1,group_stage,F,4768772,Nigeria,Iran,0,0,43,AFC,0,0
+2014,1,group_stage,G,4768784,Ghana,USA,-1,1,14,CONCACAF,-1,1
+2014,1,group_stage,G,4768784,USA,Ghana,1,2,37,CAF,1,2
+2014,1,group_stage,H,4768794,Belgium,Algeria,1,2,25,CAF,1,2
+2014,1,group_stage,H,4768794,Algeria,Belgium,-1,1,5,UEFA,-1,1
+2014,1,group_stage,H,4768796,Russia,South Korea,0,1,57,AFC,0,1
+2014,1,group_stage,H,4768796,South Korea,Russia,0,1,19,UEFA,0,1
+2014,2,group_stage,A,4768714,Brazil,Mexico,0,0,20,CONCACAF,0,0
+2014,2,group_stage,A,4768714,Mexico,Brazil,0,0,10,CONMEBOL,0,0
+2014,2,group_stage,B,4768728,Australia,Netherlands,-1,2,9,UEFA,-1,2
+2014,2,group_stage,B,4768728,Netherlands,Australia,1,3,59,AFC,1,3
+2014,2,group_stage,B,4768726,Spain,Chile,-2,0,11,CONMEBOL,-2,0
+2014,2,group_stage,B,4768726,Chile,Spain,2,2,1,UEFA,2,2
+2014,2,group_stage,A,4768716,Cameroon,Croatia,-4,0,19,UEFA,-4,0
+2014,2,group_stage,A,4768716,Croatia,Cameroon,4,4,56,CAF,4,4
+2014,2,group_stage,C,4768738,Colombia,Ivory Coast,1,2,18,CAF,1,2
+2014,2,group_stage,C,4768738,Ivory Coast,Colombia,-1,1,4,CONMEBOL,-1,1
+2014,2,group_stage,D,4768750,Uruguay,England,1,2,10,UEFA,1,2
+2014,2,group_stage,D,4768750,England,Uruguay,-1,1,6,CONMEBOL,-1,1
+2014,2,group_stage,C,4768740,Japan,Greece,0,0,12,UEFA,0,0
+2014,2,group_stage,C,4768740,Greece,Japan,0,0,46,AFC,0,0
+2014,2,group_stage,D,4768752,Italy,Costa Rica,-1,0,28,CONCACAF,-1,0
+2014,2,group_stage,D,4768752,Costa Rica,Italy,1,1,8,UEFA,1,1
+2014,2,group_stage,E,4768762,Switzerland,France,-3,2,17,UEFA,-3,2
+2014,2,group_stage,E,4768762,France,Switzerland,3,5,7,UEFA,3,5
+2014,2,group_stage,E,4768764,Honduras,Ecuador,-1,1,22,CONMEBOL,-1,1
+2014,2,group_stage,E,4768764,Ecuador,Honduras,1,2,33,CONCACAF,1,2
+2014,2,group_stage,F,4768774,Argentina,Iran,1,1,43,AFC,1,1
+2014,2,group_stage,F,4768774,Iran,Argentina,-1,0,3,CONMEBOL,-1,0
+2014,2,group_stage,G,4768786,Germany,Ghana,0,2,37,CAF,0,2
+2014,2,group_stage,G,4768786,Ghana,Germany,0,2,2,UEFA,0,2
+2014,2,group_stage,F,4768776,Nigeria,Bosnia and Herzegovina,1,1,16,UEFA,1,1
+2014,2,group_stage,F,4768776,Bosnia and Herzegovina,Nigeria,-1,0,44,CAF,-1,0
+2014,2,group_stage,H,4768798,Belgium,Russia,1,1,19,UEFA,1,1
+2014,2,group_stage,H,4768798,Russia,Belgium,-1,0,5,UEFA,-1,0
+2014,2,group_stage,H,4768800,South Korea,Algeria,-2,2,25,CAF,-2,2
+2014,2,group_stage,H,4768800,Algeria,South Korea,2,4,57,AFC,2,4
+2014,2,group_stage,G,4768788,USA,Portugal,0,2,4,UEFA,0,2
+2014,2,group_stage,G,4768788,Portugal,USA,0,2,14,CONCACAF,0,2
+2014,3,group_stage,B,4768730,Australia,Spain,-3,0,1,UEFA,-3,0
+2014,3,group_stage,B,4768730,Spain,Australia,3,3,59,AFC,3,3
+2014,3,group_stage,B,4768732,Netherlands,Chile,2,2,11,CONMEBOL,2,2
+2014,3,group_stage,B,4768732,Chile,Netherlands,-2,0,9,UEFA,-2,0
+2014,3,group_stage,A,4768718,Cameroon,Brazil,-3,1,10,CONMEBOL,-3,1
+2014,3,group_stage,A,4768718,Brazil,Cameroon,3,4,56,CAF,3,4
+2014,3,group_stage,A,4768720,Croatia,Mexico,-2,1,20,CONCACAF,-2,1
+2014,3,group_stage,A,4768720,Mexico,Croatia,2,3,19,UEFA,2,3
+2014,3,group_stage,D,4768756,Costa Rica,England,0,0,10,UEFA,0,0
+2014,3,group_stage,D,4768756,England,Costa Rica,0,0,28,CONCACAF,0,0
+2014,3,group_stage,D,4768754,Italy,Uruguay,-1,0,6,CONMEBOL,-1,0
+2014,3,group_stage,D,4768754,Uruguay,Italy,1,1,8,UEFA,1,1
+2014,3,group_stage,C,4768744,Greece,Ivory Coast,1,2,18,CAF,1,2
+2014,3,group_stage,C,4768744,Ivory Coast,Greece,-1,1,12,UEFA,-1,1
+2014,3,group_stage,C,4768742,Japan,Colombia,-3,1,4,CONMEBOL,-3,1
+2014,3,group_stage,C,4768742,Colombia,Japan,3,4,46,AFC,3,4
+2014,3,group_stage,F,4768780,Bosnia and Herzegovina,Iran,2,3,43,AFC,2,3
+2014,3,group_stage,F,4768780,Iran,Bosnia and Herzegovina,-2,1,16,UEFA,-2,1
+2014,3,group_stage,F,4768778,Nigeria,Argentina,-1,2,3,CONMEBOL,-1,2
+2014,3,group_stage,F,4768778,Argentina,Nigeria,1,3,44,CAF,1,3
+2014,3,group_stage,E,4768768,Ecuador,France,0,0,17,UEFA,0,0
+2014,3,group_stage,E,4768768,France,Ecuador,0,0,22,CONMEBOL,0,0
+2014,3,group_stage,E,4768766,Honduras,Switzerland,-3,0,7,UEFA,-3,0
+2014,3,group_stage,E,4768766,Switzerland,Honduras,3,3,33,CONCACAF,3,3
+2014,3,group_stage,G,4768792,Portugal,Ghana,1,2,37,CAF,1,2
+2014,3,group_stage,G,4768792,Ghana,Portugal,-1,1,4,UEFA,-1,1
+2014,3,group_stage,G,4768790,USA,Germany,-1,0,2,UEFA,-1,0
+2014,3,group_stage,G,4768790,Germany,USA,1,1,14,CONCACAF,1,1
+2014,3,group_stage,H,4768804,Algeria,Russia,0,1,19,UEFA,0,1
+2014,3,group_stage,H,4768804,Russia,Algeria,0,1,25,CAF,0,1
+2014,3,group_stage,H,4768802,South Korea,Belgium,-1,0,5,UEFA,-1,0
+2014,3,group_stage,H,4768802,Belgium,South Korea,1,1,57,AFC,1,1
+2014,4,round_of_16,,4768142,Brazil,Chile,1,1,11,CONMEBOL,0,1
+2014,4,round_of_16,,4768142,Chile,Brazil,-1,0,10,CONMEBOL,0,1
+2014,4,round_of_16,,4768146,Colombia,Uruguay,2,2,6,CONMEBOL,2,2
+2014,4,round_of_16,,4768146,Uruguay,Colombia,-2,0,4,CONMEBOL,-2,0
+2014,4,round_of_16,,4768152,France,Nigeria,2,2,44,CAF,2,2
+2014,4,round_of_16,,4768152,Nigeria,France,-2,0,17,UEFA,-2,0
+2014,4,round_of_16,,4768154,Germany,Algeria,1,2,25,CAF,1,2
+2014,4,round_of_16,,4768154,Algeria,Germany,-1,1,2,UEFA,-1,1
+2014,4,round_of_16,,4768148,Netherlands,Mexico,1,2,20,CONCACAF,1,2
+2014,4,round_of_16,,4768148,Mexico,Netherlands,-1,1,9,UEFA,-1,1
+2014,4,round_of_16,,4768150,Costa Rica,Greece,1,1,12,UEFA,0,1
+2014,4,round_of_16,,4768150,Greece,Costa Rica,-1,0,28,CONCACAF,0,1
+2014,4,round_of_16,,4768156,Argentina,Switzerland,1,1,7,UEFA,1,1
+2014,4,round_of_16,,4768156,Switzerland,Argentina,-1,0,3,CONMEBOL,-1,0
+2014,4,round_of_16,,4768158,Belgium,USA,1,2,14,CONCACAF,1,2
+2014,4,round_of_16,,4768158,USA,Belgium,-1,1,5,UEFA,-1,1
+2014,3,quarter_final,,4768164,Brazil,Colombia,1,2,4,CONMEBOL,1,2
+2014,3,quarter_final,,4768164,Colombia,Brazil,-1,1,10,CONMEBOL,-1,1
+2014,3,quarter_final,,4768166,France,Germany,-1,0,2,UEFA,-1,0
+2014,3,quarter_final,,4768166,Germany,France,1,1,17,UEFA,1,1
+2014,3,quarter_final,,4768168,Netherlands,Costa Rica,1,1,28,CONCACAF,0,0
+2014,3,quarter_final,,4768168,Costa Rica,Netherlands,-1,0,9,UEFA,0,0
+2014,3,quarter_final,,4768170,Argentina,Belgium,1,1,5,UEFA,1,1
+2014,3,quarter_final,,4768170,Belgium,Argentina,-1,0,3,CONMEBOL,-1,0
+2014,2,semi_final,,4768172,Brazil,Germany,-6,1,2,UEFA,-6,1
+2014,2,semi_final,,4768172,Germany,Brazil,6,7,10,CONMEBOL,6,7
+2014,2,semi_final,,4768174,Netherlands,Argentina,-1,0,3,CONMEBOL,0,0
+2014,2,semi_final,,4768174,Argentina,Netherlands,1,1,9,UEFA,0,0
+2014,1,final,,4768178,Germany,Argentina,1,1,3,CONMEBOL,1,1
+2014,1,final,,4768178,Argentina,Germany,-1,0,2,UEFA,-1,0
+2014,20,third_place,,4768176,Brazil,Netherlands,-3,0,9,UEFA,-3,0
+2014,20,third_place,,4768176,Netherlands,Brazil,3,3,10,CONMEBOL,3,3
+2018,1,group_stage,A,7659862,Russia,Saudi Arabia,5,5,67,AFC,5,5
+2018,1,group_stage,A,7659862,Saudi Arabia,Russia,-5,0,66,UEFA,-5,0
+2018,1,group_stage,A,7659867,Egypt,Uruguay,-1,0,17,CONMEBOL,-1,0
+2018,1,group_stage,A,7659867,Uruguay,Egypt,1,1,45,CAF,1,1
+2018,1,group_stage,B,7659865,Morocco,Iran,-1,0,37,AFC,-1,0
+2018,1,group_stage,B,7659865,Iran,Morocco,1,1,42,CAF,1,1
+2018,1,group_stage,B,7659859,Portugal,Spain,0,3,10,UEFA,0,3
+2018,1,group_stage,B,7659859,Spain,Portugal,0,3,4,UEFA,0,3
+2018,1,group_stage,C,7659860,France,Australia,1,2,40,AFC,1,2
+2018,1,group_stage,C,7659860,Australia,France,-1,1,7,UEFA,-1,1
+2018,1,group_stage,D,7659864,Argentina,Iceland,0,1,22,UEFA,0,1
+2018,1,group_stage,D,7659864,Iceland,Argentina,0,1,5,CONMEBOL,0,1
+2018,1,group_stage,C,7659861,Peru,Denmark,-1,0,12,UEFA,-1,0
+2018,1,group_stage,C,7659861,Denmark,Peru,1,1,11,CONMEBOL,1,1
+2018,1,group_stage,D,7659869,Croatia,Nigeria,2,2,48,CAF,2,2
+2018,1,group_stage,D,7659869,Nigeria,Croatia,-2,0,18,UEFA,-2,0
+2018,1,group_stage,E,7659866,Costa Rica,Serbia,-1,0,38,UEFA,-1,0
+2018,1,group_stage,E,7659866,Serbia,Costa Rica,1,1,23,CONCACAF,1,1
+2018,1,group_stage,F,7659868,Germany,Mexico,-1,0,15,CONCACAF,-1,0
+2018,1,group_stage,F,7659868,Mexico,Germany,1,1,1,UEFA,1,1
+2018,1,group_stage,E,7659863,Brazil,Switzerland,0,1,6,UEFA,0,1
+2018,1,group_stage,E,7659863,Switzerland,Brazil,0,1,2,CONMEBOL,0,1
+2018,1,group_stage,F,7659878,Sweden,South Korea,1,1,62,AFC,1,1
+2018,1,group_stage,F,7659878,South Korea,Sweden,-1,0,24,UEFA,-1,0
+2018,1,group_stage,G,7659886,Belgium,Panama,3,3,55,CONCACAF,3,3
+2018,1,group_stage,G,7659886,Panama,Belgium,-3,0,3,UEFA,-3,0
+2018,1,group_stage,G,7659882,Tunisia,England,-1,1,13,UEFA,-1,1
+2018,1,group_stage,G,7659882,England,Tunisia,1,2,50,CAF,1,2
+2018,1,group_stage,H,7659875,Colombia,Japan,-1,1,61,AFC,-1,1
+2018,1,group_stage,H,7659875,Japan,Colombia,1,2,16,CONMEBOL,1,2
+2018,1,group_stage,H,7659876,Poland,Senegal,-1,1,27,CAF,-1,1
+2018,1,group_stage,H,7659876,Senegal,Poland,1,2,8,UEFA,1,2
+2018,2,group_stage,A,7659899,Russia,Egypt,2,3,45,CAF,2,3
+2018,2,group_stage,A,7659899,Egypt,Russia,-2,1,66,UEFA,-2,1
+2018,2,group_stage,B,7659877,Portugal,Morocco,1,1,42,CAF,1,1
+2018,2,group_stage,B,7659877,Morocco,Portugal,-1,0,4,UEFA,-1,0
+2018,2,group_stage,A,7659872,Uruguay,Saudi Arabia,1,1,67,AFC,1,1
+2018,2,group_stage,A,7659872,Saudi Arabia,Uruguay,-1,0,17,CONMEBOL,-1,0
+2018,2,group_stage,B,7659871,Iran,Spain,-1,0,10,UEFA,-1,0
+2018,2,group_stage,B,7659871,Spain,Iran,1,1,37,AFC,1,1
+2018,2,group_stage,C,7659874,Denmark,Australia,0,1,40,AFC,0,1
+2018,2,group_stage,C,7659874,Australia,Denmark,0,1,12,UEFA,0,1
+2018,2,group_stage,C,7659870,France,Peru,1,1,11,CONMEBOL,1,1
+2018,2,group_stage,C,7659870,Peru,France,-1,0,7,UEFA,-1,0
+2018,2,group_stage,D,7659880,Argentina,Croatia,-3,0,18,UEFA,-3,0
+2018,2,group_stage,D,7659880,Croatia,Argentina,3,3,5,CONMEBOL,3,3
+2018,2,group_stage,E,7659898,Brazil,Costa Rica,2,2,23,CONCACAF,2,2
+2018,2,group_stage,E,7659898,Costa Rica,Brazil,-2,0,2,CONMEBOL,-2,0
+2018,2,group_stage,D,7659883,Nigeria,Iceland,2,2,22,UEFA,2,2
+2018,2,group_stage,D,7659883,Iceland,Nigeria,-2,0,48,CAF,-2,0
+2018,2,group_stage,E,7659881,Serbia,Switzerland,-1,1,6,UEFA,-1,1
+2018,2,group_stage,E,7659881,Switzerland,Serbia,1,2,38,UEFA,1,2
+2018,2,group_stage,G,7659884,Belgium,Tunisia,3,5,50,CAF,3,5
+2018,2,group_stage,G,7659884,Tunisia,Belgium,-3,2,3,UEFA,-3,2
+2018,2,group_stage,F,7659888,South Korea,Mexico,-1,1,15,CONCACAF,-1,1
+2018,2,group_stage,F,7659888,Mexico,South Korea,1,2,62,AFC,1,2
+2018,2,group_stage,F,7659900,Germany,Sweden,1,2,24,UEFA,1,2
+2018,2,group_stage,F,7659900,Sweden,Germany,-1,1,1,UEFA,-1,1
+2018,2,group_stage,G,7659885,England,Panama,5,6,55,CONCACAF,5,6
+2018,2,group_stage,G,7659885,Panama,England,-5,1,13,UEFA,-5,1
+2018,2,group_stage,H,7659873,Japan,Senegal,0,2,27,CAF,0,2
+2018,2,group_stage,H,7659873,Senegal,Japan,0,2,61,AFC,0,2
+2018,2,group_stage,H,7659879,Poland,Colombia,-3,0,16,CONMEBOL,-3,0
+2018,2,group_stage,H,7659879,Colombia,Poland,3,3,8,UEFA,3,3
+2018,3,group_stage,A,7659896,Saudi Arabia,Egypt,1,2,45,CAF,1,2
+2018,3,group_stage,A,7659896,Egypt,Saudi Arabia,-1,1,67,AFC,-1,1
+2018,3,group_stage,A,7659887,Uruguay,Russia,3,3,66,UEFA,3,3
+2018,3,group_stage,A,7659887,Russia,Uruguay,-3,0,17,CONMEBOL,-3,0
+2018,3,group_stage,B,7659889,Iran,Portugal,0,1,4,UEFA,0,1
+2018,3,group_stage,B,7659889,Portugal,Iran,0,1,37,AFC,0,1
+2018,3,group_stage,B,7659892,Spain,Morocco,0,2,42,CAF,0,2
+2018,3,group_stage,B,7659892,Morocco,Spain,0,2,10,UEFA,0,2
+2018,3,group_stage,C,7659894,Australia,Peru,-2,0,11,CONMEBOL,-2,0
+2018,3,group_stage,C,7659894,Peru,Australia,2,2,40,AFC,2,2
+2018,3,group_stage,C,7659891,Denmark,France,0,0,7,UEFA,0,0
+2018,3,group_stage,C,7659891,France,Denmark,0,0,12,UEFA,0,0
+2018,3,group_stage,D,7659906,Iceland,Croatia,-1,1,18,UEFA,-1,1
+2018,3,group_stage,D,7659906,Croatia,Iceland,1,2,22,UEFA,1,2
+2018,3,group_stage,D,7659903,Nigeria,Argentina,-1,1,5,CONMEBOL,-1,1
+2018,3,group_stage,D,7659903,Argentina,Nigeria,1,2,48,CAF,1,2
+2018,3,group_stage,F,7659905,Mexico,Sweden,-3,0,24,UEFA,-3,0
+2018,3,group_stage,F,7659905,Sweden,Mexico,3,3,15,CONCACAF,3,3
+2018,3,group_stage,F,7659904,South Korea,Germany,2,2,1,UEFA,2,2
+2018,3,group_stage,F,7659904,Germany,South Korea,-2,0,62,AFC,-2,0
+2018,3,group_stage,E,7659890,Serbia,Brazil,-2,0,2,CONMEBOL,-2,0
+2018,3,group_stage,E,7659890,Brazil,Serbia,2,2,38,UEFA,2,2
+2018,3,group_stage,E,7659893,Switzerland,Costa Rica,0,2,23,CONCACAF,0,2
+2018,3,group_stage,E,7659893,Costa Rica,Switzerland,0,2,6,UEFA,0,2
+2018,3,group_stage,H,7659895,Japan,Poland,-1,0,8,UEFA,-1,0
+2018,3,group_stage,H,7659895,Poland,Japan,1,1,61,AFC,1,1
+2018,3,group_stage,H,7659897,Senegal,Colombia,-1,0,16,CONMEBOL,-1,0
+2018,3,group_stage,H,7659897,Colombia,Senegal,1,1,27,CAF,1,1
+2018,3,group_stage,G,7659902,England,Belgium,-1,0,3,UEFA,-1,0
+2018,3,group_stage,G,7659902,Belgium,England,1,1,13,UEFA,1,1
+2018,3,group_stage,G,7659901,Panama,Tunisia,-1,1,50,CAF,-1,1
+2018,3,group_stage,G,7659901,Tunisia,Panama,1,2,55,CONCACAF,1,2
+2018,4,round_of_16,,7665827,Uruguay,Portugal,1,2,4,UEFA,1,2
+2018,4,round_of_16,,7665827,Portugal,Uruguay,-1,1,17,CONMEBOL,-1,1
+2018,4,round_of_16,,7665828,France,Argentina,1,4,5,CONMEBOL,1,4
+2018,4,round_of_16,,7665828,Argentina,France,-1,3,7,UEFA,-1,3
+2018,4,round_of_16,,7665825,Brazil,Mexico,2,2,15,CONCACAF,2,2
+2018,4,round_of_16,,7665825,Mexico,Brazil,-2,0,2,CONMEBOL,-2,0
+2018,4,round_of_16,,7665826,Belgium,Japan,1,3,61,AFC,1,3
+2018,4,round_of_16,,7665826,Japan,Belgium,-1,2,3,UEFA,-1,2
+2018,4,round_of_16,,7665832,Spain,Russia,-1,0,66,UEFA,0,1
+2018,4,round_of_16,,7665832,Russia,Spain,1,1,10,UEFA,0,1
+2018,4,round_of_16,,7665829,Croatia,Denmark,1,1,12,UEFA,0,1
+2018,4,round_of_16,,7665829,Denmark,Croatia,-1,0,18,UEFA,0,1
+2018,4,round_of_16,,7665831,Sweden,Switzerland,1,1,6,UEFA,1,1
+2018,4,round_of_16,,7665831,Switzerland,Sweden,-1,0,24,UEFA,-1,0
+2018,4,round_of_16,,7665830,Colombia,England,-1,0,13,UEFA,0,1
+2018,4,round_of_16,,7665830,England,Colombia,1,1,16,CONMEBOL,0,1
+2018,3,quarter_final,,7693129,Uruguay,France,-2,0,7,UEFA,-2,0
+2018,3,quarter_final,,7693129,France,Uruguay,2,2,17,CONMEBOL,2,2
+2018,3,quarter_final,,7693128,Brazil,Belgium,-1,1,3,UEFA,-1,1
+2018,3,quarter_final,,7693128,Belgium,Brazil,1,2,2,CONMEBOL,1,2
+2018,3,quarter_final,,7693127,Russia,Croatia,-1,0,18,UEFA,0,2
+2018,3,quarter_final,,7693127,Croatia,Russia,1,1,66,UEFA,0,2
+2018,3,quarter_final,,7693130,Sweden,England,-2,0,13,UEFA,-2,0
+2018,3,quarter_final,,7693130,England,Sweden,2,2,24,UEFA,2,2
+2018,2,semi_final,,7693134,France,Belgium,1,1,3,UEFA,1,1
+2018,2,semi_final,,7693134,Belgium,France,-1,0,7,UEFA,-1,0
+2018,2,semi_final,,7693132,Croatia,England,1,2,13,UEFA,1,2
+2018,2,semi_final,,7693132,England,Croatia,-1,1,18,UEFA,-1,1
+2018,1,final,,7693131,France,Croatia,2,4,18,UEFA,2,4
+2018,1,final,,7693131,Croatia,France,-2,2,7,UEFA,-2,2
+2018,50,third_place,,7693133,Belgium,England,2,2,13,UEFA,2,2
+2018,50,third_place,,7693133,England,Belgium,-2,0,3,UEFA,-2,0
+2022,1,group_stage,A,10230541,Qatar,Ecuador,-2,0,44,CONMEBOL,-2,0
+2022,1,group_stage,A,10230541,Ecuador,Qatar,2,2,51,AFC,2,2
+2022,1,group_stage,B,10230543,England,Iran,4,6,20,AFC,4,6
+2022,1,group_stage,B,10230543,Iran,England,-4,2,5,UEFA,-4,2
+2022,1,group_stage,A,10230533,Senegal,Netherlands,-2,0,8,UEFA,-2,0
+2022,1,group_stage,A,10230533,Netherlands,Senegal,2,2,18,CAF,2,2
+2022,1,group_stage,B,10230548,USA,Wales,0,1,19,UEFA,0,1
+2022,1,group_stage,B,10230548,Wales,USA,0,1,14,CONCACAF,0,1
+2022,1,group_stage,C,10230528,Argentina,Saudi Arabia,-1,1,51,AFC,-1,1
+2022,1,group_stage,C,10230528,Saudi Arabia,Argentina,1,2,3,CONMEBOL,1,2
+2022,1,group_stage,D,10230576,Denmark,Tunisia,0,0,30,CAF,0,0
+2022,1,group_stage,D,10230576,Tunisia,Denmark,0,0,10,UEFA,0,0
+2022,1,group_stage,C,10230565,Mexico,Poland,0,0,26,UEFA,0,0
+2022,1,group_stage,C,10230565,Poland,Mexico,0,0,13,CONCACAF,0,0
+2022,1,group_stage,D,10230563,France,Australia,3,4,38,AFC,3,4
+2022,1,group_stage,D,10230563,Australia,France,-3,1,4,UEFA,-3,1
+2022,1,group_stage,F,10230570,Morocco,Croatia,0,0,15,UEFA,0,0
+2022,1,group_stage,F,10230570,Croatia,Morocco,0,0,22,CAF,0,0
+2022,1,group_stage,E,10230562,Germany,Japan,-1,1,24,AFC,-1,1
+2022,1,group_stage,E,10230562,Japan,Germany,1,2,11,UEFA,1,2
+2022,1,group_stage,E,10230571,Spain,Costa Rica,7,7,31,CONCACAF,7,7
+2022,1,group_stage,E,10230571,Costa Rica,Spain,-7,0,6,UEFA,-7,0
+2022,1,group_stage,F,10230559,Belgium,Canada,1,1,41,CONCACAF,1,1
+2022,1,group_stage,F,10230559,Canada,Belgium,-1,0,2,UEFA,-1,0
+2022,1,group_stage,G,10230569,Switzerland,Cameroon,1,1,43,CAF,1,1
+2022,1,group_stage,G,10230569,Cameroon,Switzerland,-1,0,15,UEFA,-1,0
+2022,1,group_stage,H,10230530,Uruguay,South Korea,0,0,28,AFC,0,0
+2022,1,group_stage,H,10230530,South Korea,Uruguay,0,0,14,CONMEBOL,0,0
+2022,1,group_stage,H,10230534,Portugal,Ghana,1,3,60,CAF,1,3
+2022,1,group_stage,H,10230534,Ghana,Portugal,-1,2,7,UEFA,-1,2
+2022,1,group_stage,G,10230567,Brazil,Serbia,2,2,21,UEFA,2,2
+2022,1,group_stage,G,10230567,Serbia,Brazil,-2,0,1,CONMEBOL,-2,0
+2022,2,group_stage,B,10230556,Wales,Iran,-2,0,20,AFC,-2,0
+2022,2,group_stage,B,10230556,Iran,Wales,2,2,19,UEFA,2,2
+2022,2,group_stage,A,10230537,Qatar,Senegal,-2,1,18,CAF,-2,1
+2022,2,group_stage,A,10230537,Senegal,Qatar,2,3,51,AFC,2,3
+2022,2,group_stage,A,10230529,Netherlands,Ecuador,0,1,44,CONMEBOL,0,1
+2022,2,group_stage,A,10230529,Ecuador,Netherlands,0,1,8,UEFA,0,1
+2022,2,group_stage,B,10230557,England,USA,0,0,14,CONCACAF,0,0
+2022,2,group_stage,B,10230557,USA,England,0,0,5,UEFA,0,0
+2022,2,group_stage,D,10230574,Tunisia,Australia,-1,0,38,AFC,-1,0
+2022,2,group_stage,D,10230574,Australia,Tunisia,1,1,30,CAF,1,1
+2022,2,group_stage,C,10230542,Poland,Saudi Arabia,2,2,51,AFC,2,2
+2022,2,group_stage,C,10230542,Saudi Arabia,Poland,-2,0,26,UEFA,-2,0
+2022,2,group_stage,D,10230577,France,Denmark,1,2,10,UEFA,1,2
+2022,2,group_stage,D,10230577,Denmark,France,-1,1,4,UEFA,-1,1
+2022,2,group_stage,C,10230540,Argentina,Mexico,2,2,13,CONCACAF,2,2
+2022,2,group_stage,C,10230540,Mexico,Argentina,-2,0,3,CONMEBOL,-2,0
+2022,2,group_stage,E,10230564,Japan,Costa Rica,-1,0,31,CONCACAF,-1,0
+2022,2,group_stage,E,10230564,Costa Rica,Japan,1,1,24,AFC,1,1
+2022,2,group_stage,F,10230545,Belgium,Morocco,-2,0,22,CAF,-2,0
+2022,2,group_stage,F,10230545,Morocco,Belgium,2,2,2,UEFA,2,2
+2022,2,group_stage,F,10230550,Croatia,Canada,3,4,41,CONCACAF,3,4
+2022,2,group_stage,F,10230550,Canada,Croatia,-3,1,15,UEFA,-3,1
+2022,2,group_stage,E,10230575,Spain,Germany,0,1,11,UEFA,0,1
+2022,2,group_stage,E,10230575,Germany,Spain,0,1,6,UEFA,0,1
+2022,2,group_stage,G,10230568,Cameroon,Serbia,0,3,21,UEFA,0,3
+2022,2,group_stage,G,10230568,Serbia,Cameroon,0,3,43,CAF,0,3
+2022,2,group_stage,H,10230552,South Korea,Ghana,-1,2,60,CAF,-1,2
+2022,2,group_stage,H,10230552,Ghana,South Korea,1,3,28,AFC,1,3
+2022,2,group_stage,G,10230561,Brazil,Switzerland,1,1,15,UEFA,1,1
+2022,2,group_stage,G,10230561,Switzerland,Brazil,-1,0,1,CONMEBOL,-1,0
+2022,2,group_stage,H,10230539,Portugal,Uruguay,2,2,14,CONMEBOL,2,2
+2022,2,group_stage,H,10230539,Uruguay,Portugal,-2,0,7,UEFA,-2,0
+2022,3,group_stage,A,10230551,Ecuador,Senegal,-1,1,18,CAF,-1,1
+2022,3,group_stage,A,10230551,Senegal,Ecuador,1,2,44,CONMEBOL,1,2
+2022,3,group_stage,A,10230538,Netherlands,Qatar,2,2,51,AFC,2,2
+2022,3,group_stage,A,10230538,Qatar,Netherlands,-2,0,8,UEFA,-2,0
+2022,3,group_stage,B,10230536,Iran,USA,-1,0,14,CONCACAF,-1,0
+2022,3,group_stage,B,10230536,USA,Iran,1,1,20,AFC,1,1
+2022,3,group_stage,B,10230532,Wales,England,-3,0,5,UEFA,-3,0
+2022,3,group_stage,B,10230532,England,Wales,3,3,19,UEFA,3,3
+2022,3,group_stage,D,10230560,Australia,Denmark,1,1,10,UEFA,1,1
+2022,3,group_stage,D,10230560,Denmark,Australia,-1,0,38,AFC,-1,0
+2022,3,group_stage,D,10230555,Tunisia,France,1,1,4,UEFA,1,1
+2022,3,group_stage,D,10230555,France,Tunisia,-1,0,30,CAF,-1,0
+2022,3,group_stage,C,10230547,Poland,Argentina,-2,0,3,CONMEBOL,-2,0
+2022,3,group_stage,C,10230547,Argentina,Poland,2,2,26,UEFA,2,2
+2022,3,group_stage,C,10230546,Saudi Arabia,Mexico,-1,1,13,CONCACAF,-1,1
+2022,3,group_stage,C,10230546,Mexico,Saudi Arabia,1,2,51,AFC,1,2
+2022,3,group_stage,F,10230531,Canada,Morocco,-1,1,22,CAF,-1,1
+2022,3,group_stage,F,10230531,Morocco,Canada,1,2,41,CONCACAF,1,2
+2022,3,group_stage,F,10230535,Croatia,Belgium,0,0,2,UEFA,0,0
+2022,3,group_stage,F,10230535,Belgium,Croatia,0,0,15,UEFA,0,0
+2022,3,group_stage,E,10230573,Costa Rica,Germany,-2,2,11,UEFA,-2,2
+2022,3,group_stage,E,10230573,Germany,Costa Rica,2,4,31,CONCACAF,2,4
+2022,3,group_stage,E,10230554,Japan,Spain,1,2,6,UEFA,1,2
+2022,3,group_stage,E,10230554,Spain,Japan,-1,1,24,AFC,-1,1
+2022,3,group_stage,H,10230549,Ghana,Uruguay,-2,0,14,CONMEBOL,-2,0
+2022,3,group_stage,H,10230549,Uruguay,Ghana,2,2,60,CAF,2,2
+2022,3,group_stage,H,10230544,South Korea,Portugal,1,2,7,UEFA,1,2
+2022,3,group_stage,H,10230544,Portugal,South Korea,-1,1,28,AFC,-1,1
+2022,3,group_stage,G,10230553,Cameroon,Brazil,1,1,1,CONMEBOL,1,1
+2022,3,group_stage,G,10230553,Brazil,Cameroon,-1,0,43,CAF,-1,0
+2022,3,group_stage,G,10230558,Serbia,Switzerland,-1,2,15,UEFA,-1,2
+2022,3,group_stage,G,10230558,Switzerland,Serbia,1,3,21,UEFA,1,3
+2022,5,round_of_16,,10230638,Netherlands,USA,2,3,14,CONCACAF,2,3
+2022,5,round_of_16,,10230638,USA,Netherlands,-2,1,8,UEFA,-2,1
+2022,5,round_of_16,,10230641,Argentina,Australia,1,2,38,AFC,1,2
+2022,5,round_of_16,,10230641,Australia,Argentina,-1,1,3,CONMEBOL,-1,1
+2022,5,round_of_16,,10230582,Japan,Croatia,-1,0,15,UEFA,0,1
+2022,5,round_of_16,,10230582,Croatia,Japan,1,1,24,AFC,0,1
+2022,5,round_of_16,,10230633,Brazil,South Korea,3,4,28,AFC,3,4
+2022,5,round_of_16,,10230633,South Korea,Brazil,-3,1,1,CONMEBOL,-3,1
+2022,5,round_of_16,,10230632,England,Senegal,3,3,18,CAF,3,3
+2022,5,round_of_16,,10230632,Senegal,England,-3,0,5,UEFA,-3,0
+2022,5,round_of_16,,10230579,France,Poland,2,3,26,UEFA,2,3
+2022,5,round_of_16,,10230579,Poland,France,-2,1,4,UEFA,-2,1
+2022,5,round_of_16,,10230636,Morocco,Spain,1,1,6,UEFA,0,0
+2022,5,round_of_16,,10230636,Spain,Morocco,-1,0,22,CAF,0,0
+2022,5,round_of_16,,10230631,Portugal,Switzerland,5,6,15,UEFA,5,6
+2022,5,round_of_16,,10230631,Switzerland,Portugal,-5,1,7,UEFA,-5,1
+2022,27,quarter_final,,10230639,Netherlands,Argentina,-1,0,3,CONMEBOL,0,2
+2022,27,quarter_final,,10230639,Argentina,Netherlands,1,1,8,UEFA,0,2
+2022,27,quarter_final,,10230640,Croatia,Brazil,1,1,1,CONMEBOL,0,1
+2022,27,quarter_final,,10230640,Brazil,Croatia,-1,0,15,UEFA,0,1
+2022,27,quarter_final,,10230634,England,France,-1,1,4,UEFA,-1,1
+2022,27,quarter_final,,10230634,France,England,1,2,5,UEFA,1,2
+2022,27,quarter_final,,10230581,Morocco,Portugal,1,1,7,UEFA,1,1
+2022,27,quarter_final,,10230581,Portugal,Morocco,-1,0,22,CAF,-1,0
+2022,28,semi_final,,10230580,Argentina,Croatia,3,3,15,UEFA,3,3
+2022,28,semi_final,,10230580,Croatia,Argentina,-3,0,3,CONMEBOL,-3,0
+2022,28,semi_final,,10230578,France,Morocco,2,2,22,CAF,2,2
+2022,28,semi_final,,10230578,Morocco,France,-2,0,4,UEFA,-2,0
+2022,29,final,,10230635,Argentina,France,1,1,4,UEFA,0,3
+2022,29,final,,10230635,France,Argentina,-1,0,3,CONMEBOL,0,3
+2022,50,third_place,,10230637,Croatia,Morocco,1,2,22,CAF,1,2
+2022,50,third_place,,10230637,Morocco,Croatia,-1,1,15,UEFA,-1,1

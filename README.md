@@ -69,15 +69,27 @@ Not every parameter group was worth optimizing this way — with only a few hund
 
 ```
 wc_predictor (1).py          Core model
-export_predictions.py        Bridges the model to the frontend (predictions.json)
+dixon_coles.py                Alternate model: Dixon-Coles Poisson goal-scoring, toggleable in the frontend
+export_predictions.py        Bridges both models to the frontend (predictions.json)
 fetch_wc_data.py             Scrapes match/team/ratings data
 fetch_h2h_data.py            Scrapes head-to-head history
-data/                        CSVs consumed by the model
-optimize_*.py                Weight-tuning scripts (scipy-based, train/holdout disciplined)
-bootstrap_ci.py              Confidence intervals on Brier scores and score differences
+fetch_intl_ratings.py        Scrapes international player ratings (feeds intl_form)
+data/                        CSVs consumed by both models
+optimize_*.py, train_*.py,   Weight-tuning / experiment scripts (scipy-based,
+  tune_*.py, test_drop_*.py  train/holdout disciplined) — see TUNING.md for what
+                              each one found and how to write a new one
+bootstrap_ci.py               Confidence intervals on Brier scores and score differences
+backtest_dixon_coles.py,      Backtest/capability evaluation for the Dixon-Coles model
+  evaluate_dixon_coles_full.py
 test_model_invariants.py     Regression tests for bugs found during development
+requirements.txt             numpy/scipy — see TUNING.md for which Python interpreter to use
 World Cup Prediction Simulator (1)/   React + Vite + Tailwind frontend
 ```
+
+See **[TUNING.md](TUNING.md)** before starting any new tuning work — it has
+the correct Python interpreter to use, the current adopted baseline to beat,
+and a table of every experiment already tried (so you don't re-run one
+that's already been settled).
 
 ## Running it
 

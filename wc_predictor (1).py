@@ -11,6 +11,7 @@ import math
 import os
 import random
 from copy import deepcopy
+from datetime import date
 
 
 # =============================================================================
@@ -143,29 +144,145 @@ RGD_PRIOR_GAMES = 2          # Bayesian-style shrinkage: every team's running re
                              # past -4 with no shrinkage), which then distorts every
                              # opponent's form-term calculation downstream too.
 
+# --- Relative GD: pre-tournament seed from the full international corpus ---
+# relative_gd used to always start at 0.0 for every team at the beginning of
+# every tournament, built from nothing but that tournament's ~7 games. This
+# seeds it instead from an Elo-style rating built across the full
+# international match corpus (h2h_matches.csv, 1998-2026, ~10k rows) —
+# EXPERIMENTAL, being tested against the always-0.0 baseline (see
+# test_elo_seed.py). Unlike relative_gd's in-tournament update (a shrinking
+# running average — fine over ~7 games, but each new match's influence
+# shrinks toward zero once too many games have accumulated, which would
+# make a multi-year rating stubbornly slow to reflect squad turnover), the
+# seed uses a FIXED step size per match (real Elo's mechanism), so recent
+# results always carry meaningful weight no matter how much history exists.
+USE_ELO_SEED = False         # toggle for A/B testing against the always-0.0 baseline
+ELO_SEED_K = 0.15            # Fixed per-match step size (before tier scaling)
+ELO_MAX_AGE_YEARS = H2H_MAX_AGE_YEARS   # reuse the same window as H2H, not a new cutoff
+
+# Real-world World Cup start dates — used ONLY to decide which corpus
+# matches count as "before this tournament" when computing the seed. 2022
+# was Nov-Dec (Qatar, moved for climate); every other year is the usual
+# June kickoff.
+WC_START_DATES = {
+    2002: "2002-05-31", 2006: "2006-06-09", 2010: "2010-06-11",
+    2014: "2014-06-12", 2018: "2018-06-14", 2022: "2022-11-20",
+    2026: "2026-06-11",
+}
+
+# --- International Form: pre-tournament signal from real player ratings
+# across ALL competitions, not just World Cups (data/intl_player_ratings.csv,
+# ~2,000 matches back to 2002 — separately scraped since fetch_wc_data.py
+# only covers World Cup squads). Validated on its own (train_intl_ratings.py,
+# 1,882 real matches with genuine as-of prior-form features): holdout
+# improvement of +0.0227 Brier, 95% CI [+0.0174, +0.0280] — clearly
+# significant, the first result in this whole data-expansion effort that
+# didn't land in noise. K_FORM there was fit to 2.2817; WEIGHT_INTL_FORM
+# here is a SEPARATE coefficient controlling how much this (normalized)
+# signal nudges the WC model's own historical_score, tuned against the
+# actual WC train/holdout backtest (4 random restarts converged identically
+# to 0.4395; train 0.1744->0.1725, holdout 0.1590->0.1559 — holdout moved
+# more than train, the healthy direction). Not independently significant on
+# the WC-specific holdout alone (163 matches, CI [-0.0019,+0.0083]) — small
+# sample and uneven year-coverage (0% for 2002, partial 2006-2014, full
+# 2018+) dilute it there — but adopted anyway given the robust, consistent
+# WC-backtest behavior plus the much larger corpus already proving the
+# underlying signal is real, not noise.
+USE_INTL_FORM = True         # toggle for A/B testing against the baseline
+FORM_MAX_AGE_YEARS = 2.0     # shorter than H2H's 5-year window on purpose —
+                             # a player's rating from 2 years ago says much
+                             # less about current squad form than one from
+                             # last month; recency matters more here.
+FORM_DECAY_POWER = 1.0
+WEIGHT_INTL_FORM = 0.4395    # additive nudge on normalized historical_score
+
+# EXPERIMENTAL: intl_form's corpus (intl_player_ratings.csv) has real
+# calendar dates — same as Dixon-Coles' corpus — so it doesn't strictly
+# need FORM_MAX_AGE_YEARS's hard cutoff + power-law shape; an exact per-day
+# exponential decay (exp(-xi*days), no hard cutoff, matching
+# dixon_coles.py's own DEFAULT_XI on the same underlying question) is worth
+# testing as a straight swap-in. FORM_DECAY_XI is a placeholder pending its
+# own tuning pass — see optimize_form_decay.py.
+USE_EXPONENTIAL_FORM_DECAY = False
+FORM_DECAY_XI = 0.0018
+
+# EXPERIMENTAL: fold the CURRENT tournament's own matches into the form
+# signal too (instead of leaving them to a separate static_gd/player_perf
+# "current" layer), so there's one continuously-updating signal instead of
+# two mechanisms glued together by the HIST_WEIGHTS/CURR_WEIGHTS curve.
+# WC matches don't carry real calendar dates in this dataset — only
+# stage/round_num — so within-tournament recency is measured in GAMES AGO
+# (this team's own match count back from the as-of cutoff), reusing the
+# same general-purpose recency_weight() already used for calendar-based
+# decay everywhere else, just fed a different unit. Two separate effects,
+# both real: (a) any current-tournament match should count for more than
+# an equally-recent broader-corpus one (TIER_CURRENT_TOURNAMENT_MULT), and
+# (b) WITHIN the tournament, the most recent 1-2 matches specifically
+# should count for even more than that flat boost alone would give them —
+# an unexpected loss last match should dent a team's momentum more than
+# the same loss three rounds ago would. (b) is CURRENT_MOMENTUM_* below,
+# layered on top of (a), not a replacement for it.
+USE_UNIFIED_FORM = False              # toggle — see build_teams_asof/compute_base_score
+TIER_CURRENT_TOURNAMENT_MULT = 5.0    # flat baseline every current-tournament match gets
+MOMENTUM_BOOST_MULT = 5.0             # ADDITIONAL bonus for the most recent games specifically,
+                                       # stacked on top of the flat tier boost above, not
+                                       # instead of it — placeholder pending tuning
+# Momentum window is a fixed design choice ("previous 2 matches"), not a fit
+# target — letting the window/decay shape float during tuning let the
+# optimizer chase train-set noise (5-param search overfit badly: holdout
+# got significantly worse). Only TIER/MOMENTUM/WEIGHT below are tuned.
+CURRENT_MOMENTUM_MAX_GAMES = 2.0
+CURRENT_MOMENTUM_DECAY_POWER = 1.0
+WEIGHT_UNIFIED_FORM = 0.4395          # additive nudge on normalized historical_score — separate
+                                       # from WEIGHT_INTL_FORM since this signal's statistical
+                                       # properties differ once heavily-boosted in-tournament
+                                       # matches are mixed in; the two paths are mutually
+                                       # exclusive (see compute_base_score), starting from the
+                                       # old intl_form-only value pending its own re-tuning.
+
+# --- FIFA Rank Signal: raw FIFA ranking used as DIRECT evidence of team
+# quality, not just as a relative baseline. Rank already appears elsewhere
+# in the model (static_gd compares real performance against a rank-implied
+# expectation; relative_gd uses it as a weighting factor) but nowhere said
+# "this team's rank alone is evidence of quality" — a real gap, given a
+# pure rank-only baseline (baseline_rank_only.py) beat the FULL model on
+# holdout (0.1440 vs 0.1590) earlier this session. Tuned (not hand-set to
+# 50/50) against the actual WC train/holdout backtest: 4 random restarts
+# converged identically to 1.3401, comfortably interior to its [0,3] bounds
+# (no boundary-hugging); train 0.1725->0.1671, holdout 0.1559->0.1501,
+# holdout improving slightly more than train. Independently significant on
+# the WC-specific 163-match holdout alone (95% CI [+0.0008,+0.0106],
+# excludes zero) — cleaner than intl_form, which needed the larger
+# international corpus to prove itself. Adopted.
+USE_FIFA_RANK_SIGNAL = True    # toggle for A/B testing against the baseline
+WEIGHT_FIFA_RANK = 1.3401      # additive nudge on normalized historical_score
+
 # --- Gap Combination Weights ---
 # Must sum to 1.0
-# Jointly optimized via scipy.optimize (optimize_gap_weights.py, Nelder-Mead
-# over a softmax-reparametrized simplex + K_SIG, 4 real degrees of freedom)
-# rather than one-at-a-time coordinate descent. Fit on train years only
-# (2002-2018); 4 random restarts all converged to this same point, and it
-# beat the prior hand-tuned values on BOTH train (0.1757->0.1744) and the
-# untouched 2022+2026 holdout (0.1628->0.1590) — holdout improved more than
-# train did, the opposite of the overfitting signature seen with the
-# broader 10-parameter coordinate-descent sweep earlier in this project.
-W_BASE = 0.573              # Layer 1 + Layer 2a (base + match adjustments)
-W_TAC = 0.087               # Tactical matchup
-W_H2H = 0.079                # Head-to-head
-W_REL_GD = 0.261             # Relative GD comparison
+# Originally jointly optimized via scipy.optimize (optimize_gap_weights.py),
+# giving W_BASE=0.573/W_TAC=0.087/W_H2H=0.079/W_REL_GD=0.261/K_SIG=1.192.
+# After intl_form and fifa_rank_signal were added (both strengthening the
+# base/historical signal), H2H was re-tested via a deliberate drop ablation
+# (test_drop_components.py) — not the model roaming to an arbitrary bound,
+# a controlled "with vs without" comparison with bootstrap significance —
+# and dropping it entirely proved a real, significant improvement: holdout
+# 0.1501->0.1451, 95% CI [+0.0006,+0.0092] (current-dropped), clearly
+# excludes zero. 4 random restarts converged identically. H2H's weight had
+# already been the smallest in the original fit, and a separate test
+# (train_reduced_corpus.py, 1,882 international matches) found it added
+# nothing on top of a form-based signal even there — this is consistent
+# with that, not a surprise. W_TAC was ALSO re-tested the same way and held
+# its ground (not significant, CI [-0.0035,+0.0083]) — kept as-is.
+W_BASE = 0.641              # Layer 1 + Layer 2a (base + match adjustments)
+W_TAC = 0.104                # Tactical matchup
+W_H2H = 0.0                  # Head-to-head — dropped; see note above
+W_REL_GD = 0.255             # Relative GD comparison
 
 # --- Sigmoid ---
-# K_SIG was previously hand-tuned (see prior note: 0.8 was overconfident,
-# 1.4 recovered most of a larger reweighting search's calibration gain
-# without baking in a W_H2H artifact). It's now part of the same jointly-
-# optimized group above — 1.192 was fit alongside the gap weights rather
-# than independently, since K_SIG's effective steepness depends on the
-# gap scale the W_* combination produces.
-K_SIG = 1.192                # Steepness constant
+# Refit alongside the W_H2H drop above (same optimization run) — K_SIG's
+# effective steepness depends on the gap scale the W_* combination
+# produces, so it moves whenever they do.
+K_SIG = 1.037                 # Steepness constant
                               # Set for post-normalization gap scale where typical gaps ~0.5-1.5
 
 # --- Monte Carlo ---
@@ -420,12 +537,19 @@ def build_normalization_context(teams_dict):
         "static_gd": [],
         "player_perf": [],
         "overperformance": [],
+        "intl_form": [],
+        "fifa_rank_score": [],
+        "unified_form": [],
     }
     for data in teams_dict.values():
         pass1["historical"].append(data["historical_score"])
         pass1["static_gd"].append(compute_static_gd(data))
         pass1["player_perf"].append(compute_player_performance(data))
         pass1["overperformance"].append(compute_overperformance(data))
+        pass1["intl_form"].append(data.get("intl_form", 0.0))
+        adjusted_rank = data["raw_rank"] * CONF_COEFFICIENTS[data["confederation"]]
+        pass1["fifa_rank_score"].append(-math.log(max(adjusted_rank, 0.1)))
+        pass1["unified_form"].append(data.get("unified_form", 0.0))
 
     NORM_CONTEXT = {k: compute_norm_params(v) for k, v in pass1.items()}
 
@@ -472,6 +596,10 @@ def compute_base_score(team_data):
     historical  = team_data["historical_score"]
     static_gd   = compute_static_gd(team_data)
     player_perf = compute_player_performance(team_data)
+    intl_form   = team_data.get("intl_form", 0.0)
+    unified_form = team_data.get("unified_form", 0.0)
+    adjusted_rank = team_data["raw_rank"] * CONF_COEFFICIENTS[team_data["confederation"]]
+    fifa_rank_score = -math.log(max(adjusted_rank, 0.1))
 
     if NORM_CONTEXT and "static_gd" in NORM_CONTEXT:
         mu_h, std_h = NORM_CONTEXT["historical"]
@@ -480,6 +608,25 @@ def compute_base_score(team_data):
         historical  = (historical  - mu_h) / std_h
         static_gd   = (static_gd   - mu_s) / std_s
         player_perf = (player_perf - mu_p) / std_p
+        if USE_UNIFIED_FORM and "unified_form" in NORM_CONTEXT:
+            # Supersedes intl_form AND the separate static_gd/player_perf
+            # "current" layer below — this signal already blends the
+            # broader corpus with the current tournament's own matches
+            # (heavily tier-boosted), so there's nothing left for a
+            # separate within-tournament term to add. Mutually exclusive
+            # with USE_INTL_FORM by design (see WEIGHT_UNIFIED_FORM).
+            mu_u, std_u = NORM_CONTEXT["unified_form"]
+            historical += WEIGHT_UNIFIED_FORM * ((unified_form - mu_u) / std_u)
+            if USE_FIFA_RANK_SIGNAL and "fifa_rank_score" in NORM_CONTEXT:
+                mu_r, std_r = NORM_CONTEXT["fifa_rank_score"]
+                historical += WEIGHT_FIFA_RANK * ((fifa_rank_score - mu_r) / std_r)
+            return historical
+        if USE_INTL_FORM and "intl_form" in NORM_CONTEXT:
+            mu_f, std_f = NORM_CONTEXT["intl_form"]
+            historical += WEIGHT_INTL_FORM * ((intl_form - mu_f) / std_f)
+        if USE_FIFA_RANK_SIGNAL and "fifa_rank_score" in NORM_CONTEXT:
+            mu_r, std_r = NORM_CONTEXT["fifa_rank_score"]
+            historical += WEIGHT_FIFA_RANK * ((fifa_rank_score - mu_r) / std_r)
 
     current = WEIGHT_STATIC_GD * static_gd + WEIGHT_PLAYER_PERF * player_perf
 
@@ -580,12 +727,17 @@ def compute_h2h_per_team(team_name, opponent_name):
     return ratio - 0.5
 
 
-def compute_sequential_relative_gd(rows, team_names, adjusted_ranks):
+def compute_sequential_relative_gd(rows, team_names, adjusted_ranks, seed=None):
     """Build every team's relative-GD rating by processing each real match
     ONCE, in true chronological order (see chronological_key), updating
     both participants together after each one — the Context(A,B) function
     from the original design spec, done as a running rating instead of a
     per-comparison lookup.
+
+    `seed`, if given, is a {team_name: value} dict used as each team's
+    STARTING rating instead of 0.0 — see _compute_elo_seed, which builds one
+    from the full international match corpus so a team doesn't start every
+    tournament from a blank slate with only ~7 games to learn from.
 
     Each match's weight combines the static rank gap with the opponent's
     current form as two terms INSIDE a single exp(), rather than added to a
@@ -640,7 +792,8 @@ def compute_sequential_relative_gd(rows, team_names, adjusted_ranks):
 
     events.sort(key=lambda r: chronological_key(r["stage"], r["round_num"]))
 
-    relative_gd = {name: 0.0 for name in team_names}
+    seed = seed or {}
+    relative_gd = {name: seed.get(name, 0.0) for name in team_names}
     games_played = {name: 0 for name in team_names}
 
     for r in events:
@@ -986,14 +1139,30 @@ def load_teams_from_csv(data_dir, year, stages=None):
         if name in teams:
             teams[name]["historical_score"] = score
 
+    # --- International form: pre-tournament signal from the broader
+    # match corpus (see _compute_intl_form) ---
+    intl_form = _compute_intl_form(data_dir, year, set(teams.keys())) if USE_INTL_FORM else {}
+    for name in teams:
+        teams[name]["intl_form"] = intl_form.get(name, 0.0)
+
+    # --- Unified form: corpus partial sums, precomputed once here since they
+    # don't depend on anything within-tournament (see _compute_unified_form,
+    # which combines these with the CURRENT tournament's own matches fresh
+    # at each as-of cutoff in build_teams_asof) ---
+    corpus_partial = _compute_intl_form_corpus_partial(data_dir, year, set(teams.keys())) if USE_UNIFIED_FORM else {}
+    for name in teams:
+        teams[name]["intl_form_corpus_partial"] = corpus_partial.get(name, (0.0, 0.0))
+
     # --- Relative GD (Context(A,B)) — sequential rating, see compute_sequential_relative_gd ---
     local_adjusted_ranks = {
         name: data["raw_rank"] * CONF_COEFFICIENTS[data["confederation"]]
         for name, data in teams.items()
     }
-    relative_gd = compute_sequential_relative_gd(raw_match_rows, list(teams.keys()), local_adjusted_ranks)
+    seed = _compute_elo_seed(data_dir, year, local_adjusted_ranks) if USE_ELO_SEED else {}
+    relative_gd = compute_sequential_relative_gd(raw_match_rows, list(teams.keys()), local_adjusted_ranks, seed=seed)
     for name, value in relative_gd.items():
         teams[name]["relative_gd"] = value
+        teams[name]["relative_gd_seed"] = seed.get(name, 0.0)
 
     return teams
 
@@ -1031,6 +1200,243 @@ def _compute_historical_scores(data_dir, target_year):
         scores[team] = weighted_sum / weight_total if weight_total > 0 else 0.10
 
     return scores
+
+
+def _compute_elo_seed(data_dir, target_year, adjusted_ranks):
+    """Pre-tournament Elo-style rating for every team, built from the full
+    international match corpus (h2h_matches.csv) rather than just the
+    current tournament's own games. See the ELO_SEED_K comment for why a
+    fixed step size is used instead of relative_gd's in-tournament shrinking
+    average. Returns {team_name: seed_value}, meant to be used as the
+    STARTING point for compute_sequential_relative_gd's in-tournament
+    sequence (same role historical_score plays: computed once here, then
+    carried forward and never independently touched again this tournament).
+
+    Only matches strictly before this tournament's real-world start date
+    (WC_START_DATES) and within ELO_MAX_AGE_YEARS of it count — a team's
+    rating shouldn't be dragged down by a squad that's mostly retired.
+    Teams facing an opponent outside the current 48-team pool (e.g. a team
+    that didn't qualify) still get a real update; the opponent's rank just
+    falls back to a neutral default (50) since we have no better estimate
+    for them and they're not this function's concern.
+    """
+    h2h_path = os.path.join(data_dir, "h2h_matches.csv")
+    if not os.path.exists(h2h_path):
+        return {}
+
+    cutoff_date = WC_START_DATES.get(target_year, f"{target_year}-01-01")
+    min_date = f"{int(cutoff_date[:4]) - ELO_MAX_AGE_YEARS}{cutoff_date[4:]}"
+
+    seen_events = set()
+    events = []
+    with open(h2h_path, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            date = row["date"]
+            if date >= cutoff_date or date < min_date:
+                continue
+            eid = row["event_id"]
+            if eid in seen_events:
+                continue
+            seen_events.add(eid)
+            events.append(row)
+
+    events.sort(key=lambda r: r["date"])
+
+    rating = {}
+    games_played = {}
+
+    def rank_of(team):
+        return adjusted_ranks.get(team, 50)
+
+    def sigmoid(x):
+        return 1.0 / (1.0 + math.exp(-max(-30.0, min(30.0, x))))
+
+    for r in events:
+        team_a, team_b = r["team"], r["opponent"]
+        gd_a = int(r["gd"])
+        actual_a = 1.0 if gd_a > 0 else (0.5 if gd_a == 0 else 0.0)
+
+        rating.setdefault(team_a, 0.0)
+        rating.setdefault(team_b, 0.0)
+        games_played.setdefault(team_a, 0)
+        games_played.setdefault(team_b, 0)
+
+        rank_a, rank_b = rank_of(team_a), rank_of(team_b)
+        conf_a = min(1.0, games_played[team_a] / 3)
+        conf_b = min(1.0, games_played[team_b] / 3)
+
+        log_gap = math.log(rank_a / rank_b) if rank_a > 0 and rank_b > 0 else 0.0
+        expected_a = sigmoid(-K_REL * log_gap + K_FORM * conf_b * rating[team_b])
+        expected_b = sigmoid(K_REL * log_gap + K_FORM * conf_a * rating[team_a])
+
+        tier = classify_h2h_tier(r["competition"], r["is_friendly"] == "1")
+        step = ELO_SEED_K * H2H_TIER_WEIGHTS[tier]
+
+        rating[team_a] += step * (actual_a - expected_a)
+        rating[team_b] += step * ((1.0 - actual_a) - expected_b)
+        games_played[team_a] += 1
+        games_played[team_b] += 1
+
+    return rating
+
+
+def _compute_intl_form_corpus_partial(data_dir, target_year, team_names):
+    """Broader-corpus half of the form signal, shared by both the standalone
+    intl_form (pre-tournament only) and unified_form (also blends in the
+    current tournament's own matches — see build_teams_asof). Returns
+    {team: (weighted_sum, weight_total)} — UNDIVIDED partial sums, not a
+    final average, so a caller can add more weighted contributions (e.g.
+    current-tournament matches) before dividing once at the end.
+
+    Recency-weighted average of each team's OWN match-level rating from
+    real prior matches across all competitions (data/intl_player_ratings.csv),
+    strictly before this tournament's start date. Each row in that CSV is a
+    per-player rating for one match; team-level rating here is the minutes-
+    weighted average of a team's own players in a given match, then those
+    match-level averages are recency-weighted across a team's real match
+    history (FORM_MAX_AGE_YEARS/FORM_DECAY_POWER — a much shorter window
+    than historical_score's, since match-day squad ratings fade in
+    relevance quickly compared to tournament stage-reached history).
+
+    Coverage is real but uneven — full for 2018+, partial for 2006-2014,
+    zero for 2002 (the scrape starts there, so there's no 2-year-prior
+    window to draw on).
+    """
+    path = os.path.join(data_dir, "intl_player_ratings.csv")
+    if not os.path.exists(path):
+        return {}
+
+    cutoff_date = WC_START_DATES.get(target_year, f"{target_year}-01-01")
+    # No hard cutoff needed for the exponential path (it decays smoothly to
+    # ~0 rather than needing a floor to stop reading) — read everything
+    # strictly before cutoff_date instead of pre-filtering by age.
+    min_date = ("0000-01-01" if USE_EXPONENTIAL_FORM_DECAY else
+               f"{int(cutoff_date[:4]) - int(FORM_MAX_AGE_YEARS) - 1}{cutoff_date[4:]}")
+
+    match_rating_sum = {}   # (event_id, team) -> minutes-weighted rating sum
+    match_minutes_sum = {}
+    match_date = {}
+    with open(path, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            row_date = row["date"]
+            if row_date >= cutoff_date or row_date < min_date:
+                continue
+            team = row["team"]
+            if team not in team_names:
+                continue
+            minutes = float(row["minutes_played"] or 0)
+            if minutes <= 0:
+                continue
+            key = (row["event_id"], team)
+            match_rating_sum[key] = match_rating_sum.get(key, 0.0) + float(row["rating"]) * minutes
+            match_minutes_sum[key] = match_minutes_sum.get(key, 0.0) + minutes
+            match_date[key] = row_date
+
+    team_history = {}   # team -> [(date, match_avg_rating), ...]
+    for key, minutes in match_minutes_sum.items():
+        _, team = key
+        avg = match_rating_sum[key] / minutes
+        team_history.setdefault(team, []).append((match_date[key], avg))
+
+    target_dt = (int(cutoff_date[:4]), int(cutoff_date[5:7]), int(cutoff_date[8:10]))
+
+    def years_before(date_str):
+        y, m, d = int(date_str[:4]), int(date_str[5:7]), int(date_str[8:10])
+        return ((target_dt[0] - y) * 365.25 + (target_dt[1] - m) * 30.44 + (target_dt[2] - d)) / 365.25
+
+    def days_before(date_str):
+        y, m, d = int(date_str[:4]), int(date_str[5:7]), int(date_str[8:10])
+        return date(*target_dt) - date(y, m, d)
+
+    partial = {}
+    for team, history in team_history.items():
+        weighted_sum, weight_total = 0.0, 0.0
+        for date_str, rating in history:
+            if USE_EXPONENTIAL_FORM_DECAY:
+                days = days_before(date_str).days
+                if days < 0:
+                    continue
+                w = math.exp(-FORM_DECAY_XI * days)
+            else:
+                age = years_before(date_str)
+                if age < 0:
+                    continue
+                w = recency_weight(age, FORM_MAX_AGE_YEARS, FORM_DECAY_POWER)
+            weighted_sum += w * rating
+            weight_total += w
+        partial[team] = (weighted_sum, weight_total)
+    return partial
+
+
+def _compute_intl_form(data_dir, target_year, team_names):
+    """Standalone pre-tournament form signal (no current-tournament data) —
+    see _compute_intl_form_corpus_partial for the shared computation. Teams
+    with no qualifying prior matches get 0.0, which after normalization
+    means "no adjustment" (same convention as historical_score's neutral
+    default), not a penalty."""
+    partial = _compute_intl_form_corpus_partial(data_dir, target_year, team_names)
+    return {team: (ws / wt if wt > 0 else 0.0) for team, (ws, wt) in partial.items()}
+
+
+def _current_tournament_match_ratings(cutoff_rows, rating_rows):
+    """Team-level (minutes-weighted) rating per real match played so far
+    this tournament, ordered most-recent-first per team, for
+    unified_form's momentum weighting. Mirrors the broader corpus's
+    match-level averaging (_compute_intl_form_corpus_partial) but keyed by
+    chronological_key (stage/round_num) instead of a calendar date, since
+    WC data doesn't carry real per-match dates.
+
+    Returns {team: [(games_ago, rating), ...]} — games_ago=0 is that team's
+    most recent real match as of this cutoff.
+    """
+    event_keys = {}   # event_id -> chronological_key, from cutoff_rows (already as-of filtered)
+    for r in cutoff_rows:
+        event_keys[r["event_id"]] = chronological_key(r["stage"], r["round_num"])
+
+    rating_sum = {}    # (event_id, team) -> minutes-weighted sum
+    minutes_sum = {}
+    for r in rating_rows:
+        eid = r["event_id"]
+        if eid not in event_keys:
+            continue   # not among this cutoff's real, played matches
+        team = r["team"]
+        minutes = float(r.get("minutes_played") or 0)
+        if minutes <= 0:
+            continue
+        key = (eid, team)
+        rating_sum[key] = rating_sum.get(key, 0.0) + float(r["rating"]) * minutes
+        minutes_sum[key] = minutes_sum.get(key, 0.0) + minutes
+
+    team_matches = {}   # team -> [(chronological_key, rating), ...]
+    for key, minutes in minutes_sum.items():
+        eid, team = key
+        avg = rating_sum[key] / minutes
+        team_matches.setdefault(team, []).append((event_keys[eid], avg))
+
+    out = {}
+    for team, matches in team_matches.items():
+        matches.sort(key=lambda m: m[0], reverse=True)   # most recent first
+        out[team] = [(i, rating) for i, (_, rating) in enumerate(matches)]
+    return out
+
+
+def _compute_unified_form(corpus_partial, current_tournament_ratings):
+    """Combine the broader-corpus partial sums with the current tournament's
+    own matches (see module docstring near USE_UNIFIED_FORM for the two
+    separate effects this applies: a flat per-match tier boost for ANY
+    current-tournament match, plus an additional momentum bonus for the
+    most recent 1-2 specifically)."""
+    result = {}
+    teams = set(corpus_partial.keys()) | set(current_tournament_ratings.keys())
+    for team in teams:
+        weighted_sum, weight_total = corpus_partial.get(team, (0.0, 0.0))
+        for games_ago, rating in current_tournament_ratings.get(team, []):
+            momentum = recency_weight(games_ago, CURRENT_MOMENTUM_MAX_GAMES, CURRENT_MOMENTUM_DECAY_POWER)
+            w = TIER_CURRENT_TOURNAMENT_MULT + MOMENTUM_BOOST_MULT * momentum
+            weighted_sum += w * rating
+            weight_total += w
+        result[team] = weighted_sum / weight_total if weight_total > 0 else 0.0
+    return result
 
 
 def load_h2h_matches_csv(data_dir):
@@ -1120,6 +1526,9 @@ def build_teams_asof(base_teams, match_rows, rating_rows, cutoff_key):
             "style": data["style"], "historical_score": data["historical_score"],
             "is_host": data["is_host"], "squad_size": data["squad_size"],
             "group": data["group"], "matches": [], "players": [],
+            "relative_gd_seed": data.get("relative_gd_seed", 0.0),
+            "intl_form": data.get("intl_form", 0.0),
+            "intl_form_corpus_partial": data.get("intl_form_corpus_partial", (0.0, 0.0)),
         }
 
     cutoff_rows = []   # kept (with stage/round_num/event_id) for compute_sequential_relative_gd
@@ -1168,9 +1577,22 @@ def build_teams_asof(base_teams, match_rows, rating_rows, cutoff_key):
         name: data["raw_rank"] * CONF_COEFFICIENTS[data["confederation"]]
         for name, data in snap.items()
     }
-    relative_gd = compute_sequential_relative_gd(cutoff_rows, list(snap.keys()), local_adjusted_ranks)
+    seed = {name: data["relative_gd_seed"] for name, data in snap.items()} if USE_ELO_SEED else {}
+    relative_gd = compute_sequential_relative_gd(cutoff_rows, list(snap.keys()), local_adjusted_ranks, seed=seed)
     for name, value in relative_gd.items():
         snap[name]["relative_gd"] = value
+
+    # --- Unified form: broader-corpus partial sums (precomputed once,
+    # copied forward above) combined fresh with the CURRENT tournament's
+    # own matches as-of this cutoff (see _compute_unified_form) ---
+    if USE_UNIFIED_FORM:
+        corpus_partial = {name: data["intl_form_corpus_partial"] for name, data in snap.items()}
+        current_ratings = _current_tournament_match_ratings(cutoff_rows, rating_rows)
+        unified_form = _compute_unified_form(corpus_partial, current_ratings)
+        for name, value in unified_form.items():
+            if name not in snap:
+                continue   # e.g. a stray legacy name variant in rating_rows, not a real 2026-pool team
+            snap[name]["unified_form"] = value
 
     return snap
 

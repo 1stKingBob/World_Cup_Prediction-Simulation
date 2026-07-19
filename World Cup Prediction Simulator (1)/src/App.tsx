@@ -72,9 +72,17 @@ const YEAR_THEMES: Record<number, YearTheme> = {
 
 // ── Stage ordering ─────────────────────────────────────────────────────────
 // GR1/GR2/GR3 = Group Round 1/2/3. KO rounds use their shortName.
+// "ThirdPlace" is deliberately excluded here: it's rendered as a standalone
+// disconnected card, not a selectable anchor stage — export_predictions.py's
+// ANCHOR_CUTOFFS has no entry for it, so treating it as one would silently
+// fall back to the unmerged raw payload if a user could select it.
+
+function mainKnockoutRounds(data: TournamentData): KnockoutRound[] {
+  return data.knockoutRounds.filter((r) => r.shortName !== "ThirdPlace");
+}
 
 function buildStageOrder(data: TournamentData): string[] {
-  return ["GR1", "GR2", "GR3", ...data.knockoutRounds.map((r) => r.shortName)];
+  return ["GR1", "GR2", "GR3", ...mainKnockoutRounds(data).map((r) => r.shortName)];
 }
 
 function stageIndex(stage: string, order: string[]): number {
@@ -217,6 +225,9 @@ function GroupMatchCard({
                 <>
                   <span className={`font-mono text-sm font-semibold ${higher1 ? "text-emerald-600" : "text-gray-400"}`}>
                     {pct(match.prob1)}
+                    {match.predScore1 !== undefined && (
+                      <span className="text-gray-400 font-normal"> ({match.predScore1})</span>
+                    )}
                   </span>
                   {higher1 && <span className="text-emerald-500 text-xs leading-none">◄</span>}
                 </>
@@ -248,12 +259,27 @@ function GroupMatchCard({
                 <>
                   <span className={`font-mono text-sm font-semibold ${!higher1 ? "text-emerald-600" : "text-gray-400"}`}>
                     {pct(match.prob2)}
+                    {match.predScore2 !== undefined && (
+                      <span className="text-gray-400 font-normal"> ({match.predScore2})</span>
+                    )}
                   </span>
                   {!higher1 && <span className="text-emerald-500 text-xs leading-none">◄</span>}
                 </>
               )}
             </div>
           </div>
+
+          {/* Draw probability — only the Dixon-Coles model produces a
+              genuine non-zero value here (the custom model is win-
+              probability-only, always probDraw=0), so this is invisible
+              under "My Model" and only appears when it's meaningful. */}
+          {!isPlayedResult && match.probDraw > 0.005 && (
+            <div className="text-center">
+              <span className="text-xs font-medium text-gray-400">
+                Draw {pct(match.probDraw)}
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Vertical divider */}
@@ -300,6 +326,34 @@ function GroupMatchCard({
 
 // ── Compact match card for the knockout bracket ────────────────────────────
 
+// Standard FIFA-style trigrams, keyed by team NAME rather than the ISO-2
+// `code` field — `code` is ambiguous for the UK nations (England/Scotland
+// both carry ISO "GB", see FLAG_OVERRIDES above), so name is the only
+// reliable key. Any team not listed falls back to its first 3 letters
+// uppercased rather than breaking (e.g. a new 2026 playoff qualifier).
+const TEAM_ABBR: Record<string, string> = {
+  "Algeria": "ALG", "Argentina": "ARG", "Australia": "AUS", "Austria": "AUT",
+  "Belgium": "BEL", "Bosnia and Herzegovina": "BIH", "Brazil": "BRA",
+  "Cameroon": "CMR", "Canada": "CAN", "Cape Verde": "CPV", "Colombia": "COL",
+  "Costa Rica": "CRC", "Croatia": "CRO", "Curacao": "CUW",
+  "Czech Republic": "CZE", "DR Congo": "COD", "Denmark": "DEN",
+  "Ecuador": "ECU", "Egypt": "EGY", "England": "ENG", "France": "FRA",
+  "Germany": "GER", "Ghana": "GHA", "Haiti": "HAI", "Iceland": "ISL",
+  "Iran": "IRN", "Iraq": "IRQ", "Ivory Coast": "CIV", "Japan": "JPN",
+  "Jordan": "JOR", "Mexico": "MEX", "Morocco": "MAR", "Netherlands": "NED",
+  "New Zealand": "NZL", "Nigeria": "NGA", "Norway": "NOR", "Panama": "PAN",
+  "Paraguay": "PAR", "Peru": "PER", "Poland": "POL", "Portugal": "POR",
+  "Qatar": "QAT", "Russia": "RUS", "Saudi Arabia": "KSA", "Scotland": "SCO",
+  "Senegal": "SEN", "Serbia": "SRB", "South Africa": "RSA",
+  "South Korea": "KOR", "Spain": "ESP", "Sweden": "SWE",
+  "Switzerland": "SUI", "Tunisia": "TUN", "Turkey": "TUR", "USA": "USA",
+  "Uruguay": "URU", "Uzbekistan": "UZB",
+};
+
+function teamAbbr(name: string): string {
+  return TEAM_ABBR[name] ?? name.slice(0, 3).toUpperCase();
+}
+
 function BracketMatchCard({
   match,
   asPrediction,
@@ -327,18 +381,18 @@ function BracketMatchCard({
 
   return (
     <div
-      className="bg-white rounded-xl overflow-hidden w-44 flex-shrink-0 transition-all"
-      style={cardStyle}
+      className="bg-white rounded-xl overflow-hidden w-32 flex-shrink-0 transition-all flex flex-col justify-center"
+      style={{ ...cardStyle, height: CARD_H, boxSizing: "border-box" }}
     >
       {/* Teams */}
-      <div className="flex px-0 pt-1">
+      <div className="flex px-0">
         {/* Left: team rows */}
-        <div className="flex-1 px-2.5 py-1.5 space-y-1.5">
-          <div className="flex items-center justify-between gap-1">
-            <div className="flex items-center gap-1.5 min-w-0">
+        <div className="flex-1 px-1.5 py-1.5 space-y-1.5">
+          <div className="flex items-center justify-between gap-0.5">
+            <div className="flex items-center gap-1 min-w-0">
               <FlagIcon code={match.team1.code} size="sm" />
               <span className={`text-xs font-medium truncate ${isPlayedResult && !actualWin1 ? "text-gray-400" : "text-gray-800"}`}>
-                {match.team1.name}
+                {teamAbbr(match.team1.name)}
               </span>
             </div>
             <div className="flex items-center gap-0.5 flex-shrink-0">
@@ -349,17 +403,20 @@ function BracketMatchCard({
                 </>
               ) : (
                 <>
-                  <span className={`font-mono text-xs font-semibold ${higher1 ? "text-emerald-600" : "text-gray-400"}`}>{pct(match.prob1)}</span>
+                  <span className={`font-mono text-xs font-semibold ${higher1 ? "text-emerald-600" : "text-gray-400"}`}>
+                    {pct(match.prob1)}
+                    {match.predScore1 !== undefined && <span className="text-gray-400 font-normal text-[10px]">({match.predScore1})</span>}
+                  </span>
                   {higher1 && <span className="text-emerald-500 text-xs">◄</span>}
                 </>
               )}
             </div>
           </div>
-          <div className="flex items-center justify-between gap-1">
-            <div className="flex items-center gap-1.5 min-w-0">
+          <div className="flex items-center justify-between gap-0.5">
+            <div className="flex items-center gap-1 min-w-0">
               <FlagIcon code={match.team2.code} size="sm" />
               <span className={`text-xs font-medium truncate ${isPlayedResult && !actualWin2 ? "text-gray-400" : "text-gray-800"}`}>
-                {match.team2.name}
+                {teamAbbr(match.team2.name)}
               </span>
             </div>
             <div className="flex items-center gap-0.5 flex-shrink-0">
@@ -370,7 +427,10 @@ function BracketMatchCard({
                 </>
               ) : (
                 <>
-                  <span className={`font-mono text-xs font-semibold ${!higher1 ? "text-emerald-600" : "text-gray-400"}`}>{pct(match.prob2)}</span>
+                  <span className={`font-mono text-xs font-semibold ${!higher1 ? "text-emerald-600" : "text-gray-400"}`}>
+                    {pct(match.prob2)}
+                    {match.predScore2 !== undefined && <span className="text-gray-400 font-normal text-[10px]">({match.predScore2})</span>}
+                  </span>
                   {!higher1 && <span className="text-emerald-500 text-xs">◄</span>}
                 </>
               )}
@@ -382,7 +442,7 @@ function BracketMatchCard({
         <div className="w-px bg-gray-100 self-stretch" />
 
         {/* Right: winner */}
-        <div className="w-10 flex flex-col items-center justify-center py-1 px-1 flex-shrink-0">
+        <div className="w-9 flex flex-col items-center justify-center py-1 px-0.5 flex-shrink-0">
           {w && (
             <div className="text-center">
               <FlagIcon code={w.code || ""} size="sm" />
@@ -448,7 +508,7 @@ function GroupRoundView({
 const CARD_H = 82;
 const LABEL_H = 28;
 const BASE_GAP = 8;
-const CONN_W = 22;
+const CONN_W = 14;
 
 function gapFor(roundIdx: number) {
   return (CARD_H + BASE_GAP) * Math.pow(2, roundIdx) - CARD_H;
@@ -481,7 +541,7 @@ function BracketHalfColumn({
     <div
       className="flex flex-col flex-shrink-0 rounded-xl transition-colors"
       style={{
-        paddingLeft: 6, paddingRight: 6,
+        paddingLeft: 3, paddingRight: 3,
         ...(highlighted ? { background: `${accentColor}12`, outline: `1px solid ${accentColor}40` } : {}),
       }}
     >
@@ -571,12 +631,14 @@ function SymmetricBracket({
   selectedStage,
   stageOrder,
   accentColor,
+  thirdPlaceMatch,
 }: {
   knockoutRounds: KnockoutRound[];
   activeRoundName?: string;
   selectedStage: string;
   stageOrder: string[];
   accentColor: string;
+  thirdPlaceMatch?: MatchPrediction;
 }) {
   if (knockoutRounds.length < 2) return null;
 
@@ -606,7 +668,7 @@ function SymmetricBracket({
 
   return (
     <div className="overflow-x-auto">
-      <div className="inline-flex items-start" style={{ minHeight: totalH, padding: "12px 16px" }}>
+      <div className="flex items-start w-max mx-auto" style={{ minHeight: totalH, padding: "10px 8px" }}>
         {/* Left half */}
         {leftRounds.map((round, ri) => (
           <div key={round.shortName + "-L"} className="flex items-start">
@@ -635,7 +697,7 @@ function SymmetricBracket({
         <div
           className="flex flex-col flex-shrink-0 rounded-xl transition-colors"
           style={{
-            paddingLeft: 6, paddingRight: 6,
+            paddingLeft: 3, paddingRight: 3,
             ...(isFinalHighlighted ? { background: `${accentColor}12`, outline: `1px solid ${accentColor}40` } : {}),
           }}
         >
@@ -647,22 +709,43 @@ function SymmetricBracket({
           <div style={{ marginTop: finalCardMarginTop }}>
             <BracketMatchCard match={finalRound.matches[0]} asPrediction={finalPred} accentColor={accentColor} />
           </div>
+
+          {/* Third-place play-off — rendered directly under the Final in
+              the same column so it reads as "the other match that
+              weekend," but deliberately not wired into any connector
+              line: it's contested by the two SF losers, not part of the
+              single-elimination path to the Final. */}
+          {thirdPlaceMatch && (
+            <div className="flex flex-col items-center mt-4 pt-3" style={{ borderTop: "1px dashed rgba(255,255,255,0.15)" }}>
+              <span className="text-xs font-bold uppercase tracking-widest mb-2" style={{ color: "rgba(255,255,255,0.4)" }}>
+                3rd Place
+              </span>
+              <BracketMatchCard match={thirdPlaceMatch} asPrediction={!thirdPlaceMatch.played} accentColor={accentColor} />
+            </div>
+          )}
         </div>
 
         {/* Right half */}
         {rightRounds.map((round, ri) => {
           const roundIdx = rightRounds.length - 1 - ri;
-          const outerMatchCount = rightRounds[ri + 1]?.matches.length ?? round.matches.length;
-          const outerRoundIdx = rightRounds.length - 1 - (ri + 1);
 
           return (
             <div key={round.shortName + "-R"} className="flex items-start">
               {ri === 0 ? (
                 <FinalConnector totalH={totalH} />
               ) : (
+                // This connector sits between the previous (more-central)
+                // column and `round` itself — `round` is always the
+                // "outer" (more-matches) side of that pair, exactly
+                // mirroring the left half's use of its own current round
+                // as the outer party. Using rightRounds[ri+1] here (two
+                // steps further out) was the bug: every connector past the
+                // first used the WRONG round's card-spacing to compute its
+                // line positions, so R16/QF-and-onward elbows landed at
+                // the wrong height on the right side only.
                 <BracketConnector
-                  outerRoundIdx={outerRoundIdx < 0 ? 0 : outerRoundIdx}
-                  outerMatchCount={outerMatchCount}
+                  outerRoundIdx={roundIdx}
+                  outerMatchCount={round.matches.length}
                   totalH={totalH}
                   fromRight={true}
                 />
@@ -694,6 +777,12 @@ export default function App() {
   const [activeStage, setActiveStage] = useState<string>("GR2");
   const [viewMatchday, setViewMatchday] = useState<1 | 2 | 3>(2); // which group round to display
   const [_viewKOround, setViewKOround] = useState<string | null>(null);
+  // Which prediction engine's numbers to display — "custom" is the
+  // hand-weighted logit model (wc_predictor.py); "poisson" is the
+  // Dixon-Coles goal-scoring model (dixon_coles.py). Both are precomputed
+  // for every match at every anchor in predictions.json, so toggling this
+  // is a pure client-side re-selection, same as moving the anchor slider.
+  const [selectedModel, setSelectedModel] = useState<"custom" | "poisson" | "my_poisson">("custom");
 
   // Raw predictions.json payload, fetched once per year — nested as
   // payload.anchors[stageName], one full set of probabilities per possible
@@ -741,6 +830,12 @@ export default function App() {
       return;
     }
     const payload = predictionsPayload.anchors?.[activeStage] ?? predictionsPayload;
+    // Each precomputed match overlay carries prob1/probDraw/prob2 for the
+    // custom model at top level (back-compat) plus a "models" dict with
+    // both engines' numbers — pick whichever the toggle currently wants,
+    // falling back to the top-level (custom) numbers if "models" isn't
+    // present (e.g. an older cached predictions.json).
+    const withModel = (overlay: any) => overlay?.models?.[selectedModel] ?? overlay;
     const merged: TournamentData = {
       ...base,
       groups: base.groups.map((g) => {
@@ -749,17 +844,26 @@ export default function App() {
         return {
           ...g,
           teams: g.teams.map((ts, i) => ({ ...ts, ...(pg.teams?.[i] ?? {}) })),
-          matches: g.matches.map((m, i) => ({ ...m, ...(pg.matches?.[i] ?? {}) })),
+          matches: g.matches.map((m, i) => {
+            const overlay = pg.matches?.[i];
+            return overlay ? { ...m, ...overlay, ...withModel(overlay) } : m;
+          }),
         };
       }),
       knockoutRounds: base.knockoutRounds.map((r) => {
         const pr = payload.knockoutRounds?.[r.shortName];
         if (!pr) return r;
-        return { ...r, matches: r.matches.map((m, i) => ({ ...m, ...(pr[i] ?? {}) })) };
+        return {
+          ...r,
+          matches: r.matches.map((m, i) => {
+            const overlay = pr[i];
+            return overlay ? { ...m, ...overlay, ...withModel(overlay) } : m;
+          }),
+        };
       }),
     };
     setData(merged);
-  }, [predictionsPayload, activeStage, selectedYear]);
+  }, [predictionsPayload, activeStage, selectedYear, selectedModel]);
 
   function handleYearChange(y: number) {
     setSelectedYear(y);
@@ -842,16 +946,48 @@ export default function App() {
             </div>
           </div>
 
-          {/* Right: prediction indicator */}
-          <div className="flex items-center gap-2 text-xs" style={{ color: theme.metaColor }}>
-            <span className="w-2 h-2 rounded-full inline-block animate-pulse" style={{ background: theme.accentColor }} />
-            <span>
-              Predicting from{" "}
-              <strong style={{ color: theme.accentColor }}>
-                {activeStage.startsWith("GR") ? `Round ${activeStage[2]}` : activeStage}
-              </strong>{" "}
-              onwards
-            </span>
+          {/* Right: model switch + prediction indicator */}
+          <div className="flex flex-col items-end gap-1.5">
+            <div
+              className="flex items-center rounded-full p-0.5 text-xs font-semibold"
+              style={{ background: "rgba(0,0,0,0.3)", border: `1px solid ${theme.headerBorder}` }}
+            >
+              {(["custom", "poisson", "my_poisson"] as const).map((m) => {
+                const isActive = selectedModel === m;
+                const label = m === "custom" ? "My Model" : m === "poisson" ? "Poisson / Dixon-Coles" : "My Poisson";
+                const desc = m === "custom"
+                  ? "Hand-weighted logit model (FIFA rank, form, H2H, tactical, goal difference)"
+                  : m === "poisson"
+                  ? "Dixon-Coles Poisson goal-scoring model, fit on real international results"
+                  : "Poisson model derived from My Model's own signal (2 fitted parameters) instead of a separate attack/defense system";
+                return (
+                  <button
+                    key={m}
+                    onClick={() => setSelectedModel(m)}
+                    className="px-3 py-1 rounded-full transition-all whitespace-nowrap"
+                    style={isActive ? {
+                      background: theme.accentColor,
+                      color: theme.accentColor === "#fcd34d" ? "#1a1a2e" : "#fff",
+                    } : {
+                      color: "rgba(255,255,255,0.55)",
+                    }}
+                    title={desc}
+                  >
+                    {label}
+                  </button>
+                );
+              })}
+            </div>
+            <div className="flex items-center gap-2 text-xs" style={{ color: theme.metaColor }}>
+              <span className="w-2 h-2 rounded-full inline-block animate-pulse" style={{ background: theme.accentColor }} />
+              <span>
+                Predicting from{" "}
+                <strong style={{ color: theme.accentColor }}>
+                  {activeStage.startsWith("GR") ? `Round ${activeStage[2]}` : activeStage}
+                </strong>{" "}
+                onwards
+              </span>
+            </div>
           </div>
         </div>
       </header>
@@ -900,7 +1036,7 @@ export default function App() {
                 Knockout
               </span>
               <div className="flex items-center gap-1.5 flex-wrap">
-                {data.knockoutRounds.map((r) => {
+                {mainKnockoutRounds(data).map((r) => {
                   const isActive = activeStage === r.shortName;
                   return (
                     <button
@@ -940,10 +1076,10 @@ export default function App() {
         </div>
       </div>
 
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-8 space-y-10">
+      <main className="py-8 space-y-10">
 
         {/* ── Group Stage Section ── */}
-        <section ref={groupSectionRef}>
+        <section ref={groupSectionRef} className="max-w-7xl mx-auto px-4 sm:px-6">
           <div className="flex items-center gap-3 mb-5">
             <h2 className="text-lg font-black tracking-tight" style={{ color: "rgba(255,255,255,0.95)" }}>Group Stage</h2>
             <span className="text-xs font-medium rounded-full px-2.5 py-0.5" style={{ color: "rgba(255,255,255,0.5)", background: "rgba(255,255,255,0.1)" }}>
@@ -991,21 +1127,25 @@ export default function App() {
         </section>
 
         {/* ── Knockout Bracket Section ── */}
-        <section ref={bracketSectionRef}>
-          <div className="flex items-center gap-3 mb-5">
+        {/* Full-bleed to the edges of the page (not capped at max-w-7xl like
+            the rest of the layout) so the widest brackets have room to fit
+            without horizontal scrolling on typical screens. */}
+        <section ref={bracketSectionRef} className="px-1 sm:px-3">
+          <div className="flex items-center gap-3 mb-5 max-w-7xl mx-auto">
             <h2 className="text-lg font-black tracking-tight" style={{ color: "rgba(255,255,255,0.95)" }}>Knockout Stage</h2>
             <span className="text-xs font-medium rounded-full px-2.5 py-0.5" style={{ color: "rgba(255,255,255,0.5)", background: "rgba(255,255,255,0.1)" }}>
-              {data.knockoutRounds.length} rounds
+              {mainKnockoutRounds(data).length} rounds
             </span>
           </div>
 
           <div className="rounded-2xl overflow-hidden" style={{ background: "rgba(0,0,0,0.25)", border: `1px solid ${theme.headerBorder}` }}>
             <SymmetricBracket
-              knockoutRounds={data.knockoutRounds}
+              knockoutRounds={mainKnockoutRounds(data)}
               activeRoundName={isKOStage ? activeStage : undefined}
               selectedStage={activeStage}
               stageOrder={stageOrder}
               accentColor={theme.accentColor}
+              thirdPlaceMatch={data.knockoutRounds.find((r) => r.shortName === "ThirdPlace")?.matches[0]}
             />
           </div>
         </section>

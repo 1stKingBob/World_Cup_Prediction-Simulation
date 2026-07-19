@@ -27,6 +27,11 @@ export interface MatchPrediction {
   prob1: number;
   probDraw: number;
   prob2: number;
+  // Most-likely exact scoreline -- only present for the Poisson-family
+  // models (custom "My Model" has no goals concept, so these are absent
+  // when it's selected).
+  predScore1?: number;
+  predScore2?: number;
   // actual match data
   played?: boolean;
   result?: MatchResult;
